@@ -1,4 +1,4 @@
-# Plugin MyTado
+# <img src="../images/MyTado_icon.png" width="60"/> Plugin MyTado
 
 Le plugin **MyTado** permet de récupérer les données de vos objets connectés Tado ainsi que les infos météo gérées par Tado.
 
@@ -25,7 +25,7 @@ L'unité de mesure de température est facultative. Le Celsius est l'unité par 
 >
 >Il suffit d'utiliser la commande **Synchronisation** pour obtenir tous vos objets connectés ainsi que l'accès à la météo gérée par Tado.
 
-### Vos objets connectés Tado
+### Vos objets connectés Tado <img src="../images/AC01.png" width="60"/><img src="../images/BU01.png" width="60"/><img src="../images/RU01.png" width="60"/><img src="../images/VA01.png" width="60"/>
 
 En cliquant sur un objet connecté Tado, on arrive directement sur sa page de configuration :
 
@@ -44,7 +44,7 @@ Vous pouvez également définir le mode de fonctionnement de votre objet:
 
 **Information importante**: Dans le cas d'un changement manuel de la température désirée, cette dernière sera appliquée à tous les objets présents dans la même zone que votre objet (c'est ainsi que fonctionne Tado). 
 
-### La météo Tado
+### La météo Tado <img src="../images/WeatherEq.svg" width="60"/>
 
 En cliquant sur la météo Tado, on arrive directement sur sa page de configuration :
 

@@ -1,4 +1,4 @@
-# Plugin MyTado
+# <img src="../images/MyTado_icon.png" width="60"/> Plugin MyTado
 
 Das **MyTado**-Plugin ruft alle Ihre verbundenen Tado-Geräte sowie die von Tado gesammelten Wetterdaten ab.
 
@@ -25,7 +25,7 @@ Die Temperatureinheit ist optional, das Plugin verwendet jedoch standardmäßig 
 >
 >Sie müssen lediglich den Befehl **Synchronisierung** ausführen, um alle Ihre Tado-Objekte sowie das Gerät zur Abfrage der von Tado gesammelten Wetterdaten aufzulisten.
 
-### Ihre Tado-Geräte
+### Ihre Tado-Geräte  <img src="../images/AC01.png" width="60"/><img src="../images/BU01.png" width="60"/><img src="../images/RU01.png" width="60"/><img src="../images/VA01.png" width="60"/>
 
 Durch Klicken auf ein Tado-Objekt gelangen Sie zu seiner Konfigurationsseite:
 
@@ -44,7 +44,7 @@ Sie können auch den Modus Ihres Geräts definieren:
 
 **Wichtiger Aspekt**: Wenn Sie die erwartete Temperatur manuell einstellen, beachten Sie, dass alle Ihre Geräte, die sich in derselben Zone befinden, entsprechend dieser Einstellung ausgerichtet werden (so funktioniert Tado, keine Umgehung möglich).
 
-### Wetter zu Hause
+### Wetter zu Hause <img src="../images/WeatherEq.svg" width="60"/>
 
 Durch Klicken auf das Gerät **Wetter zu Hause** gelangen Sie zu seiner Konfigurationsseite:
 

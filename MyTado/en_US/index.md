@@ -1,4 +1,4 @@
-# Plugin MyTado
+# <img src="../images/MyTado_icon.png" width="60"/> Plugin MyTado
 
 The **MyTado** plugin retrieve all your connected object Tado as well as weather data collected by Tado.
 
@@ -25,7 +25,7 @@ The temperature unit is optional, however the plugin uses Celsius by default.
 >
 >You just have to launch the **Synchronization** command to get all your Tado objets listed as well as the equipment to access weather data collected by Tado.
 
-### Your Tado devices
+### Your Tado devices  <img src="../images/AC01.png" width="60"/><img src="../images/BU01.png" width="60"/><img src="../images/RU01.png" width="60"/><img src="../images/VA01.png" width="60"/>
 
 While clicking on a Tado object, you will reach its configuration page:
 
@@ -44,7 +44,7 @@ You can as well define the mode of your device:
 
 **Key aspect**: In case of manual setting of the expected temperature, be aware that all your devices part of the same zone will be aligned with this setting (it is how Tado works, no workaround).
 
-### Weather at home
+### Weather at home <img src="../images/WeatherEq.svg" width="60"/>
 
 By clicking on the equipment **Weather at home**, you will reach its configuration page:
 
