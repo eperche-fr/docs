@@ -4,9 +4,10 @@ Das **MyTado**-Plugin ruft alle Ihre verbundenen Tado-Geräte sowie die von Tado
 
 Die Daten werden alle 30 Minuten aktualisiert.
 
->**WARNUNG**
+>**Verwaltete Geräte**
 >
->Nach der Aktivierung und Konfiguration Ihres Plugins müssen Sie den Synchronisierungsprozess mit der Option "Synchronisierung" auf der Hauptseite des Plugins starten.
+>Geräte der Modelle AC0X, BU0X, RU0X und VA0X werden vollständig unterstützt (normalerweise unabhängig von der Version, die Sie haben). 
+>Für andere Modelle sind nur die Grundfunktionen verfügbar (Zugriff auf die gemessene Temperatur, Ein-/Ausschalten/Automatik, Datenaktualisierung). Für alle nicht aufgeführten Geräte kontaktieren Sie bitte den Entwickler und geben Sie an, welches Modell Sie haben, welche Funktionen Ihnen fehlen und alle weiteren Informationen, die Sie für relevant halten.
 
 # Konfiguration
 
@@ -18,6 +19,8 @@ Sie müssen die folgenden 3 Felder angeben:
 3) Ihren genauen Hausnamen in der Tado-App (Groß-/Kleinschreibung beachten).
 
 Die Temperatureinheit ist optional, das Plugin verwendet jedoch standardmäßig Celsius.
+
+Nach dem Speichern der Konfiguration klicken Sie bitte auf die **Synchronisations-Schaltfläche**, um alle Ihre Geräte zu laden.
 
 ## Gerätekonfiguration
 
@@ -42,7 +45,9 @@ Sie können auch den Modus Ihres Geräts definieren:
 - 'Manuell': Ermöglicht das manuelle Festlegen einer oder mehrerer Einstellungen, abhängig von den Fähigkeiten Ihres Geräts;
 - 'Aus': Ihr Gerät ist gestoppt.
 
-**Wichtiger Aspekt**: Wenn Sie die erwartete Temperatur manuell einstellen, beachten Sie, dass alle Ihre Geräte, die sich in derselben Zone befinden, entsprechend dieser Einstellung ausgerichtet werden (so funktioniert Tado, keine Umgehung möglich).
+>**Wichtiger Aspekt**
+>
+>Wenn Sie die erwartete Temperatur manuell einstellen, beachten Sie, dass alle Ihre Geräte, die sich in derselben Zone befinden, entsprechend dieser Einstellung ausgerichtet werden (so funktioniert Tado, keine Umgehung möglich).
 
 ### Wetter zu Hause <img src="../images/WeatherEq.svg" width="60"/>
 

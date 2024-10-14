@@ -1,5 +1,9 @@
 # Änderungsprotokoll Plugin MyTado
 
+# 13.10.2024 - Version 1.4
+- Fehlerbehebung: Standardname der Wetterbefehle sichergestellt
+- Verschiedene Versionen desselben Typs eines bekannten Objektmodells sind nun auf die gleiche Weise konfiguriert
+
 # 25.05.2024 - Version 1.3
 
 - Klimaanlagen- und Kochgeräte werden nun verwaltet

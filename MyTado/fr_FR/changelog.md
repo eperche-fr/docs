@@ -1,5 +1,10 @@
 # Changelog plugin MyTado
 
+# 13/10/2024 - Version 1.4
+
+- Correction de bug : Ajout d'un nom par défaut aux commandes météorologiques
+- Les différentes versions d'un même type de modèle d'objet connu sont à présent configurées de la même manière
+
 # 25/05/2024 - Version 1.3
 
 - Ajout des objets de gestion d'air conditionné et de chauffe-eau

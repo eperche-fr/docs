@@ -4,9 +4,10 @@ The **MyTado** plugin retrieve all your connected object Tado as well as weather
 
 Data is refreshed every 30 minutes.
 
->**WARNING**
+>**Managed devices**
 >
->After the activation and configuration of your plugin, you must launch the synchronization process with the option "Synchronization" on the main page of the plugin.
+>Devices from models AC0X, BU0X, RU0X and VA0X are fully managed (normally whatever version you have). For other models, only basic fonctionalities will be available (access to mesured temperature, enable/disable/auto, data update).
+>For any devices not listed, please contact developer specifying what model you have, what functionalities you miss, and whatever extra information you consider relevant.
 
 # Configuration
 
@@ -17,7 +18,9 @@ You must sepcify the 3 following fields:
 2) The password you defined
 3) Your exact home name in Tado app (case sensitive)
 
-The temperature unit is optional, however the plugin uses Celsius by default.
+The temperature unit is optional, **however the plugin uses Celsius by default**.
+
+After configuration saving, please click on **synchronization** button to load all your devices.
 
 ## Equipment configuration
 
@@ -42,7 +45,9 @@ You can as well define the mode of your device:
 - 'Manual': Allows you to set one or several settings manually depending on the capabilities of your device;
 - 'Off': Your device is stopped.
 
-**Key aspect**: In case of manual setting of the expected temperature, be aware that all your devices part of the same zone will be aligned with this setting (it is how Tado works, no workaround).
+>**Key aspect**
+>
+>In case of manual setting of the expected temperature, be aware that all your devices part of the same zone will be aligned with this setting (it is how Tado works, no workaround).
 
 ### Weather at home <img src="../images/WeatherEq.svg" width="60"/>
 
