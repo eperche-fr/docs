@@ -1,5 +1,11 @@
 # Changelog plugin MyTado - beta
 
+# 17/10/2024 - Version 1.5
+
+- La puissance de chauffe est maintenant récupérée et affichée
+- Il est maintenant possible de changer le nommage par défaut des objets connectés Tado
+- Traduction espagnole ajoutée
+
 # 13/10/2024 - Version 1.4
 
 - Correction de bug : Ajout d'un nom par défaut aux commandes météorologiques

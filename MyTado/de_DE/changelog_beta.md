@@ -1,6 +1,13 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
+# 17.10.2024 - Version 1.5
+
+- Die Heizleistung wird nun für RU0X-Geräte erfasst und angezeigt
+- Es ist jetzt möglich, die Standardbenennung Ihrer Geräte zu ändern
+- Spanische Übersetzung jetzt verfügbar
+
 # 13.10.2024 - Version 1.4
+
 - Fehlerbehebung: Standardname der Wetterbefehle sichergestellt
 - Verschiedene Versionen desselben Typs eines bekannten Objektmodells sind nun auf die gleiche Weise konfiguriert
 

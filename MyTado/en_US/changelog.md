@@ -1,4 +1,9 @@
 # Changelog plugin MyTado
+# 17/10/2024 - Version 1.5
+
+- Heating power is now collected and displayed
+- It is now possible to change the default naming of your devices
+- Spanish translation now available
 
 # 13/10/2024 - Version 1.4
 
