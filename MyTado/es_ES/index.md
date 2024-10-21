@@ -14,9 +14,9 @@ La actualización de estos datos se realiza cada 30 minutos.
 ## Configuración del plugin
 
 Debes rellenar absolutamente los siguientes 3 campos:
-1) la dirección de correo electrónico utilizada para crear tu cuenta en Tado
-2) la contraseña definida
-3) el nombre exacto (sensible a mayúsculas y minúsculas) de tu casa en la aplicación Tado
+1. la dirección de correo electrónico utilizada para crear tu cuenta en Tado
+2. la contraseña definida
+3. el nombre exacto (sensible a mayúsculas y minúsculas) de tu casa en la aplicación Tado
 
 La unidad de medida de temperatura es opcional. **El Celsius es la unidad por defecto**.
 Lo mismo para la convención de nombres de tus dispositivos.

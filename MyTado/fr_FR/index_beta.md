@@ -14,9 +14,9 @@ Le rafraîchissement de ces données s’effectue toutes les 30 minutes.
 ## Configuration du plugin
 
 Vous devez absolument renseigner les 3 champs suivants:
-1) l'adresse mail utilisée pour créer votre compte sur Tado
-2) le mot de passe défini
-3) le nom exact (sensible à la casse) de votre maison sur l'application Tado
+1. l'adresse mail utilisée pour créer votre compte sur Tado
+2. le mot de passe défini
+3. le nom exact (sensible à la casse) de votre maison sur l'application Tado
 
 L'unité de mesure de température est facultative. **Le Celsius est l'unité par défaut**.
 De même pour la convention de nommage de vos objets qui sera appliquée.

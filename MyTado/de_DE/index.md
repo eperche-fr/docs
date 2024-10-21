@@ -14,9 +14,9 @@ Die Daten werden alle 30 Minuten aktualisiert.
 ## Plugin-Konfiguration
 
 Sie müssen die folgenden 3 Felder angeben:
-1) Die E-Mail-Adresse, die Sie zur Erstellung Ihres Tado-Kontos verwendet haben.
-2) Das von Ihnen definierte Passwort.
-3) Ihren genauen Hausnamen in der Tado-App (Groß-/Kleinschreibung beachten).
+1. Die E-Mail-Adresse, die Sie zur Erstellung Ihres Tado-Kontos verwendet haben.
+2. Das von Ihnen definierte Passwort.
+3. Ihren genauen Hausnamen in der Tado-App (Groß-/Kleinschreibung beachten).
 
 Die Temperatureinheit ist optional, **das Plugin verwendet jedoch standardmäßig Celsius**.
 Dasselbe gilt für die Benennungskonvention Ihrer Geräte.

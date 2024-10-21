@@ -14,9 +14,9 @@ Data is refreshed every 30 minutes.
 ## Plugin configuration
 
 You must sepcify the 3 following fields:
-1) The mail address you used to create your Tado account
-2) The password you defined
-3) Your exact home name in Tado app (case sensitive)
+1. The mail address you used to create your Tado account
+2. The password you defined
+3. Your exact home name in Tado app (case sensitive)
 
 The temperature unit is optional, **however the plugin uses Celsius by default**.
 The same for the naming convention of your devices.
