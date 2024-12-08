@@ -1,5 +1,19 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
+# 08/12/2024 - Version 3.0
+
+- TadoX-Geräte werden jetzt unterstützt
+- Wetter wird in ein Zuhause umgewandelt und die Verbindungskonfiguration wurde auf dieses "Zuhause"-Gerät verlagert
+- Es ist möglich, mehrere Häuser zu konfigurieren, falls man sowohl Tado- als auch TadoX-Geräte besitzt (was zwei separate Häuser erfordert)
+
+# 04.11.2024 - Version 2.0
+
+- Die Verwaltung der Verbindung zu Tado verwendet jetzt einen Daemon, um Latenzzeiten in PHP zu vermeiden
+
+# 30.10.2024 - Version 1.6
+
+- Fehler bei der Abfrage der Fähigkeiten eines Objekts vom Typ AC führen nicht mehr dazu, dass die Abfrage anderer Geräten blockiert wird
+
 # 17.10.2024 - Version 1.5
 
 - Die Heizleistung wird nun für RU0X-Geräte erfasst und angezeigt
