@@ -87,7 +87,7 @@ Die Daten werden alle 30 Minuten aktualisiert, aber Sie können mit dem **Aktual
 
 Das Widget zeigt das Wetter in Form eines Bildes sowie die aktuelle Temperatur und Helligkeit an.
 
-### Bei Problemen
+# Bei Problemen
 
 Kontaktieren Sie den Entwickler und geben Sie die Modelle der Tado/TadoX-Geräte an, die Sie besitzen, fehlende Funktionen und alle Informationen, die Sie für nützlich halten.
 Und vergessen Sie nicht, die Protokolle des Plugins und seines Daemons bereitzustellen (achten Sie darauf, Ihre persönlichen Daten zu verbergen).

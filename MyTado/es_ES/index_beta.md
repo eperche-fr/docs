@@ -89,7 +89,7 @@ Los datos se actualizan cada 30 minutos, pero puede forzar la actualización a p
 
 El widget muestra el clima en forma de imagen, así como la temperatura y luminosidad actual.
 
-### En caso de problemas
+# En caso de problemas
 
 Contacte al desarrollador especificando los modelos de dispositivos Tado/TadoX que posee, las funcionalidades faltantes y cualquier información que considere útil.
 Y no olvide proporcionar los registros del plugin y su demonio (asegurándose de ocultar sus datos personales).

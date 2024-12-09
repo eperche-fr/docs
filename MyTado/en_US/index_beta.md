@@ -87,7 +87,7 @@ Data updates every 30 minutes, but you can force an update on demand with the **
 
 The widget displays the weather as an image along with the current temperature and brightness.
 
-### Troubleshooting
+# Troubleshooting
 
 Contact the developer specifying the models of Tado/TadoX devices you have, missing features, and any information you find useful.
 And don't forget to provide the plugin and daemon logs (being careful to mask your personal data).

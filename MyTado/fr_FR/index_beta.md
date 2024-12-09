@@ -87,7 +87,7 @@ Les données sont mises à jour toutes les 30mn, mais vous pouvez forcer la mise
 
 Le widget affiche le temps qu'il fait sous forme d'image ainsi que la température et la luminosité actuelle.
 
-### En cas de problèmes
+# En cas de problèmes
 
 Contactez le développeur en spécifiant les modèles d'objet Tado/TadoX que vous avez, les fonctionalités manquantes, ainsi que toute information que vous jugerez utile. 
 Et n'oubliez pas de fournir les logs du plugin et de son démon (en prenant garde de masquer vos données personnelles).
