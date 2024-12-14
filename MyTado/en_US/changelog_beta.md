@@ -1,10 +1,11 @@
 # Changelog plugin MyTado - beta
 
-# 08/12/2024 - Version 3.0
+# 12/2024 - Version 3.0
 
 - TadoX devices are now supported
 - Weather is converted into a home, and the connection configuration has been shifted to this "home" device
 - It is possible to configure multiple homes in case of owning both Tado and TadoX devices (what requires 2 separate homes)
+- 2 new commands added to Tado(X) devices: the date of the last data update, and its battery level
 
 # 04/11/2024 - Version 2.0
 

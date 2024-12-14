@@ -1,10 +1,11 @@
 # Changelog plugin MyTado - beta
 
-# 08/12/2024 - Version 3.0
+# 12/2024 - Version 3.0
 
 - Les objets TadoX sont à présent pris en charge
 - La météo est convertie en maison, et la configuration de la connexion à la maison a basculé sur cet équipement "maison"
 - Il est possible de configurer plusieurs maisons dans le cas où l'on possède des objets Tado et TadoX (ce qui nécessite 2 maisons séparées)
+- Ajout de 2 nouvelles commandes pour les objets Tado(X): la date de dernière mise à jour des données, et son niveau de batterie
 
 # 04/11/2024 - Version 2.0
 
