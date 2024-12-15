@@ -5,7 +5,7 @@
 - TadoX-Geräte werden jetzt unterstützt
 - Wetter wird in ein Zuhause umgewandelt und die Verbindungskonfiguration wurde auf dieses "Zuhause"-Gerät verlagert
 - Es ist möglich, mehrere Häuser zu konfigurieren, falls man sowohl Tado- als auch TadoX-Geräte besitzt (was zwei separate Häuser erfordert)
-- 2 neue Befehle für Tado(X)-Geräte hinzugefügt: das Datum des letzten Datenupdates und der Batteriestand
+- 4 neuen Befehlen für Tado(X)-Geräte hinzugefügt: Aktivieren, Deaktivieren, Datum des letzten Daten-Updates und Batteriestand
 
 # 04.11.2024 - Version 2.0
 

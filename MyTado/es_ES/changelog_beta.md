@@ -5,7 +5,7 @@
 - Ahora se admiten dispositivos TadoX
 - El clima se convierte en un hogar, y la configuración de la conexión se ha trasladado a este dispositivo "hogar"
 - Es posible configurar múltiples hogares en caso de poseer tanto dispositivos Tado como TadoX (lo que requiere 2 hogares separados)
-- 2 nuevos comandos agregados a los dispositivos Tado(X): la fecha de la última actualización de datos y su nivel de batería
+- 4 nuevos comandos agregados a los dispositivos Tado(X): activar, desactivar, fecha de la última actualización de datos y nivel de batería
 
 # 04/11/2024 - Versión 2.0
 
