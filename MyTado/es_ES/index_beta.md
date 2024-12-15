@@ -53,7 +53,8 @@ Finalmente, si agrega dispositivos a su casa Tado/TadoX, use el botón **Sincron
 >
 >Simplemente use el comando **Sincronización** para recuperar cualquier nuevo dispositivo conectado agregado a su casa Tado, o después de una actualización del plugin que permita la compatibilidad con un nuevo tipo de dispositivo que posea.
 
-### Sus dispositivos conectados Tado <img src="../images/WR0X.png" width="60"/><img src="../images/BU0X.png" width="60"/><img src="../images/RU0X.png" width="60"/><img src="../images/VA0X.png" width="60"/><img src="../images/VA04.png" width="60"/><img src="../images/RU04.png" width="60"/><img src="../images/CK04.png" width="60"/>
+### Sus dispositivos conectados Tado
+<img src="../images/WR0X.png" width="60"/><img src="../images/BU0X.png" width="60"/><img src="../images/RU0X.png" width="60"/><img src="../images/VA0X.png" width="60"/><img src="../images/VA04.png" width="60"/><img src="../images/RU04.png" width="60"/><img src="../images/CK04.png" width="60"/>
 
 Al hacer clic en un dispositivo conectado Tado, se accede directamente a su página de configuración:
 

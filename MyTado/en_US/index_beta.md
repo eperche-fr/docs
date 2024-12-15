@@ -51,7 +51,8 @@ Finally, if you add devices to your Tado/TadoX home, the **Synchronization** but
 >
 >Simply use the **Synchronization** command to fetch any new connected devices added to your Tado home or after a plugin update that supports a new type of device you own.
 
-### Your connected Tado devices <img src="../images/WR0X.png" width="60"/><img src="../images/BU0X.png" width="60"/><img src="../images/RU0X.png" width="60"/><img src="../images/VA0X.png" width="60"/><img src="../images/VA04.png" width="60"/><img src="../images/RU04.png" width="60"/><img src="../images/CK04.png" width="60"/>
+### Your connected Tado devices
+<img src="../images/WR0X.png" width="60"/><img src="../images/BU0X.png" width="60"/><img src="../images/RU0X.png" width="60"/><img src="../images/VA0X.png" width="60"/><img src="../images/VA04.png" width="60"/><img src="../images/RU04.png" width="60"/><img src="../images/CK04.png" width="60"/>
 
 Clicking on a connected Tado device takes you directly to its configuration page:
 

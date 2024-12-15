@@ -51,7 +51,8 @@ Enfin, si vous rajoutez des équipements à votre maison Tado/TadoX, le bouton *
 >
 >Il suffit d'utiliser la commande **Synchronisation** pour récupérer tout nouvel objet connecté ajouté à votre maison Tado, ou après une mise à jour du plugin qui permettrait la prise en charge d'un nouveau type d'objet que vous possédez.
 
-### Vos objets connectés Tado <img src="../images/WR0X.png" width="60"/><img src="../images/BU0X.png" width="60"/><img src="../images/RU0X.png" width="60"/><img src="../images/VA0X.png" width="60"/><img src="../images/VA04.png" width="60"/><img src="../images/RU04.png" width="60"/><img src="../images/CK04.png" width="60"/>
+### Vos objets connectés Tado
+<img src="../images/WR0X.png" width="60"/><img src="../images/BU0X.png" width="60"/><img src="../images/RU0X.png" width="60"/><img src="../images/VA0X.png" width="60"/><img src="../images/VA04.png" width="60"/><img src="../images/RU04.png" width="60"/><img src="../images/CK04.png" width="60"/>
 
 En cliquant sur un objet connecté Tado, on arrive directement sur sa page de configuration :
 

@@ -51,7 +51,8 @@ Schließlich, wenn Sie Geräte zu Ihrem Tado/TadoX-Haus hinzufügen, verwenden S
 >
 >Verwenden Sie einfach den **Synchronisierung**-Befehl, um neue verbundene Geräte abzurufen, die zu Ihrem Tado-Haus hinzugefügt wurden, oder nach einem Plugin-Update, das einen neuen Gerätetyp unterstützt, den Sie besitzen.
 
-### Ihre verbundenen Tado-Geräte <img src="../images/WR0X.png" width="60"/><img src="../images/BU0X.png" width="60"/><img src="../images/RU0X.png" width="60"/><img src="../images/VA0X.png" width="60"/><img src="../images/VA04.png" width="60"/><img src="../images/RU04.png" width="60"/><img src="../images/CK04.png" width="60"/>
+### Ihre verbundenen Tado-Geräte
+<img src="../images/WR0X.png" width="60"/><img src="../images/BU0X.png" width="60"/><img src="../images/RU0X.png" width="60"/><img src="../images/VA0X.png" width="60"/><img src="../images/VA04.png" width="60"/><img src="../images/RU04.png" width="60"/><img src="../images/CK04.png" width="60"/>
 
 Wenn Sie auf ein verbundenes Tado-Gerät klicken, gelangen Sie direkt zu seiner Konfigurationsseite:
 
