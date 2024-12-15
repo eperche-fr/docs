@@ -7,7 +7,7 @@
 - Il est possible de configurer plusieurs maisons dans le cas où l'on possède des objets Tado et TadoX (ce qui nécessite 2 maisons séparées)
 - Ajout de 4 nouvelles commandes pour les objets Tado(X): activer, désactiver, la date de dernière mise à jour des données, et le niveau de batterie
 
-# 04/11/2024 - Version 2.0
+# 11/2024 - Version 2.0
 
 - La gestion de la connexion à Tado utilise maintenant un démon pour éviter les temps de latence en PHP
 

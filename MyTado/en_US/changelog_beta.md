@@ -7,7 +7,7 @@
 - It is possible to configure multiple homes in case of owning both Tado and TadoX devices (what requires 2 separate homes)
 - 4 new commands added for Tado(X) devices: enable, disable, time of the last data update, and battery level
 
-# 04/11/2024 - Version 2.0
+# 11/2024 - Version 2.0
 
 - Tado communication is now managed via a daemon to avoid latencies
 

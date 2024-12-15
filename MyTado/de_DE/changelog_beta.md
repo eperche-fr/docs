@@ -1,13 +1,13 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
-# 12/2024 - Version 3.0
+# 12.2024 - Version 3.0
 
 - TadoX-Geräte werden jetzt unterstützt
 - Wetter wird in ein Zuhause umgewandelt und die Verbindungskonfiguration wurde auf dieses "Zuhause"-Gerät verlagert
 - Es ist möglich, mehrere Häuser zu konfigurieren, falls man sowohl Tado- als auch TadoX-Geräte besitzt (was zwei separate Häuser erfordert)
 - 4 neuen Befehlen für Tado(X)-Geräte hinzugefügt: Aktivieren, Deaktivieren, Datum des letzten Daten-Updates und Batteriestand
 
-# 04.11.2024 - Version 2.0
+# 11.2024 - Version 2.0
 
 - Die Verwaltung der Verbindung zu Tado verwendet jetzt einen Daemon, um Latenzzeiten in PHP zu vermeiden
 

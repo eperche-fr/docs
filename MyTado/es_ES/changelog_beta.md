@@ -7,7 +7,7 @@
 - Es posible configurar múltiples hogares en caso de poseer tanto dispositivos Tado como TadoX (lo que requiere 2 hogares separados)
 - 4 nuevos comandos agregados a los dispositivos Tado(X): activar, desactivar, fecha de la última actualización de datos y nivel de batería
 
-# 04/11/2024 - Versión 2.0
+# 11/2024 - Versión 2.0
 
 - La gestión de la conexión a Tado ahora utiliza un demonio para evitar tiempos de latencia en PHP
 
