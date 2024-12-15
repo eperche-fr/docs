@@ -72,7 +72,7 @@ Sie können auch den Betriebsmodus Ihres Geräts festlegen:
 >
 >Im Falle einer manuellen Temperaturänderung wird diese auf alle Geräte in derselben Zone wie Ihr Gerät angewendet (so funktioniert Tado).
 
-### Tado Wetter <img src="../images/WeatherEq.svg" width="60"/>
+### Tado Haus <img src="../images/HomeEq.svg" width="60"/>
 
 Wenn Sie auf Ihr Tado-Haus klicken, gelangen Sie direkt zu seiner Konfigurationsseite:
 
@@ -81,6 +81,8 @@ Wenn Sie auf Ihr Tado-Haus klicken, gelangen Sie direkt zu seiner Konfigurations
 - **Kategorie**: Ermöglicht die Auswahl der Kategorie des Geräts.
 - **Breitengrad**: In Tado für Ihr Haus referenzierter Breitengrad, der zur Abrufung des entsprechenden Wetters verwendet wird.
 - **Längengrad**: In Tado für Ihr Haus referenzierter Längengrad, der zur Abrufung des entsprechenden Wetters verwendet wird.
+
+Sowie Ihre Tado-Anmeldeinformationen für dieses Haus (vergessen Sie nicht, Ihr Passwort hier zu ändern, wenn Sie es auf der Tado-Website ändern!).
 
 Wenn Sie auf den **Befehle**-Tab klicken, wird eine Liste aller verfügbaren Befehle und die Möglichkeit zur Protokollierung numerischer Werte und des Wetterzustands angezeigt.
 Die Daten werden alle 30 Minuten aktualisiert, aber Sie können mit dem **Aktualisieren**-Befehl eine Aktualisierung auf Abruf erzwingen.

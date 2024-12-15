@@ -72,7 +72,7 @@ You can also set the operating mode of your device:
 >
 >In the case of a manual temperature change, it will be applied to all devices in the same zone as your device (this is how Tado works).
 
-### Tado Weather <img src="../images/WeatherEq.svg" width="60"/>
+### Tado Home <img src="../images/HomeEq.svg" width="60"/>
 
 Clicking on your Tado home takes you directly to its configuration page:
 
@@ -81,6 +81,8 @@ Clicking on your Tado home takes you directly to its configuration page:
 - **Category**: Allows you to choose the category of the device.
 - **Latitude**: Latitude referenced on Tado for your home and used to retrieve the corresponding weather.
 - **Longitude**: Longitude referenced on Tado for your home and used to retrieve the corresponding weather.
+
+As well as your Tado connection information for this home (don't forget to change your password here if you change it on the Tado website!).
 
 Clicking on the **Commands** tab shows a list of all available commands and the option to log numerical values and weather status.
 Data updates every 30 minutes, but you can force an update on demand with the **Refresh** command.

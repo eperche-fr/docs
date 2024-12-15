@@ -74,7 +74,7 @@ También puede definir el modo de funcionamiento de su dispositivo:
 >
 >En caso de un cambio manual de la temperatura deseada, esta se aplicará a todos los dispositivos presentes en la misma zona que su dispositivo (así es como funciona Tado).
 
-### El clima Tado <img src="../images/WeatherEq.svg" width="60"/>
+### El casa Tado <img src="../images/HomeEq.svg" width="60"/>
 
 Al hacer clic en su casa Tado, se accede directamente a su página de configuración:
 
@@ -83,6 +83,8 @@ Al hacer clic en su casa Tado, se accede directamente a su página de configurac
 - **Categoría**: Permite elegir la categoría del dispositivo.
 - **Latitud**: Latitud referenciada en Tado para su casa y utilizada para recuperar el clima correspondiente.
 - **Longitud**: Longitud referenciada en Tado para su casa y utilizada para recuperar el clima correspondiente.
+
+Así como su información de inicio de sesión de Tado para esta casa (¡no olvide cambiar su contraseña aquí si la cambia en el sitio web de Tado!).
 
 Al hacer clic en la pestaña **Comandos**, encontrará una lista de todos los comandos disponibles y la posibilidad de historizar los valores numéricos y el estado meteorológico.
 Los datos se actualizan cada 30 minutos, pero puede forzar la actualización a pedido con el comando **Actualizar**.

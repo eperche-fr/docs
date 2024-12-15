@@ -72,18 +72,20 @@ Vous pouvez également définir le mode de fonctionnement de votre objet:
 >
 >Dans le cas d'un changement manuel de la température désirée, cette dernière sera appliquée à tous les objets présents dans la même zone que votre objet (c'est ainsi que fonctionne Tado). 
 
-### La météo Tado <img src="../images/WeatherEq.svg" width="60"/>
+### La maison Tado <img src="../images/HomeEq.svg" width="60"/>
 
 En cliquant sur votre maison Tado, on arrive directement sur sa page de configuration :
 
 - **Nom de l’équipement** : Nom que vous avez donné à votre maison sur jeedom.
 - **Objet parent** : Indique l’objet parent auquel appartient l’équipement. A vous de le défnir.
 - **Catégorie** : Permet de choisir la catégorie de l'équipement.
-- **Latitude** : Latitude référencée sur Tado pour votre maison et utilisée pour récupérer la météo correpondante.
-- **Longitude** : Longitude référencée sur Tado pour votre maison et utilisée pour récupérer la météo correpondante.
+- **Latitude** : Latitude référencée sur Tado pour votre maison et utilisée pour récupérer la météo correspondante.
+- **Longitude** : Longitude référencée sur Tado pour votre maison et utilisée pour récupérer la météo correspondante.
+
+Ainsi que vos informations de connexion à Tado pour cette maison (n'oubliez pas de changer votre mot de passe ici si vous êtes amené à le changer sur le site Tado!).
 
 En cliquant sur l'onglet **Commandes**, on retrouve la liste de toutes les commandes disponibles ainsi que la possibilité d’historiser les valeurs numériques ainsi que l'état météorologique.
-Les données sont mises à jour toutes les 30mn, mais vous pouvez forcer la mise à jour à la demande avec la commande **Rafraîchir**.
+Les données sont mises à jour toutes les 30mn, mais vous pouvez forcer la mise à jour à la demande avec la commande **Rafraîchir** (notez que cela force la mise à jour des données de météo mais également de tous vos objets appartenant à cette maison).
 
 Le widget affiche le temps qu'il fait sous forme d'image ainsi que la température et la luminosité actuelle.
 
