@@ -9,7 +9,7 @@ La actualización de estos datos se realiza cada 30 minutos.
 >**Dispositivos compatibles**
 >
 >Actualmente, solo los modelos BU0X, BP0, BR0X, CK04, RU0X, SU0X, VA0X y WR0X están completamente soportados (independientemente de su versión).
->Si encuentra problemas con dispositivos no compatibles o con alguno de los listados, siga las instrucciones en la sección **En caso de problemas**.
+>Si encuentra problemas con dispositivos no compatibles o con alguno de los listados, siga las instrucciones en la sección [En caso de problemas](#En-caso-de-problemas).
 
 # Configuración
 
@@ -19,7 +19,7 @@ Primero, vaya a la configuración del plugin.
 Asegúrese de instalar las dependencias y luego iniciar el demonio.
 Si no puede iniciar el demonio, es posible que el puerto predeterminado (59969) ya esté en uso.
 En ese caso, defina un puerto disponible en la sección de configuración, guarde e intente reiniciar el demonio.
-Si el problema persiste, siga las instrucciones en la sección **En caso de problemas**.
+Si el problema persiste, siga las instrucciones en la sección [En caso de problemas](#En-caso-de-problemas).
 
 Opcionalmente, también puede cambiar los siguientes dos parámetros (luego guarde y reinicie el demonio si ya está en funcionamiento):
 1. La unidad de medida de temperatura a mostrar. **Celsius es la unidad predeterminada**.
@@ -38,7 +38,7 @@ Si la información es correcta, se agregarán detalles adicionales de su casa, y
 Cierre la casa para verificar si sus dispositivos aparecen.
 Si después de unos segundos no pasa nada, actualice la página manualmente.
 Si sus dispositivos no aparecen, revise los registros para ver si puede corregir el problema usted mismo.
-De lo contrario, siga las instrucciones en la sección **En caso de problemas**.
+De lo contrario, siga las instrucciones en la sección [En caso de problemas](#En-caso-de-problemas).
 
 Finalmente, si agrega dispositivos a su casa Tado/TadoX, use el botón **Sincronización** para recuperarlos.
 

@@ -7,7 +7,7 @@ Die Daten werden alle 30 Minuten aktualisiert.
 >**Unterstützte Geräte**
 >
 >Derzeit werden nur die Modelle BU0X, BP0, BR0X, CK04, RU0X, SU0X, VA0X und WR0X vollständig unterstützt (unabhängig von ihrer Version).
->Wenn Sie Probleme mit nicht unterstützten Geräten oder mit einem der aufgeführten Geräte haben, folgen Sie bitte den Anweisungen im Abschnitt **Bei Problemen**.
+>Wenn Sie Probleme mit nicht unterstützten Geräten oder mit einem der aufgeführten Geräte haben, folgen Sie bitte den Anweisungen im Abschnitt [Bei Problemen](#bei-problemen).
 
 # Konfiguration
 
@@ -17,7 +17,7 @@ Gehen Sie zuerst zur Plugin-Konfiguration.
 Stellen Sie sicher, dass die Abhängigkeiten installiert und der Daemon gestartet sind.
 Wenn Sie den Daemon nicht starten können, ist der Standardport (59969) möglicherweise bereits belegt.
 In diesem Fall legen Sie in der Konfigurationssektion einen verfügbaren Port fest, speichern und versuchen Sie den Daemon erneut zu starten.
-Wenn das Problem weiterhin besteht, folgen Sie den Anweisungen im Abschnitt **Bei Problemen**.
+Wenn das Problem weiterhin besteht, folgen Sie den Anweisungen im Abschnitt [Bei Problemen](#bei-problemen).
 
 Optional können Sie auch die folgenden zwei Parameter ändern (dann speichern und den Daemon neu starten, falls er bereits läuft):
 1. Die anzuzeigende Temperatureinheit. **Celsius ist die Standardeinheit**.
@@ -36,9 +36,9 @@ Wenn die Informationen korrekt sind, werden zusätzliche Details zu Ihrem Haus h
 Schließen Sie das Haus, um zu überprüfen, ob Ihre Geräte erscheinen.
 Wenn nach einigen Sekunden nichts passiert, aktualisieren Sie die Seite manuell.
 Wenn Ihre Geräte nicht angezeigt werden, überprüfen Sie die Protokolle, um festzustellen, ob Sie das Problem selbst beheben können.
-Andernfalls folgen Sie den Anweisungen im Abschnitt **Bei Problemen**.
+Andernfalls folgen Sie den Anweisungen im Abschnitt [Bei Problemen](#bei-problemen).
 
-Schließlich, wenn Sie Geräte zu Ihrem Tado/TadoX-Haus hinzufügen, verwenden Sie die **Synchronisations**-Schaltfläche, um sie abzurufen.
+Schließlich, wenn Sie Geräte zu Ihrem Tado/TadoX-Haus hinzufügen, verwenden Sie die **Synchronisierung**-Schaltfläche, um sie abzurufen.
 
 >**INFORMATION**
 >
@@ -49,7 +49,7 @@ Schließlich, wenn Sie Geräte zu Ihrem Tado/TadoX-Haus hinzufügen, verwenden S
 
 >**ERINNERUNG**
 >
->Verwenden Sie einfach den **Synchronisations**-Befehl, um neue verbundene Geräte abzurufen, die zu Ihrem Tado-Haus hinzugefügt wurden, oder nach einem Plugin-Update, das einen neuen Gerätetyp unterstützt, den Sie besitzen.
+>Verwenden Sie einfach den **Synchronisierung**-Befehl, um neue verbundene Geräte abzurufen, die zu Ihrem Tado-Haus hinzugefügt wurden, oder nach einem Plugin-Update, das einen neuen Gerätetyp unterstützt, den Sie besitzen.
 
 ### Ihre verbundenen Tado-Geräte <img src="../images/WR0X.png" width="60"/><img src="../images/BU0X.png" width="60"/><img src="../images/RU0X.png" width="60"/><img src="../images/VA0X.png" width="60"/><img src="../images/VA04.png" width="60"/><img src="../images/RU04.png" width="60"/><img src="../images/CK04.png" width="60"/>
 

@@ -7,7 +7,7 @@ Data refreshes every 30 minutes.
 >**Supported Devices**
 >
 >Currently, only models BU0X, BP0, BR0X, CK04, RU0X, SU0X, VA0X, and WR0X are fully supported (regardless of their version).
->If you encounter issues with unsupported devices or any problems with the listed ones, please refer to the **Troubleshooting** section.
+>If you encounter issues with unsupported devices or any problems with the listed ones, please refer to the [Troubleshooting section](#Troubleshooting).
 
 # Configuration
 
@@ -17,7 +17,7 @@ First, go to the plugin configuration.
 Make sure to install dependencies and then start the daemon.
 If you can't start the daemon, the default port (59969) might already be in use.
 In this case, set a known available port in the configuration section, save, and try to restart the daemon.
-If the problem persists, follow the instructions in the **Troubleshooting** section.
+If the problem persists, follow the instructions in the [Troubleshooting section](#Troubleshooting).
 
 Optionally, you can also change the following two parameters (then save and restart the daemon if already running):
 1. The temperature unit to display. **Celsius is the default unit**.
@@ -36,7 +36,7 @@ If the information is correct, additional details about your home will be added,
 Close the home to check if your devices appear.
 If nothing happens after a few seconds, refresh the page manually.
 If your devices do not appear, check the logs to see if you can resolve any issues.
-Otherwise, follow the instructions in the **Troubleshooting** section.
+Otherwise, follow the instructions in the [Troubleshooting section](#Troubleshooting).
 
 Finally, if you add devices to your Tado/TadoX home, the **Synchronization** button is there to fetch them.
 

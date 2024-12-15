@@ -7,19 +7,19 @@ Le rafraîchissement de ces données s’effectue toutes les 30 minutes.
 >**Equipements gérés**
 >
 >Seuls les modèles BU0X, BP0, BR0X, CK04, RU0X, SU0X, VA0X et WR0X sont pleinement pris en charges à ce jour (a priori quel que soit leur version). 
->Pour tout objet non pris en charge à ce jour, voire un soucis avec l'un de ceux listés, suivre les instructions de la partie **En cas de problèmes**.
+>Pour tout objet non pris en charge à ce jour, voire un soucis avec l'un de ceux listés, suivre les instructions de la partie [En cas de problèmes](#en-cas-de-problèmes).
 
 # Configuration
 
 ## Configuration du plugin
 
-Dans un premier temps, allez dans la configurtaion du plugin.
+Dans un premier temps, allez dans la configuration du plugin.
 Assurez vous de lancer l'installation des dépendances, puis du démon.
 Si vous n'arrivez pas à lancer le démon, il se peut que le port du démon utilisé par défaut (59969) soit déjà pris. 
 Dans ce cas, définissez un port que vous savez disponible dans la partie configuration, sauvez et tentez de relancer le démon.  
-Si le problème persiste, suivre les instructions de la partie **En cas de problèmes**.
+Si le problème persiste, suivre les instructions de la partie [En cas de problèmes](#en-cas-de-problèmes).
 
-Si vous le souhaitez, vous pouvez également changer de façon optionnelle les deux paramètres suivants (puis sauvez, et relancez le démon si déjà lancé):
+Si vous le souhaitez, vous pouvez également changer les deux paramètres suivants:
 1. L'unité de mesure de température à afficher. **Le Celsius est l'unité par défaut**.
 2. La convention de nommage de vos objets qui sera appliquée.
 
@@ -27,16 +27,16 @@ Une fois le démon en marche, fermez la page de configuration pour revenir sur l
 1. Cliquez sur "Ajouter une maison"
 2. Donnez un nom à votre maison (le nom n'a pas besoin d'être le même que chez Tado), puis cliquer sur "Ok"
 3. Saisissez les trois informations liées à votre compte Tado
-    a. l'adresse mail utilisée pour créer votre compte sur Tado
-    b. le mot de passe de votre compte Tado
-    c. le nom exact (sensible à la casse) de votre maison sur l'application Tado
+    - l'adresse mail utilisée pour créer votre compte sur Tado
+    - le mot de passe de votre compte Tado
+    - le nom exact (sensible à la casse) de votre maison sur l'application Tado
 4. Sauvez votre maison
 
-Si les informations saisies sont exactes, les information complémentaires de votre maison seront ajoutées, et les objets Tado our TadoX (selon votre maison) seront synchornisés au bout de quelques secondes.
+Si les informations saisies sont exactes, les information complémentaires de votre maison seront ajoutées, et les objets Tado our TadoX (selon votre maison) seront synchronisés au bout de quelques secondes.
 Fermez la maison pour vérifier que vos objets apparaissent.
-Si après quelques secondes rine ne se passe, rafraichissez la page manuellement. 
+Si après quelques secondes rien ne se passe, rafraichissez la page manuellement. 
 Si vous n'obtenez pas vos objets, vérifiez les logs afin de voir si vous pouvez corriger un problème remonté par vous-même.
-Sinon, suivre les instructions de la partie **En cas de problèmes**.
+Sinon, suivre les instructions de la partie [En cas de problèmes](#en-cas-de-problèmes).
 
 Enfin, si vous rajoutez des équipements à votre maison Tado/TadoX, le bouton **Synchronisation** est là pour les récupérer.
 
