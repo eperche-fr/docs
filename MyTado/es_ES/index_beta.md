@@ -87,7 +87,7 @@ Al hacer clic en su casa Tado, se accede directamente a su página de configurac
 Así como su información de inicio de sesión de Tado para esta casa (¡no olvide cambiar su contraseña aquí si la cambia en el sitio web de Tado!).
 
 Al hacer clic en la pestaña **Comandos**, encontrará una lista de todos los comandos disponibles y la posibilidad de historizar los valores numéricos y el estado meteorológico.
-Los datos se actualizan cada 30 minutos, pero puede forzar la actualización a pedido con el comando **Actualizar**.
+Los datos se actualizan cada 30 minutos, pero puede forzar la actualización a pedido con el comando **Actualizar** (tenga en cuenta que esto obliga a la actualización de los datos meteorológicos así como de todos sus dispositivos pertenecientes a esta casa).
 
 El widget muestra el clima en forma de imagen, así como la temperatura y luminosidad actual.
 

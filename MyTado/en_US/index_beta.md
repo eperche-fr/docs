@@ -85,7 +85,7 @@ Clicking on your Tado home takes you directly to its configuration page:
 As well as your Tado connection information for this home (don't forget to change your password here if you change it on the Tado website!).
 
 Clicking on the **Commands** tab shows a list of all available commands and the option to log numerical values and weather status.
-Data updates every 30 minutes, but you can force an update on demand with the **Refresh** command.
+Data updates every 30 minutes, but you can force an update on demand with the **Refresh** command (note that this forces the update of weather data as well as all your devices belonging to this home).
 
 The widget displays the weather as an image along with the current temperature and brightness.
 
