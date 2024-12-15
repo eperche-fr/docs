@@ -21,7 +21,7 @@ Si no puede iniciar el demonio, es posible que el puerto predeterminado (59969) 
 En ese caso, defina un puerto disponible en la sección de configuración, guarde e intente reiniciar el demonio.
 Si el problema persiste, siga las instrucciones en la sección [En caso de problemas](#En-caso-de-problemas).
 
-Opcionalmente, también puede cambiar los siguientes dos parámetros (luego guarde y reinicie el demonio si ya está en funcionamiento):
+Opcionalmente, también puede cambiar los siguientes dos parámetros:
 1. La unidad de medida de temperatura a mostrar. **Celsius es la unidad predeterminada**.
 2. La convención de nomenclatura para sus dispositivos.
 
@@ -29,9 +29,9 @@ Una vez que el demonio esté en funcionamiento, cierre la página de configuraci
 1. Haga clic en "Agregar una casa".
 2. Asigne un nombre a su casa (el nombre no necesita coincidir con el de Tado), luego haga clic en "Ok".
 3. Ingrese la información relacionada con su cuenta Tado:
-    a. La dirección de correo electrónico utilizada para crear su cuenta en Tado.
-    b. La contraseña de su cuenta Tado.
-    c. El nombre exacto (sensible a mayúsculas y minúsculas) de su casa en la aplicación Tado.
+    - La dirección de correo electrónico utilizada para crear su cuenta en Tado.
+    - La contraseña de su cuenta Tado.
+    - El nombre exacto (sensible a mayúsculas y minúsculas) de su casa en la aplicación Tado.
 4. Guarde su casa.
 
 Si la información es correcta, se agregarán detalles adicionales de su casa, y los dispositivos Tado o TadoX (según su casa) se sincronizarán en unos segundos.

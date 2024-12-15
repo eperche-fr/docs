@@ -19,7 +19,7 @@ If you can't start the daemon, the default port (59969) might already be in use.
 In this case, set a known available port in the configuration section, save, and try to restart the daemon.
 If the problem persists, follow the instructions in the [Troubleshooting section](#Troubleshooting).
 
-Optionally, you can also change the following two parameters (then save and restart the daemon if already running):
+Optionally, you can also change the following two parameters:
 1. The temperature unit to display. **Celsius is the default unit**.
 2. The naming convention for your devices.
 
@@ -27,9 +27,9 @@ Once the daemon is running, close the configuration page to return to the plugin
 1. Click "Add a home".
 2. Give a name to your home (the name does not need to match the one in Tado), then click "Ok".
 3. Enter the three pieces of information related to your Tado account:
-    a. The email address used to create your Tado account.
-    b. Your Tado account password.
-    c. The exact name (case-sensitive) of your home in the Tado app.
+    - The email address used to create your Tado account.
+    - Your Tado account password.
+    - The exact name (case-sensitive) of your home in the Tado app.
 4. Save your home.
 
 If the information is correct, additional details about your home will be added, and Tado or TadoX devices (depending on your home) will be synchronized within a few seconds.

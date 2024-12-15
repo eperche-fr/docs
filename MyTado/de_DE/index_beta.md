@@ -19,7 +19,7 @@ Wenn Sie den Daemon nicht starten können, ist der Standardport (59969) möglich
 In diesem Fall legen Sie in der Konfigurationssektion einen verfügbaren Port fest, speichern und versuchen Sie den Daemon erneut zu starten.
 Wenn das Problem weiterhin besteht, folgen Sie den Anweisungen im Abschnitt [Bei Problemen](#bei-problemen).
 
-Optional können Sie auch die folgenden zwei Parameter ändern (dann speichern und den Daemon neu starten, falls er bereits läuft):
+Optional können Sie auch die folgenden zwei Parameter ändern:
 1. Die anzuzeigende Temperatureinheit. **Celsius ist die Standardeinheit**.
 2. Das Namensschema für Ihre Geräte.
 
@@ -27,9 +27,9 @@ Sobald der Daemon läuft, schließen Sie die Konfigurationsseite, um zur Hauptse
 1. Klicken Sie auf "Haus hinzufügen".
 2. Geben Sie Ihrem Haus einen Namen (der Name muss nicht mit dem in Tado übereinstimmen) und klicken Sie dann auf "Ok".
 3. Geben Sie die drei Informationen zu Ihrem Tado-Konto ein:
-    a. Die E-Mail-Adresse, die Sie zur Erstellung Ihres Tado-Kontos verwendet haben.
-    b. Ihr Tado-Konto Passwort.
-    c. Den genauen Namen (Groß- und Kleinschreibung beachten) Ihres Hauses in der Tado-App.
+    - Die E-Mail-Adresse, die Sie zur Erstellung Ihres Tado-Kontos verwendet haben.
+    - Ihr Tado-Konto Passwort.
+    - Den genauen Namen (Groß- und Kleinschreibung beachten) Ihres Hauses in der Tado-App.
 4. Speichern Sie Ihr Haus.
 
 Wenn die Informationen korrekt sind, werden zusätzliche Details zu Ihrem Haus hinzugefügt und Tado- oder TadoX-Geräte (je nach Ihrem Haus) werden innerhalb weniger Sekunden synchronisiert.
