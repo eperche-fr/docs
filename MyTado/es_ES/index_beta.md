@@ -1,5 +1,3 @@
-## Español
-
 # <img src="../images/MyTado_icon.png" width="60"/> Plugin MyTado
 
 El plugin **MyTado** permite recuperar datos de sus dispositivos conectados Tado y Tado X, así como la información meteorológica gestionada por Tado.

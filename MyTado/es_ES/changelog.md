@@ -1,5 +1,13 @@
 # Changelog plugin MyTado
 
+# 12/2024 - Versión 3.0
+
+- Ahora se admiten dispositivos TadoX
+- El clima se convierte en un hogar, y la configuración de la conexión se ha trasladado a este dispositivo "hogar"
+- Es posible configurar múltiples hogares en caso de poseer tanto dispositivos Tado como TadoX (lo que requiere 2 hogares separados)
+- 4 nuevos comandos agregados a los dispositivos Tado(X): activar, desactivar, fecha de la última actualización de datos y nivel de batería
+- La gestión de la conexión a Tado ahora utiliza un demonio para evitar tiempos de latencia en PHP
+
 # 17/10/2024 - Versión 1.5
 
 - La potencia de calefacción ahora se recupera y se muestra
