@@ -1,5 +1,10 @@
 # Changelog plugin MyTado - beta
 
+# 01/2025 - Version 3.1
+
+- Fixed an issue with retrieving air conditioning modules when they are turned off  
+- Fixed an issue with retrieving the state of a TadoX device when it is in manual mode for a defined duration  
+
 # 12/2024 - Version 3.0
 
 - TadoX devices are now supported

@@ -1,5 +1,10 @@
 # Changelog plugin MyTado - beta
 
+# 01/2025 - Versión 3.1
+
+- Solucionado un problema al recuperar los módulos de aire acondicionado cuando están apagados  
+- Solucionado un problema al recuperar el estado de un dispositivo TadoX cuando está en modo manual durante un período definido  
+
 # 12/2024 - Versión 3.0
 
 - Ahora se admiten dispositivos TadoX
