@@ -90,7 +90,49 @@ Die Daten werden alle 30 Minuten aktualisiert, aber Sie können mit dem **Aktual
 
 Das Widget zeigt das Wetter in Form eines Bildes sowie die aktuelle Temperatur und Helligkeit an.
 
-# Bei Problemen
+### Szenarien verwalten
 
-Kontaktieren Sie den Entwickler und geben Sie die Modelle der Tado/TadoX-Geräte an, die Sie besitzen, fehlende Funktionen und alle Informationen, die Sie für nützlich halten.
-Und vergessen Sie nicht, die Protokolle des Plugins und seines Daemons bereitzustellen (achten Sie darauf, Ihre persönlichen Daten zu verbergen).
+Verschiedene Befehle erfordern einen oder mehrere Parameter. Bis eine zukünftige Version von MyTado verfügbar ist, die es ermöglicht, die gewünschten Parameter direkt einzugeben oder auszuwählen, müssen Sie die JSON-Version der Szenarien verwenden, um den gewünschten Parameter zu übermitteln (Schaltfläche „Textbearbeitung“ in der Befehlskonfiguration des Szenarios).  
+> **ACHTUNG**  
+> Änderungen an Ihrem Szenario sollten nur über die Schaltfläche im JSON-Bearbeitungsmodus gespeichert werden, da Sie sonst Ihre spezifischen Optionen verlieren.
+
+Mit MyTado wird dringend empfohlen, in Ihren Szenarien nur die folgenden Befehle zu verwenden:  
+- **aktivieren**: Schaltet Ihr Modul in den „AUTO“-Modus.  
+- **deaktivieren**: Schaltet Ihr Modul aus.  
+- **Modus ändern**: Ermöglicht insbesondere das Umschalten in den manuellen Modus und das Festlegen anderer Parameter, die Sie ändern möchten.
+
+**Wie wird der Befehl „Modus ändern“ verwendet?**  
+
+Fügen Sie in den Optionen den Schlüssel `mode` mit dem Wert `MANUAL` hinzu.  
+Um die gewünschte Temperatur zu ändern, verwenden Sie den Schlüssel `expected_temperature` gefolgt von der gewünschten Temperatur (der Punkt wird als Dezimaltrennzeichen verwendet).  
+Für Klimaanlagen geben Sie den gewünschten Wert **in Großbuchstaben** an (verfügbare Werte finden Sie im Widget), und zwar in Kombination mit einem der folgenden Schlüssel:  
+- `AC_mode`  
+- `fan_speed`  
+- `vertical_swing_mode`  
+- `horizontal_swing_mode`
+
+> Beispiel für das Feld `options` für ein Thermostatventil:  
+> ```json
+> "options": {
+>     "mode": "MANUAL",
+>     "expected_temperature": "17.5",
+>     "enable": "1",
+>     "background": "0"
+> }
+> ```
+
+> Beispiel für das Feld `options` für ein Klimamodul:  
+> ```json
+> "options": {
+>     "mode": "MANUAL",
+>     "expected_temperature": "17.5",
+>     "AC_mode": "HEAT",
+>     "enable": "1",
+>     "background": "0"
+> }
+> ```
+
+### Bei Problemen
+
+Kontaktieren Sie den Entwickler und geben Sie die Modelle Ihrer Tado-/TadoX-Geräte, fehlende Funktionen oder bestehende Probleme sowie alle relevanten Informationen an.  
+Vergessen Sie nicht, die Protokolle des Plugins und des Daemons bereitzustellen (achten Sie darauf, persönliche Daten zu anonymisieren).

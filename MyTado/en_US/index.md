@@ -90,7 +90,49 @@ Data updates every 30 minutes, but you can force an update on demand with the **
 
 The widget displays the weather as an image along with the current temperature and brightness.
 
-# Troubleshooting
+### Managing Scenarios
 
-Contact the developer specifying the models of Tado/TadoX devices you have, missing features, and any information you find useful.
-And don't forget to provide the plugin and daemon logs (being careful to mask your personal data).
+Several commands require one or more parameters. Until a future version of MyTado allows direct input or selection of desired parameters, you must use the JSON version of scenarios to pass the desired parameter (click the "Text Edit" button in the scenario command configuration).  
+> **WARNING**  
+> Only save changes to your scenario using the button in JSON edit mode, or you will lose your specific option configurations.
+
+With MyTado, it is strongly recommended to use only the following commands in your scenarios:  
+- **activate**: Puts your module in "AUTO" mode.  
+- **deactivate**: Turns off your module.  
+- **change mode**: Allows you to switch to manual mode and define any other parameters you wish to change.
+
+**How to use the "change mode" command?**  
+
+Add the key `mode` with the value `MANUAL` in the options.  
+To change the desired temperature, use the key `expected_temperature` followed by the desired temperature (a period is used as the decimal separator).  
+For air conditioning modules, enter the desired value **in capital letters** (available values are displayed in the widget) preceded by one of the following keys:  
+- `AC_mode`  
+- `fan_speed`  
+- `vertical_swing_mode`  
+- `horizontal_swing_mode`
+
+> Example of the `options` field for a thermostat valve:  
+> ```json
+> "options": {
+>     "mode": "MANUAL",
+>     "expected_temperature": "17.5",
+>     "enable": "1",
+>     "background": "0"
+> }
+> ```
+
+> Example of the `options` field for an air conditioning module:  
+> ```json
+> "options": {
+>     "mode": "MANUAL",
+>     "expected_temperature": "17.5",
+>     "AC_mode": "HEAT",
+>     "enable": "1",
+>     "background": "0"
+> }
+> ```
+
+### Troubleshooting
+
+Contact the developer specifying the models of Tado/TadoX devices you own, missing features, or malfunctions, as well as any information you deem useful.  
+Do not forget to provide the logs of the plugin and its daemon (be sure to mask personal data).

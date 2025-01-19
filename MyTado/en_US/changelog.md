@@ -1,5 +1,11 @@
 # Changelog plugin MyTado
 
+# 01/2025 - Version 3.1
+
+- The possible values for the various parameters of air conditioning modules are now retrieved dynamically.  
+- Fixed an issue with retrieving the state of a TadoX device when it is in manual mode for a defined duration.  
+- Updated the documentation to describe how to manage scenarios with MyTado.
+
 # 12/2024 - Version 3.0
 
 - TadoX devices are now supported

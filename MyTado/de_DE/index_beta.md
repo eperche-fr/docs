@@ -97,9 +97,9 @@ Verschiedene Befehle erfordern einen oder mehrere Parameter. Bis eine zukünftig
 > Änderungen an Ihrem Szenario sollten nur über die Schaltfläche im JSON-Bearbeitungsmodus gespeichert werden, da Sie sonst Ihre spezifischen Optionen verlieren.
 
 Mit MyTado wird dringend empfohlen, in Ihren Szenarien nur die folgenden Befehle zu verwenden:  
-- **„aktivieren“**: Schaltet Ihr Modul in den „AUTO“-Modus.  
-- **„deaktivieren“**: Schaltet Ihr Modul aus.  
-- **„Modus ändern“**: Ermöglicht insbesondere das Umschalten in den manuellen Modus und das Festlegen anderer Parameter, die Sie ändern möchten.
+- **aktivieren**: Schaltet Ihr Modul in den „AUTO“-Modus.  
+- **deaktivieren**: Schaltet Ihr Modul aus.  
+- **Modus ändern**: Ermöglicht insbesondere das Umschalten in den manuellen Modus und das Festlegen anderer Parameter, die Sie ändern möchten.
 
 **Wie wird der Befehl „Modus ändern“ verwendet?**  
 

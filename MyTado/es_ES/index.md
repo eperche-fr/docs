@@ -90,7 +90,49 @@ Los datos se actualizan cada 30 minutos, pero puede forzar la actualización a p
 
 El widget muestra el clima en forma de imagen, así como la temperatura y luminosidad actual.
 
-# En caso de problemas
+### Gestión de Escenarios
 
-Contacte al desarrollador especificando los modelos de dispositivos Tado/TadoX que posee, las funcionalidades faltantes y cualquier información que considere útil.
-Y no olvide proporcionar los registros del plugin y su demonio (asegurándose de ocultar sus datos personales).
+Algunos comandos requieren uno o más parámetros. Hasta que esté disponible una futura versión de MyTado que permita ingresar o seleccionar directamente los parámetros deseados, debe usar la versión JSON de los escenarios para pasar el parámetro deseado (haga clic en el botón "Edición de texto" en la configuración de comandos del escenario).  
+> **ATENCIÓN**  
+> Solo guarde los cambios de su escenario utilizando el botón en el modo de edición JSON, o perderá las configuraciones específicas de las opciones.
+
+Con MyTado, se recomienda encarecidamente usar solo los siguientes comandos en sus escenarios:  
+- **activar**: Cambia su módulo al modo "AUTO".  
+- **desactivar**: Apaga su módulo.  
+- **cambiar de modo**: Permite cambiar al modo manual y definir cualquier otro parámetro que desee modificar.
+
+**¿Cómo usar el comando "cambiar de modo"?**  
+
+Agregue en las opciones la clave `mode` con el valor `MANUAL`.  
+Para cambiar la temperatura deseada, utilice la clave `expected_temperature` seguida de la temperatura deseada (el punto se utiliza como separador decimal).  
+Para los módulos de aire acondicionado, introduzca el valor deseado **en mayúsculas** (los valores disponibles se muestran en el widget) precedido por una de las siguientes claves:  
+- `AC_mode`  
+- `fan_speed`  
+- `vertical_swing_mode`  
+- `horizontal_swing_mode`
+
+> Ejemplo del campo `options` para una válvula termostática:  
+> ```json
+> "options": {
+>     "mode": "MANUAL",
+>     "expected_temperature": "17.5",
+>     "enable": "1",
+>     "background": "0"
+> }
+> ```
+
+> Ejemplo del campo `options` para un módulo de aire acondicionado:  
+> ```json
+> "options": {
+>     "mode": "MANUAL",
+>     "expected_temperature": "17.5",
+>     "AC_mode": "HEAT",
+>     "enable": "1",
+>     "background": "0"
+> }
+> ```
+
+### En caso de problemas
+
+Contacte con el desarrollador especificando los modelos de dispositivos Tado/TadoX que tiene, las funciones faltantes o los problemas existentes, así como cualquier información que considere útil.  
+No olvide proporcionar los registros del plugin y de su daemon (asegurándose de enmascarar los datos personales).

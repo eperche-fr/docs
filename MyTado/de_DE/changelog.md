@@ -1,5 +1,11 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
+# 01.2025 - Version 3.1
+
+- Die möglichen Werte der verschiedenen Parameter für Klimaanlagenmodule werden jetzt dynamisch abgerufen.  
+- Behebung eines Problems beim Abrufen des Status eines TadoX-Geräts, wenn es sich im manuellen Modus für eine bestimmte Dauer befindet.  
+- Aktualisierung der Dokumentation, um die Verwaltung von Szenarien mit MyTado zu beschreiben.
+
 # 12.2024 - Version 3.0
 
 - TadoX-Geräte werden jetzt unterstützt

@@ -94,39 +94,43 @@ Le widget affiche le temps qu'il fait sous forme d'image ainsi que la températu
 
 Différentes commandes nécessitent un ou des paramètres. En attendant une future version de MyTado qui permettra de saisir ou sélectionner les paramètres désirés, uen fis ajouter la commande désirée, il vous faut utiliser la version json des scénarios pour transmettre le paramètre désiré (bouton "Edition texte" dans la configuration des commandes du scénario). 
 >**ATTENTION**
->Ne plus enregitrer les changements de votre scénario que par le bouton pésent en mode édition du json, ou vous perdrez vos configurations d'options spécifiques.
+>Ne plus enregitrer les changements de votre scénario que par le bouton présent en mode édition du json, ou vous perdrez vos configurations d'options spécifiques.
 
 Dans tous les cas, avec MyTado, il est fortement conseillé de n'utiliser dans vos scénarios que les commandes suivantes:
-- "activer": Mets en mode "AUTO" votre module.
-- "désactiver": Eteins votre module.
-- "changer de mode": Permet en particulier de basculer en mode manuel et de définir tout autre paramètre que vous souhaitez changer.
+- **activer**: Mets en mode `AUTO` votre module.
+- **désactiver**: Eteins votre module.
+- **changer de mode**: Permet en particulier de basculer en mode manuel et de définir tout autre paramètre que vous souhaitez changer.
 
 **Comment utliser la commande "changer de mode"?**
 
-Ajouter dans les options la clé "mode" associé à la valeur "MANUAL".
-Pour changer la température désirée, utilisée la clé "expected_temperature" suivie de la température désirée (le point est à utiliser comme séparateur de décimales).
+Ajouter dans les options la clé `mode` associé à la valeur `MANUAL`.
+Pour changer la température désirée, utilisée la clé `expected_temperature` suivie de la température désirée (le point est à utiliser comme séparateur de décimales).
 Pour les modules air conditionné, mettre la valeur souhaitée **en lettres captitales** (les valeurs disponibles sont visibles dans le widget) précédée d'une des clés suivantes:
-- "AC_mode"
-- "fan_speed"
-- "vertical_swing_mode"
-- "horizontal_swing_mode"
+- `AC_mode`  
+- `fan_speed`  
+- `vertical_swing_mode`  
+- `horizontal_swing_mode`
 
->Exemple de la balise "options" pour une vanne thermostatique:
->"options": {
->            "mode": "MANUAL",
->            "expected_temperature": "17.5",
->            "enable": "1",
->            "background": "0"
->        }
+>Exemple de la balise `options` pour une vanne thermostatique:
+> ```json
+> "options": {
+>     "mode": "MANUAL",
+>     "expected_temperature": "17.5",
+>     "enable": "1",
+>     "background": "0"
+> }
+> ```
 
->Exemple de la balise "options" pour une module d'air conditionné:
->"options": {
->            "mode": "MANUAL",
->            "expected_temperature": "17.5",
->            "AC_mode": "HEAT",
->            "enable": "1",
->            "background": "0"
->        }
+>Exemple de la balise `options` pour une module d'air conditionné:
+> ```json
+> "options": {
+>     "mode": "MANUAL",
+>     "expected_temperature": "17.5",
+>     "AC_mode": "HEAT",
+>     "enable": "1",
+>     "background": "0"
+> }
+> ```
 
 # En cas de problèmes
 

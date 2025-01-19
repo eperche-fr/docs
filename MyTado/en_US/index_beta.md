@@ -97,9 +97,9 @@ Several commands require one or more parameters. Until a future version of MyTad
 > Only save changes to your scenario using the button in JSON edit mode, or you will lose your specific option configurations.
 
 With MyTado, it is strongly recommended to use only the following commands in your scenarios:  
-- **"activate"**: Puts your module in "AUTO" mode.  
-- **"deactivate"**: Turns off your module.  
-- **"change mode"**: Allows you to switch to manual mode and define any other parameters you wish to change.
+- **activate**: Puts your module in "AUTO" mode.  
+- **deactivate**: Turns off your module.  
+- **change mode**: Allows you to switch to manual mode and define any other parameters you wish to change.
 
 **How to use the "change mode" command?**  
 

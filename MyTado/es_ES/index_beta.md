@@ -97,9 +97,9 @@ Algunos comandos requieren uno o más parámetros. Hasta que esté disponible un
 > Solo guarde los cambios de su escenario utilizando el botón en el modo de edición JSON, o perderá las configuraciones específicas de las opciones.
 
 Con MyTado, se recomienda encarecidamente usar solo los siguientes comandos en sus escenarios:  
-- **"activar"**: Cambia su módulo al modo "AUTO".  
-- **"desactivar"**: Apaga su módulo.  
-- **"cambiar de modo"**: Permite cambiar al modo manual y definir cualquier otro parámetro que desee modificar.
+- **activar**: Cambia su módulo al modo "AUTO".  
+- **desactivar**: Apaga su módulo.  
+- **cambiar de modo**: Permite cambiar al modo manual y definir cualquier otro parámetro que desee modificar.
 
 **¿Cómo usar el comando "cambiar de modo"?**  
 
