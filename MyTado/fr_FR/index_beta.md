@@ -92,7 +92,7 @@ Le widget affiche le temps qu'il fait sous forme d'image ainsi que la températu
 
 # Gérer des scénarios
 
-Différentes commandes nécessitent un ou des paramètres. En attendant une future version de MyTado qui permettra de saisir ou sélectionner les paramètres désirés, uen fis ajouter la commande désirée, il vous faut utiliser la version json des scénarios pour transmettre le paramètre désiré (bouton "Edition texte" dans la configuration des commandes du scénario). 
+Différentes commandes nécessitent un ou des paramètres. En attendant une future version de MyTado qui permettra de saisir ou sélectionner les paramètres désirés, il vous faut utiliser la version json des scénarios pour transmettre le paramètre désiré (bouton "Edition texte" dans la configuration des commandes du scénario). 
 >**ATTENTION**
 >Ne plus enregitrer les changements de votre scénario que par le bouton présent en mode édition du json, ou vous perdrez vos configurations d'options spécifiques.
 
@@ -101,7 +101,7 @@ Dans tous les cas, avec MyTado, il est fortement conseillé de n'utiliser dans v
 - **désactiver**: Eteins votre module.
 - **changer de mode**: Permet en particulier de basculer en mode manuel et de définir tout autre paramètre que vous souhaitez changer.
 
-**Comment utliser la commande "changer de mode"?**
+**Comment utiliser la commande "changer de mode"?**
 
 Ajouter dans les options la clé `mode` associé à la valeur `MANUAL`.
 Pour changer la température désirée, utilisée la clé `expected_temperature` suivie de la température désirée (le point est à utiliser comme séparateur de décimales).
@@ -134,5 +134,5 @@ Pour les modules air conditionné, mettre la valeur souhaitée **en lettres capt
 
 # En cas de problèmes
 
-Contactez le développeur en spécifiant les modèles d'objet Tado/TadoX que vous avez, les fonctionalités manquantes ou présentants un disfonctionnement, ainsi que toute information que vous jugerez utile. 
+Contactez le développeur en spécifiant les modèles d'objet Tado/TadoX que vous avez, les fonctionalités manquantes ou présentant un disfonctionnement, ainsi que toute information que vous jugerez utile. 
 Et n'oubliez pas de fournir les logs du plugin et de son démon (en prenant garde de masquer vos données personnelles).
