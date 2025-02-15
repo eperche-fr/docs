@@ -1,6 +1,13 @@
 # Changelog plugin MyTado - beta
 
-# 01/2025 - Versión 3.1
+# 02/2025 - Versión 4.0
+
+- El demonio ahora se basa en el módulo JeedomDaemon de Mips, que elimina cualquier fuga de memoria.
+- El equipo del hogar tiene una nueva acción que permite saber cuántos usuarios están en casa.
+- Los objetos con múltiples roles (por ejemplo: control de caldera y calentador de agua) ahora se representan con un equipo por función.
+- Los parámetros de las acciones ahora están disponibles durante las pruebas de comandos y en los escenarios.
+
+# 19/01/2025 - Versión 3.1
 
 - Los valores posibles de los diferentes parámetros de los módulos de aire acondicionado ahora se recuperan dinámicamente.  
 - Solucionado un problema al recuperar el estado de un dispositivo TadoX cuando está en modo manual durante un período definido.  

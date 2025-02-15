@@ -1,6 +1,14 @@
 # Changelog plugin MyTado - beta
 
-# 01/2025 - Version 3.1
+# 02/2025 - Version 4.0
+
+- The daemon now relies on the JeedomDaemon module by Mips, which eliminates any memory leaks.
+- The home equipment has a new action to determine how many users are at home.
+- Objects with multiple roles (e.g., boiler and water heater control) are now represented by one piece of equipment per function.
+- Action parameters are now available for command testing and in scenarios.  
+
+# 19/01/2025 - Version 3.1
+
 
 - The possible values for the various parameters of air conditioning modules are now retrieved dynamically.  
 - Fixed an issue with retrieving the state of a TadoX device when it is in manual mode for a defined duration.  

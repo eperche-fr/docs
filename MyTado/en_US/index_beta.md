@@ -92,45 +92,10 @@ The widget displays the weather as an image along with the current temperature a
 
 ### Managing Scenarios
 
-Several commands require one or more parameters. Until a future version of MyTado allows direct input or selection of desired parameters, you must use the JSON version of scenarios to pass the desired parameter (click the "Text Edit" button in the scenario command configuration).  
-> **WARNING**  
-> Only save changes to your scenario using the button in JSON edit mode, or you will lose your specific option configurations.
-
-With MyTado, it is strongly recommended to use only the following commands in your scenarios:  
-- **activate**: Puts your module in "AUTO" mode.  
-- **deactivate**: Turns off your module.  
-- **change mode**: Allows you to switch to manual mode and define any other parameters you wish to change.
-
-**How to use the "change mode" command?**  
-
-Add the key `mode` with the value `MANUAL` in the options.  
-To change the desired temperature, use the key `expected_temperature` followed by the desired temperature (a period is used as the decimal separator).  
-For air conditioning modules, enter the desired value **in capital letters** (available values are displayed in the widget) preceded by one of the following keys:  
-- `AC_mode`  
-- `fan_speed`  
-- `vertical_swing_mode`  
-- `horizontal_swing_mode`
-
-> Example of the `options` field for a thermostat valve:  
-> ```json
-> "options": {
->     "mode": "MANUAL",
->     "expected_temperature": "17.5",
->     "enable": "1",
->     "background": "0"
-> }
-> ```
-
-> Example of the `options` field for an air conditioning module:  
-> ```json
-> "options": {
->     "mode": "MANUAL",
->     "expected_temperature": "17.5",
->     "AC_mode": "HEAT",
->     "enable": "1",
->     "background": "0"
-> }
-> ```
+There are no particular constraints when using actions in your scenarios.  
+Except for configuration actions for AC modules.  
+In this case, you must always first switch to an AC mode other than "auto" before setting a desired temperature (and probably other parameters).  
+Otherwise, you will receive an error in the logs informing you of this constraint.
 
 ### Troubleshooting
 

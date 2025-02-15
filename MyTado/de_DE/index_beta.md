@@ -92,45 +92,10 @@ Das Widget zeigt das Wetter in Form eines Bildes sowie die aktuelle Temperatur u
 
 ### Szenarien verwalten
 
-Verschiedene Befehle erfordern einen oder mehrere Parameter. Bis eine zukünftige Version von MyTado verfügbar ist, die es ermöglicht, die gewünschten Parameter direkt einzugeben oder auszuwählen, müssen Sie die JSON-Version der Szenarien verwenden, um den gewünschten Parameter zu übermitteln (Schaltfläche „Textbearbeitung“ in der Befehlskonfiguration des Szenarios).  
-> **ACHTUNG**  
-> Änderungen an Ihrem Szenario sollten nur über die Schaltfläche im JSON-Bearbeitungsmodus gespeichert werden, da Sie sonst Ihre spezifischen Optionen verlieren.
-
-Mit MyTado wird dringend empfohlen, in Ihren Szenarien nur die folgenden Befehle zu verwenden:  
-- **aktivieren**: Schaltet Ihr Modul in den „AUTO“-Modus.  
-- **deaktivieren**: Schaltet Ihr Modul aus.  
-- **Modus ändern**: Ermöglicht insbesondere das Umschalten in den manuellen Modus und das Festlegen anderer Parameter, die Sie ändern möchten.
-
-**Wie wird der Befehl „Modus ändern“ verwendet?**  
-
-Fügen Sie in den Optionen den Schlüssel `mode` mit dem Wert `MANUAL` hinzu.  
-Um die gewünschte Temperatur zu ändern, verwenden Sie den Schlüssel `expected_temperature` gefolgt von der gewünschten Temperatur (der Punkt wird als Dezimaltrennzeichen verwendet).  
-Für Klimaanlagen geben Sie den gewünschten Wert **in Großbuchstaben** an (verfügbare Werte finden Sie im Widget), und zwar in Kombination mit einem der folgenden Schlüssel:  
-- `AC_mode`  
-- `fan_speed`  
-- `vertical_swing_mode`  
-- `horizontal_swing_mode`
-
-> Beispiel für das Feld `options` für ein Thermostatventil:  
-> ```json
-> "options": {
->     "mode": "MANUAL",
->     "expected_temperature": "17.5",
->     "enable": "1",
->     "background": "0"
-> }
-> ```
-
-> Beispiel für das Feld `options` für ein Klimamodul:  
-> ```json
-> "options": {
->     "mode": "MANUAL",
->     "expected_temperature": "17.5",
->     "AC_mode": "HEAT",
->     "enable": "1",
->     "background": "0"
-> }
-> ```
+Es gibt keine besonderen Einschränkungen bei der Verwendung von Aktionen in Ihren Szenarien.  
+Mit Ausnahme der Konfigurationsaktionen für AC-Module.  
+In diesem Fall muss zuerst ein AC-Modus gewählt werden, der sich von "auto" unterscheidet, bevor eine gewünschte Temperatur (und wahrscheinlich andere Parameter) festgelegt werden kann.  
+Andernfalls erhalten Sie eine Fehlermeldung in den Logs, die Sie auf diese Einschränkung hinweist.
 
 ### Bei Problemen
 
