@@ -1,5 +1,12 @@
 # Changelog plugin MyTado
 
+# 02/2025 - Version 4.0
+
+- Le démon s'appuye maintenant sur le module jeedomdaemon de Mips qui supprime toute fuite mémoire
+- L'équipement maison a une nouvelle action permettant de savoir combien d'utilisateurs sont présents à la maison
+- Les objets jouant plusieurs rôles (par exemple: contrôle chaudière et chauffe-eau) sont maintenant représentés par un équipment par fonction
+- Les paramètres des actions sont maintenant disponibles lors des tests de commande et dans les scénarios
+
 # 01/2025 - Version 3.1
 
 - Les valeurs possibles des différents paramètres des modules d'air conditionné sont à présent recupérées dynamiquement.

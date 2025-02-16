@@ -1,5 +1,12 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
+# 02.2025 - Version 4.0
+
+- Der Dämon basiert nun auf dem JeedomDaemon-Modul von Mips, das alle Speicherlecks behebt.
+- Das Hausequipment hat eine neue Aktion, mit der festgestellt werden kann, wie viele Benutzer zu Hause sind.
+- Objekte mit mehreren Rollen (z. B.: Heizkessel- und Warmwassersteuerung) werden jetzt durch ein Gerät pro Funktion dargestellt.
+- Die Parameter der Aktionen sind jetzt bei Befehlsprüfungen und in Szenarien verfügbar.
+
 # 01.2025 - Version 3.1
 
 - Die möglichen Werte der verschiedenen Parameter für Klimaanlagenmodule werden jetzt dynamisch abgerufen.  
