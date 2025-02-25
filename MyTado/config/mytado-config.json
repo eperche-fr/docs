@@ -1,0 +1,465 @@
+{
+    "device-commands":[
+        {"refresh" : 
+            {
+                "displayed_name" : "Rafraichir",
+                "type" : "action",
+                "subType" : "other",
+                "icon" : "jeedomapp jeedomapp-reload"
+            }
+        },
+        {"identify" : {
+                "displayed_name": "Identifier",
+                "type": "action",
+                "subType": "other",
+                "icon": "kiko kiko-hand"
+            }
+        },
+        {"is_enabled": {
+                "displayed_name": "Status",
+                "type": "info",
+                "subType": "binary",
+                "icon": "fas fa-question-circle",
+                "generic_type": "THERMOSTAT_STATE"
+            }
+        },
+        {"last_update": {
+                "displayed_name": "Dernière mise à jour",
+                "type": "info",
+                "subType": "string",
+                "icon": "jeedomapp jeedomapp-reload"
+            }
+        },
+        {"battery_state": {
+                "displayed_name": "Etat de la batterie",
+                "type": "info",
+                "subType": "string",
+                "icon": "fas fa-battery-half"
+            }
+        },
+        {"expected_temperature": {
+                "displayed_name": "Température désirée",
+                "type": "info",
+                "subType": "numeric",
+                "unitFunction": "getTemperatureUnit",
+                "icon": "jeedomapp jeedomapp-thermostat",
+                "generic_type": "THERMOSTAT_SETPOINT"
+            }
+        },
+        {"mode": {
+                "displayed_name": "Mode",
+                "type": "info",
+                "subType": "string",
+                "icon": "mdi mdi-power-settings",
+                "generic_type": "THERMOSTAT_MODE",
+                "possible_values": [
+                    "AUTO|Autonome",
+                    "MANUAL|Manuel",
+                    "OFF|Eteint"
+                ]
+            }
+        },
+        {"temperature": {
+                "displayed_name": "Température",
+                "type": "info",
+                "subType": "numeric",
+                "is_historized_by_default": true,
+                "unitFunction": "getTemperatureUnit",
+                "icon": "jeedomapp jeedomapp-temperature",
+                "generic_type": "THERMOSTAT_TEMPERATURE"
+            }
+        },
+        {"humidity": {
+                "displayed_name": "Humidité",
+                "type": "info",
+                "subType": "numeric",
+                "is_historized_by_default": true,
+                "unit": "%",
+                "icon": "jeedomapp jeedomapp-humidity",
+                "generic_type": "THERMOSTAT_HUMIDITY"
+            }
+        },
+        {"heating_power": {
+                "displayed_name": "Puissance de chauffe",
+                "type": "info",
+                "subType": "numeric",
+                "unit": "%",
+                "icon": "fas fa-bolt"
+            }
+        },
+        {"AC_mode": {
+                "displayed_name": "Mode AC",
+                "type": "info",
+                "subType": "string",
+                "icon": "kiko kiko-air-conditioner",
+                "get_possible_values_function": "getAvailableACModes"
+            }
+        },
+        {"fan_speed": {
+                "displayed_name": "Vitesse du ventilateur",
+                "type": "info",
+                "subType": "string",
+                "icon": "mdi mdi-fan",
+                "get_possible_values_function": "getAvailableFanSpeeds"
+            }
+        },
+        {"vertical_swing_mode": {
+                "displayed_name": "Oscillation verticale de la ventilation",
+                "type": "info",
+                "subType": "string",
+                "icon": "jeedomapp jeedomapp-dirDB",
+                "get_possible_values_function": "getAvailableVerticalSwingModes"
+            }
+        },
+        {"horizontal_swing_mode": {
+                "displayed_name": "Oscillation horizontale de la ventilation",
+                "type": "info",
+                "subType": "string",
+                "icon": "jeedomapp jeedomapp-dirDB",
+                "get_possible_values_function": "getAvailableHorizontalSwingModes"
+            }
+        },
+        {"set_expected_temperature": {
+                "displayed_name": "Définir la température désirée",
+                "type": "action",
+                "subType": "message",
+                "icon": "jeedomapp jeedomapp-thermostat",
+                "related_info_cmd": "expected_temperature",
+                "generic_type": "THERMOSTAT_SET_SETPOINT"
+            }
+        },
+        {"set_mode": {
+                "displayed_name": "Définir le mode",
+                "type": "action",
+                "subType": "select",
+                "icon": "mdi mdi-power-settings",
+                "related_info_cmd":"mode",
+                "generic_type": "THERMOSTAT_SET_MODE"
+            }
+        },
+        {"enable": {
+                "displayed_name": "Activer",
+                "type": "action",
+                "subType": "other",
+                "icon": "fas fa-play-circle",
+                "related_info_cmd": "mode",
+                "related_info_cmd_value": "AUTO"
+            }
+        },
+        {"disable": {
+                "displayed_name": "Désactiver",
+                "type": "action",
+                "subType": "other",
+                "icon": "fas fa-stop-circle",
+                "related_info_cmd":"mode",
+                "related_info_cmd_value": "OFF"
+            }
+        },
+        {"set_AC_mode": {
+                "displayed_name": "Définir le mode AC",
+                "type": "action",
+                "subType": "select",
+                "related_info_cmd":"AC_mode",
+                "icon": "kiko kiko-air-conditioner"
+            }
+        },
+        {"set_fan_speed": {
+                "displayed_name": "Définir le vitesse de ventilation",
+                "type": "action",
+                "subType": "select",
+                "related_info_cmd": "fan_speed",
+                "icon": "mdi mdi-fan"
+            }
+        },
+        {"set_vertical_swing_mode": {
+                "displayed_name": "Activer oscillation verticale de la ventilation",
+                "type": "action",
+                "subType": "select",
+                "related_info_cmd": "vertical_swing_mode",
+                "icon": "jeedomapp jeedomapp-dirDB"
+            }
+        },
+        {"set_horizontal_swing_mode": {
+                "displayed_name": "Activer oscillation horizontale de la ventilation",
+                "type": "action",
+                "subType": "select",
+                "related_info_cmd": "horizontal_swing_mode",
+                "icon": "jeedomapp jeedomapp-dirDB"
+            }
+        }
+    ],
+    "home-commands":[
+        {"refresh": {
+                "displayed_name": "Rafraichir",
+                "type": "action",
+                "subType": "other",
+                "icon": "jeedomapp jeedomapp-reload"
+            }
+        },
+        {"solar_intensity": {
+                "displayed_name": "Intensité solaire",
+                "type": "info",
+                "subType": "numeric",
+                "unit": "%",
+                "icon": "jeedomapp jeedomapp-sun"}
+            },
+        {"temperature": {
+                "displayed_name": "Température",
+                "type": "info",
+                "subType": "numeric",
+                "unitFunction": "getTemperatureUnit",
+                "generic_type": "WEATHER_TEMPERATURE",
+                "icon": "jeedomapp jeedomapp-temperature"}
+            },
+        {"state": {
+                "displayed_name": "Condition météo",
+                "type": "info",
+                "subType": "string",
+                "generic_type": "WEATHER_CONDITION"}
+            },
+        {"amount_of_users_at_home": {
+                "displayed_name": "Présence à la maison",
+                "type": "info",
+                "subType": "numeric",
+                "icon": "fas fa-users"}
+            }
+    ],
+    "devices":[
+        {"BU0X": {
+                "name": "Contrôleur chauffe-eau",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state"
+                ],
+                "widget": "MyTado_DeviceEq"
+            }
+        },
+        {"BR0X": {
+                "name": "Contrôleur chauffe-eau",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state"
+                ],
+                "widget": "MyTado_DeviceEq"
+            }
+        },
+        {"BP0X": {
+                "name": "Contrôleur chauffe-eau",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state"
+                ],
+                "widget": "MyTado_DeviceEq"
+            }
+        },
+        {"TR0X": {
+                "name": "Contrôleur chauffe-eau X",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state"
+                ],
+                "widget": "MyTado_DeviceEq"
+            }
+        },
+        {"PR0X": {
+                "name": "Contrôleur chauffe-eau X",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state"
+                ],
+                "widget": "MyTado_DeviceEq"
+            }
+        },
+        {"RU0X": {
+                "name": "Contrôleur chaudière",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state",
+                    "humidity",
+                    "heating_power"
+                ],
+                "widget": "MyTado_DeviceEq"
+            }
+        },
+        {"SU0X": {
+                "name": "Sonde de température",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state",
+                    "humidity",
+                    "heating_power"
+                ],
+                "widget": "MyTado_DeviceEq"
+            }
+        },
+        {"SU04": {
+                "name": "Sonde de température X",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state",
+                    "humidity",
+                    "heating_power"
+                ],
+                "widget": "MyTado_DeviceEq"
+            }
+        },
+        {"VA0X": {
+                "name": "Tête thermostatique",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state",
+                    "humidity",
+                    "heating_power"
+                ],
+                "widget": "MyTado_DeviceEq"
+            }
+        },
+        {"CK0X": {
+                "name": "Contrôleur air conditionné X",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "set_AC_mode",
+                    "set_fan_speed",
+                    "set_vertical_swing_mode",
+                    "set_horizontal_swing_mode",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state",
+                    "humidity",
+                    "AC_mode",
+                    "fan_speed",
+                    "vertical_swing_mode",
+                    "horizontal_swing_mode"
+                ],
+                "widget": "MyTado_DeviceEq_AC"
+            }
+        },
+        {"WR0X": {
+                "name": "Contrôleur air conditionné",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "set_AC_mode",
+                    "set_fan_speed",
+                    "set_vertical_swing_mode",
+                    "set_horizontal_swing_mode",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state",
+                    "humidity",
+                    "AC_mode",
+                    "fan_speed",
+                    "vertical_swing_mode",
+                    "horizontal_swing_mode"
+                ],
+                "widget": "MyTado_DeviceEq_AC"
+            }
+        }
+    ]
+
+}
