@@ -3,7 +3,8 @@
 # 26/02/2025 - Version 5.0  
 
 - Overhaul of equipment configuration management for greater flexibility in the future  
-- Added "user" type equipment to obtain detailed information about Tado user locations for your scenarios  
+- Added "user" type equipment to obtain detailed information about Tado user locations for your scenarios
+- Ability to choose the data refresh rate
 
 # 02/20/2025 - Version 4.1
 
