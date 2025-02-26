@@ -224,6 +224,29 @@
                 "icon": "fas fa-users"}
             }
     ],
+    "user-commands":[
+        {"refresh": {
+                "displayed_name": "Rafraichir",
+                "type": "action",
+                "subType": "other",
+                "icon": "jeedomapp jeedomapp-reload"
+            }
+        },
+        {"is_at_home": {
+                "displayed_name": "A la maison",
+                "type": "info",
+                "subType": "numeric",
+                "icon": "sante filled_symbols_home-quarantine"
+            }
+        },
+        {"distance_from_home": {
+                "displayed_name": "Distance de la maison",
+                "type": "info",
+                "subType": "numeric",
+                "icon": "sante filled_symbols_geo_location"
+            }
+        }
+    ],
     "devices":[
         {"BU0X": {
                 "name": "Contrôleur chauffe-eau",

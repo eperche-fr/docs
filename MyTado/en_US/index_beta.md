@@ -90,6 +90,15 @@ Data updates every 30 minutes, but you can force an update on demand with the **
 
 The widget displays the weather as an image along with the current temperature and brightness.
 
+### The Tado User <img src="../images/MyTado_user.png" width="60"/>  
+
+Clicking on a Tado user takes you directly to their configuration page:  
+- **Equipment name**: The name you assigned to the person in Jeedom (by default, the name set in Tado will appear).  
+- **Parent object**: Indicates the parent object to which the user is associated. You need to define it.  
+- **Category**: Allows you to choose the equipment category.  
+
+Clicking on the **Commands** tab displays a list of all available commands, along with the option to store the obtained values.  
+
 ### Managing Scenarios
 
 There are no particular constraints when using actions in your scenarios.  

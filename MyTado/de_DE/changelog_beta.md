@@ -1,6 +1,16 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
-# 02.2025 - Version 4.0
+# 26.02.2025 - Version 5.0  
+
+- Überarbeitung der Verwaltung von Gerätekonfigurationen für mehr Flexibilität in der Zukunft  
+- Hinzufügen von "Benutzer"-Geräten, um detaillierte Informationen über die Standorte der Tado-Benutzer für Ihre Szenarien zu erhalten  
+
+# 20.02.2025 - Version 4.1
+
+- Für **TadoX**-Geräte wird jetzt die **vom Gerät gemessene Temperatur** angezeigt (und nicht mehr die der Zone).
+- Das **Tado Home-Widget** zeigt nun **die Anzahl der anwesenden Personen** an.
+
+# 16.02.2025 - Version 4.0
 
 - Der Dämon basiert nun auf dem JeedomDaemon-Modul von Mips, das alle Speicherlecks behebt.
 - Das Hausequipment hat eine neue Aktion, mit der festgestellt werden kann, wie viele Benutzer zu Hause sind.

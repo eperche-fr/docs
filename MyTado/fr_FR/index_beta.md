@@ -90,6 +90,15 @@ Les données sont mises à jour toutes les 30mn, mais vous pouvez forcer la mise
 
 Le widget affiche le temps qu'il fait sous forme d'image ainsi que la température et la luminosité actuelle.
 
+### L'utilisateur Tado <img src="../images/MyTado_user.png" width="60"/>
+
+En cliquant sur un utilisateur Tado, on arrive directement sur sa page de configuration :
+- **Nom de l’équipement** : Nom que vous avez donné à la personne sur jeedom (par défaut, le nom défini sur Tado apparaîtra).
+- **Objet parent** : Indique l’objet parent auquel associer l'utilisateur. A vous de le défnir.
+- **Catégorie** : Permet de choisir la catégorie de l'équipement.
+
+En cliquant sur l'onglet **Commandes**, on retrouve la liste de toutes les commandes disponibles ainsi que la possibilité d’historiser les valeurs obtenues.
+
 # Gérer des scénarios
 
 Il n'y a pas de contraintes particulières dans l'utilisation des actions au sein de vos scénarios. 

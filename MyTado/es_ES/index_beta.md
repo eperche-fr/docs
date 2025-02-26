@@ -90,6 +90,15 @@ Los datos se actualizan cada 30 minutos, pero puede forzar la actualización a p
 
 El widget muestra el clima en forma de imagen, así como la temperatura y luminosidad actual.
 
+### El usuario de Tado <img src="../images/MyTado_user.png" width="60"/>  
+
+Al hacer clic en un usuario de Tado, se accede directamente a su página de configuración:  
+- **Nombre del equipo**: Nombre que le asignaste a la persona en Jeedom (por defecto, aparecerá el nombre definido en Tado).  
+- **Objeto padre**: Indica el objeto padre al que se asocia el usuario. Debes definirlo.  
+- **Categoría**: Permite elegir la categoría del equipo.  
+
+Al hacer clic en la pestaña **Comandos**, se muestra una lista de todos los comandos disponibles, así como la opción de almacenar los valores obtenidos.  
+
 ### Gestión de Escenarios
 
 No hay restricciones particulares en el uso de acciones dentro de sus escenarios.  

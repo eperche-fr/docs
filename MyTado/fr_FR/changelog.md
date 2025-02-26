@@ -1,6 +1,11 @@
 # Changelog plugin MyTado
 
-# 02/2025 - Version 4.0
+# 20/02/2025 - Version 4.1
+
+- Pour les objets **TadoX**, la température affichée est maintenant celle **mesurée par l'objet** (et non plus celle de la zone).
+- Le widget **maison Tado** affiche désormais **le nombre de personnes présentes**.
+
+# 16/02/2025 - Version 4.0
 
 - Le démon s'appuye maintenant sur le module jeedomdaemon de Mips qui supprime toute fuite mémoire
 - L'équipement maison a une nouvelle action permettant de savoir combien d'utilisateurs sont présents à la maison

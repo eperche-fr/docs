@@ -90,6 +90,15 @@ Die Daten werden alle 30 Minuten aktualisiert, aber Sie können mit dem **Aktual
 
 Das Widget zeigt das Wetter in Form eines Bildes sowie die aktuelle Temperatur und Helligkeit an.
 
+### Der Tado-Benutzer <img src="../images/MyTado_user.png" width="60"/>  
+
+Durch Klicken auf einen Tado-Benutzer gelangt man direkt zur Konfigurationsseite:  
+- **Gerätename**: Der Name, den Sie der Person in Jeedom zugewiesen haben (standardmäßig wird der in Tado festgelegte Name angezeigt).  
+- **Übergeordnetes Objekt**: Gibt das übergeordnete Objekt an, dem der Benutzer zugeordnet ist. Dies müssen Sie festlegen.  
+- **Kategorie**: Ermöglicht die Auswahl der Geräte-Kategorie.  
+
+Durch Klicken auf den **Befehle**-Tab wird eine Liste aller verfügbaren Befehle angezeigt, sowie die Möglichkeit, die erhaltenen Werte zu speichern.  
+
 ### Szenarien verwalten
 
 Es gibt keine besonderen Einschränkungen bei der Verwendung von Aktionen in Ihren Szenarien.  
