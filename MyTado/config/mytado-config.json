@@ -34,7 +34,11 @@
                 "displayed_name": "Etat de la batterie",
                 "type": "info",
                 "subType": "string",
-                "icon": "fas fa-battery-half"
+                "icon": "fas fa-battery-empty",
+                "possible_values":[
+                    "NORMAL|Pleine|fas fa-battery-full",
+                    "LOW|Faible|fas fa-battery-quarter"
+                ]
             }
         },
         {"expected_temperature": {
@@ -189,40 +193,61 @@
         }
     ],
     "home-commands":[
-        {"refresh": {
+        {"refresh": 
+            {
                 "displayed_name": "Rafraichir",
                 "type": "action",
                 "subType": "other",
                 "icon": "jeedomapp jeedomapp-reload"
             }
         },
-        {"solar_intensity": {
+        {"solar_intensity": 
+            {
                 "displayed_name": "Intensité solaire",
                 "type": "info",
                 "subType": "numeric",
                 "unit": "%",
-                "icon": "jeedomapp jeedomapp-sun"}
-            },
-        {"temperature": {
+                "icon": "jeedomapp jeedomapp-sun"
+            }
+        },
+        {"temperature": 
+            {
                 "displayed_name": "Température",
                 "type": "info",
                 "subType": "numeric",
                 "unitFunction": "getTemperatureUnit",
                 "generic_type": "WEATHER_TEMPERATURE",
-                "icon": "jeedomapp jeedomapp-temperature"}
-            },
-        {"state": {
+                "icon": "jeedomapp jeedomapp-temperature"
+            }
+        },
+        {"state": 
+            {
                 "displayed_name": "Condition météo",
                 "type": "info",
                 "subType": "string",
-                "generic_type": "WEATHER_CONDITION"}
-            },
-        {"amount_of_users_at_home": {
+                "generic_type": "WEATHER_CONDITION",
+                "possible_values": [
+                    "CLOUDY_MOSTLY|Principalement nuageux",
+                    "CLOUDY_PARTLY|Partiellement nuageux",
+                    "CLOUDY|Nuageux",
+                    "DRIZZLE|Bruineux",
+                    "FOGGY|Brumeux",
+                    "NIGHT_CLEAR|Nuit claire",
+                    "NIGHT_CLOUDY|Nuit nuageuse",
+                    "RAIN|Pluvieux",
+                    "SCATTERED_RAIN|Pluie éparse",
+                    "SUN|Ensoleillé"
+                ]
+            }
+        },
+        {"amount_of_users_at_home": 
+            {
                 "displayed_name": "Présence à la maison",
                 "type": "info",
                 "subType": "numeric",
-                "icon": "fas fa-users"}
+                "icon": "fas fa-users"
             }
+        }
     ],
     "user-commands":[
         {"refresh": {
@@ -484,5 +509,4 @@
             }
         }
     ]
-
 }
