@@ -96,6 +96,7 @@ En cliquant sur un utilisateur Tado, on arrive directement sur sa page de config
 - **Nom de l’équipement** : Nom que vous avez donné à la personne sur jeedom (par défaut, le nom défini sur Tado apparaîtra).
 - **Objet parent** : Indique l’objet parent auquel associer l'utilisateur. A vous de le défnir.
 - **Catégorie** : Permet de choisir la catégorie de l'équipement.
+- **Changer l'image** : Permet de choisir une photo pour personnaliser l'identification de l'utilisateur dans la liste de objets et la présence sur le widget *maison*.
 
 En cliquant sur l'onglet **Commandes**, on retrouve la liste de toutes les commandes disponibles ainsi que la possibilité d’historiser les valeurs obtenues.
 

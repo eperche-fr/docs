@@ -1,9 +1,9 @@
 # Changelog plugin MyTado - beta
 
-# 26/02/2025 - Version 5.0
+# 08/03/2025 - Version 5.0
 
 - Refonte de la gestion des configurations d'équipements pour une plus grande flexibilité à l'avenir
-- Ajout des équipements de type "utilisateurs" afin d'obetnir du détail sur la localisation des utilisateurs Tado pour vos scénarios
+- Ajout des équipements de type "utilisateurs" afin d'obtenir du détail sur la localisation des utilisateurs Tado pour vos scénarios
 - Possibilité de choisir la fréquence de rafraissiement des données
 
 # 20/02/2025 - Version 4.1

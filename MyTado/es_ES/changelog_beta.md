@@ -1,6 +1,6 @@
 # Changelog plugin MyTado - beta
 
-# 26/02/2025 - Version 5.0  
+# 08/03/2025 - Version 5.0  
 
 - Reestructuración de la gestión de configuraciones de equipos para una mayor flexibilidad en el futuro  
 - Añadido el tipo de equipo "usuarios" para obtener información detallada sobre la ubicación de los usuarios de Tado en sus escenarios

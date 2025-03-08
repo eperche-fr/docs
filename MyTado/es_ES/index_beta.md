@@ -96,6 +96,7 @@ Al hacer clic en un usuario de Tado, se accede directamente a su página de conf
 - **Nombre del equipo**: Nombre que le asignaste a la persona en Jeedom (por defecto, aparecerá el nombre definido en Tado).  
 - **Objeto padre**: Indica el objeto padre al que se asocia el usuario. Debes definirlo.  
 - **Categoría**: Permite elegir la categoría del equipo.  
+- **Cambiar imagen**: Permite elegir una foto para personalizar la identificación del usuario en la lista de objetos y la presencia en el widget *casa*.
 
 Al hacer clic en la pestaña **Comandos**, se muestra una lista de todos los comandos disponibles, así como la opción de almacenar los valores obtenidos.  
 

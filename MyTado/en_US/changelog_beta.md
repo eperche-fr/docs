@@ -1,6 +1,6 @@
 # Changelog plugin MyTado - beta
 
-# 26/02/2025 - Version 5.0  
+# 03/08/2025 - Version 5.0  
 
 - Overhaul of equipment configuration management for greater flexibility in the future  
 - Added "user" type equipment to obtain detailed information about Tado user locations for your scenarios
@@ -11,7 +11,7 @@
 - For **TadoX** devices, the displayed temperature is now the **one measured by the device** (instead of the zone temperature).
 - The **Tado Home widget** now shows **the number of people present**.
 
-# 16/02/2025 - Version 4.0
+# 02/16/2025 - Version 4.0
 
 - The daemon now relies on the JeedomDaemon module by Mips, which eliminates any memory leaks.
 - The home equipment has a new action to determine how many users are at home.

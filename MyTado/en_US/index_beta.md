@@ -96,6 +96,7 @@ Clicking on a Tado user takes you directly to their configuration page:
 - **Equipment name**: The name you assigned to the person in Jeedom (by default, the name set in Tado will appear).  
 - **Parent object**: Indicates the parent object to which the user is associated. You need to define it.  
 - **Category**: Allows you to choose the equipment category.  
+- **Change Image**: Allows you to choose a picture to personalize the user's identification in the list of objects and the presence on the *home* widget.
 
 Clicking on the **Commands** tab displays a list of all available commands, along with the option to store the obtained values.  
 

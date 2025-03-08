@@ -96,6 +96,7 @@ Durch Klicken auf einen Tado-Benutzer gelangt man direkt zur Konfigurationsseite
 - **Gerätename**: Der Name, den Sie der Person in Jeedom zugewiesen haben (standardmäßig wird der in Tado festgelegte Name angezeigt).  
 - **Übergeordnetes Objekt**: Gibt das übergeordnete Objekt an, dem der Benutzer zugeordnet ist. Dies müssen Sie festlegen.  
 - **Kategorie**: Ermöglicht die Auswahl der Geräte-Kategorie.  
+- **Bild ändern**: Ermöglicht die Auswahl eines Fotos, um die Identifikation des Benutzers in der Objektliste und die Anwesenheit im *Haus*-Widget zu personalisieren.
 
 Durch Klicken auf den **Befehle**-Tab wird eine Liste aller verfügbaren Befehle angezeigt, sowie die Möglichkeit, die erhaltenen Werte zu speichern.  
 
