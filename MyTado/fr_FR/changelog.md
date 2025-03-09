@@ -5,7 +5,7 @@
 - Refonte de la gestion des configurations d'équipements pour une plus grande flexibilité à l'avenir indépendemment des versions du plugin.
 - Ajout des équipements de type **utilisateurs** afin d'obtenir du détail sur la localisation des utilisateurs Tado pour vos scénarios.
 - Il est possible de personnaliser l'image des utilisateurs, et celle-ci est affichée sur le widget **maison** en cas de présence.
-- Possibilité de choisir la fréquence de rafraissiement des données.
+- Possibilité de choisir la fréquence de rafraichissement des données.
 
 # 20/02/2025 - Version 4.1
 
