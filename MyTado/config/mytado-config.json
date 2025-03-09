@@ -247,6 +247,13 @@
                 "subType": "numeric",
                 "icon": "fas fa-users"
             }
+        },
+        {"last_update": {
+                "displayed_name": "Dernière mise à jour",
+                "type": "info",
+                "subType": "string",
+                "icon": "jeedomapp jeedomapp-reload"
+            }
         }
     ],
     "user-commands":[
