@@ -88,7 +88,7 @@ Sowie Ihre Tado-Anmeldeinformationen für dieses Haus (vergessen Sie nicht, Ihr 
 Wenn Sie auf den **Befehle**-Tab klicken, wird eine Liste aller verfügbaren Befehle und die Möglichkeit zur Protokollierung numerischer Werte und des Wetterzustands angezeigt.
 Die Daten werden alle 30 Minuten aktualisiert, aber Sie können mit dem **Aktualisieren**-Befehl eine Aktualisierung auf Abruf erzwingen (beachten Sie, dass dies die Aktualisierung der Wetterdaten sowie aller Geräte, die zu diesem Haus gehören, erzwingt).
 
-Das Widget zeigt das Wetter in Form eines Bildes sowie die aktuelle Temperatur und Helligkeit an.
+Das Widget zeigt das aktuelle Wetter als Bild sowie die Temperatur, die aktuelle Helligkeit und die anwesenden Personen im Haus an.
 
 ### Der Tado-Benutzer <img src="../images/MyTado_user.png" width="60"/>  
 

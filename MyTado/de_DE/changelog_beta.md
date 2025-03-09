@@ -1,10 +1,11 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
-# 08.03.2025 - Version 5.0  
+# 09.03.2025 - Version 5.0
 
-- Überarbeitung der Verwaltung von Gerätekonfigurationen für mehr Flexibilität in der Zukunft  
-- Hinzufügen von "Benutzer"-Geräten, um detaillierte Informationen über die Standorte der Tado-Benutzer für Ihre Szenarien zu erhalten
-- Möglichkeit, die Aktualisierungsrate der Daten zu wählen
+- Überarbeitung der Verwaltung der Gerätekonfigurationen für mehr Flexibilität in der Zukunft, unabhängig von den Plugin-Versionen.
+- Hinzufügen von **Benutzer**-Geräten, um detaillierte Informationen über die Standorte der Tado-Benutzer für Ihre Szenarien zu erhalten.
+- Es ist jetzt möglich, Benutzerbilder anzupassen, die auf dem **Haus**-Widget bei Anwesenheit angezeigt werden.
+- Möglichkeit, die Aktualisierungsfrequenz der Daten zu wählen.
 
 # 20.02.2025 - Version 4.1
 

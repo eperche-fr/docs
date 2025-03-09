@@ -88,7 +88,17 @@ As well as your Tado connection information for this home (don't forget to chang
 Clicking on the **Commands** tab shows a list of all available commands and the option to log numerical values and weather status.
 Data updates every 30 minutes, but you can force an update on demand with the **Refresh** command (note that this forces the update of weather data as well as all your devices belonging to this home).
 
-The widget displays the weather as an image along with the current temperature and brightness.
+The widget displays the current weather as an image, along with the temperature, current brightness, and the people present at home.
+
+### The Tado User <img src="../images/MyTado_user.png" width="60"/>  
+
+Clicking on a Tado user takes you directly to their configuration page:  
+- **Equipment name**: The name you assigned to the person in Jeedom (by default, the name set in Tado will appear).  
+- **Parent object**: Indicates the parent object to which the user is associated. You need to define it.  
+- **Category**: Allows you to choose the equipment category.  
+- **Change Image**: Allows you to choose a picture to personalize the user's identification in the list of objects and the presence on the *home* widget.
+
+Clicking on the **Commands** tab displays a list of all available commands, along with the option to store the obtained values.  
 
 ### Managing Scenarios
 

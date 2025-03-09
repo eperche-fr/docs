@@ -1,5 +1,12 @@
 # Changelog plugin MyTado
 
+# 09/03/2025 - Version 5.0
+
+- Refonte de la gestion des configurations d'équipements pour une plus grande flexibilité à l'avenir indépendemment des versions du plugin.
+- Ajout des équipements de type **utilisateurs** afin d'obtenir du détail sur la localisation des utilisateurs Tado pour vos scénarios.
+- Il est possible de personnaliser l'image des utilisateurs, et celle-ci est affichée sur le widget **maison** en cas de présence.
+- Possibilité de choisir la fréquence de rafraissiement des données.
+
 # 20/02/2025 - Version 4.1
 
 - Pour les objets **TadoX**, la température affichée est maintenant celle **mesurée par l'objet** (et non plus celle de la zone).

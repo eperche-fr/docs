@@ -1,5 +1,12 @@
 # Changelog plugin MyTado
 
+# 03/09/2025 - Version 5.0
+
+- Redesign of equipment configuration management for greater flexibility in the future, regardless of plugin versions.
+- Added **user**-type equipment to obtain detailed information on Tado user locations for your scenarios.
+- It is now possible to customize user images, which are displayed on the **home** widget when present.
+- Ability to choose the data refresh frequency.
+
 # 02/20/2025 - Version 4.1
 
 - For **TadoX** devices, the displayed temperature is now the **one measured by the device** (instead of the zone temperature).

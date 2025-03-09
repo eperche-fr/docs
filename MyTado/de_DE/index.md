@@ -88,7 +88,17 @@ Sowie Ihre Tado-Anmeldeinformationen für dieses Haus (vergessen Sie nicht, Ihr 
 Wenn Sie auf den **Befehle**-Tab klicken, wird eine Liste aller verfügbaren Befehle und die Möglichkeit zur Protokollierung numerischer Werte und des Wetterzustands angezeigt.
 Die Daten werden alle 30 Minuten aktualisiert, aber Sie können mit dem **Aktualisieren**-Befehl eine Aktualisierung auf Abruf erzwingen (beachten Sie, dass dies die Aktualisierung der Wetterdaten sowie aller Geräte, die zu diesem Haus gehören, erzwingt).
 
-Das Widget zeigt das Wetter in Form eines Bildes sowie die aktuelle Temperatur und Helligkeit an.
+Das Widget zeigt das aktuelle Wetter als Bild sowie die Temperatur, die aktuelle Helligkeit und die anwesenden Personen im Haus an.
+
+### Der Tado-Benutzer <img src="../images/MyTado_user.png" width="60"/>  
+
+Durch Klicken auf einen Tado-Benutzer gelangt man direkt zur Konfigurationsseite:  
+- **Gerätename**: Der Name, den Sie der Person in Jeedom zugewiesen haben (standardmäßig wird der in Tado festgelegte Name angezeigt).  
+- **Übergeordnetes Objekt**: Gibt das übergeordnete Objekt an, dem der Benutzer zugeordnet ist. Dies müssen Sie festlegen.  
+- **Kategorie**: Ermöglicht die Auswahl der Geräte-Kategorie.  
+- **Bild ändern**: Ermöglicht die Auswahl eines Fotos, um die Identifikation des Benutzers in der Objektliste und die Anwesenheit im *Haus*-Widget zu personalisieren.
+
+Durch Klicken auf den **Befehle**-Tab wird eine Liste aller verfügbaren Befehle angezeigt, sowie die Möglichkeit, die erhaltenen Werte zu speichern.  
 
 ### Szenarien verwalten
 

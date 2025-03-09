@@ -1,10 +1,11 @@
 # Changelog plugin MyTado - beta
 
-# 03/08/2025 - Version 5.0  
+# 03/09/2025 - Version 5.0
 
-- Overhaul of equipment configuration management for greater flexibility in the future  
-- Added "user" type equipment to obtain detailed information about Tado user locations for your scenarios
-- Ability to choose the data refresh rate
+- Redesign of equipment configuration management for greater flexibility in the future, regardless of plugin versions.
+- Added **user**-type equipment to obtain detailed information on Tado user locations for your scenarios.
+- It is now possible to customize user images, which are displayed on the **home** widget when present.
+- Ability to choose the data refresh frequency.
 
 # 02/20/2025 - Version 4.1
 

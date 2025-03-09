@@ -88,7 +88,7 @@ Ainsi que vos informations de connexion à Tado pour cette maison (n'oubliez pas
 En cliquant sur l'onglet **Commandes**, on retrouve la liste de toutes les commandes disponibles ainsi que la possibilité d’historiser les valeurs numériques ainsi que l'état météorologique.
 Les données sont mises à jour toutes les 30mn, mais vous pouvez forcer la mise à jour à la demande avec la commande **Rafraîchir** (notez que cela force la mise à jour des données de météo mais également de tous vos objets appartenant à cette maison).
 
-Le widget affiche le temps qu'il fait sous forme d'image ainsi que la température et la luminosité actuelle.
+Le widget affiche le temps qu'il fait sous forme d'image ainsi que la température, la luminosité actuelle et les personnes présentes à la maison.
 
 ### L'utilisateur Tado <img src="../images/MyTado_user.png" width="60"/>
 
