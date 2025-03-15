@@ -22,7 +22,7 @@ If the problem persists, follow the instructions in the [Troubleshooting section
 Optionally, you can also change the following two parameters:
 1. The temperature unit to display. **Celsius is the default unit**.
 2. The naming convention for your devices.
-3. Set your object refresh frequency by choosing the cron 5, 10, 15, or 30 minutes (keep only one of these crons). Keep the daily cron, which is necessary for object configuration.
+3. Set the refresh frequency of your objects by choosing the cron 5, 10, 15, or 30 minutes (keep only one of these crons). Keep the daily cron, which is necessary for object configuration.
 
 Once the daemon is running, close the configuration page to return to the plugin main page and follow these steps:
 1. Click "Add a home".

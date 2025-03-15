@@ -22,7 +22,7 @@ Si le problème persiste, suivre les instructions de la partie [En cas de probl�
 Si vous le souhaitez, vous pouvez également changer les deux paramètres suivants:
 1. L'unité de mesure de température à afficher. **Le Celsius est l'unité par défaut**.
 2. La convention de nommage de vos objets qui sera appliquée.
-3. Définissez votre fréquence de rafraichissement de vos objets en choisissant le cron 5, 10, 15 ou 30 minutes (ne conservez qu'un de ces crons). Conservez le cron journalier qui est nécessaire pour la configuration des objets.
+3. Définissez la fréquence de rafraichissement de vos objets en choisissant le cron 5, 10, 15 ou 30 minutes (ne conservez qu'un de ces crons). Conservez le cron journalier qui est nécessaire pour la configuration des objets.
 
 Une fois le démon en marche, fermez la page de configuration pour revenir sur la page principale du plugin, et suivez les étapes suivantes:
 1. Cliquez sur "Ajouter une maison"
