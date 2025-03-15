@@ -22,6 +22,7 @@ Si el problema persiste, siga las instrucciones en la sección [En caso de probl
 Opcionalmente, también puede cambiar los siguientes dos parámetros:
 1. La unidad de medida de temperatura a mostrar. **Celsius es la unidad predeterminada**.
 2. La convención de nomenclatura para sus dispositivos.
+3. Defina la frecuencia de actualización de sus objetos eligiendo el cron de 5, 10, 15 o 30 minutos (conserve solo uno de estos crons). Mantenga el cron diario, que es necesario para la configuración de los objetos.
 
 Una vez que el demonio esté en funcionamiento, cierre la página de configuración para regresar a la página principal del plugin y siga estos pasos:
 1. Haga clic en "Agregar una casa".

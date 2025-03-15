@@ -22,6 +22,7 @@ Wenn das Problem weiterhin besteht, folgen Sie den Anweisungen im Abschnitt [Bei
 Optional können Sie auch die folgenden zwei Parameter ändern:
 1. Die anzuzeigende Temperatureinheit. **Celsius ist die Standardeinheit**.
 2. Das Namensschema für Ihre Geräte.
+3. Legen Sie die Aktualisierungsfrequenz Ihrer Objekte fest, indem Sie den Cron 5, 10, 15 oder 30 Minuten wählen (behalten Sie nur einen dieser Crons bei). Behalten Sie den täglichen Cron bei, der für die Konfiguration der Objekte erforderlich ist.
 
 Sobald der Daemon läuft, schließen Sie die Konfigurationsseite, um zur Hauptseite des Plugins zurückzukehren, und folgen Sie diesen Schritten:
 1. Klicken Sie auf "Haus hinzufügen".
