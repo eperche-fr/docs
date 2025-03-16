@@ -101,6 +101,10 @@ Al hacer clic en un usuario de Tado, se accede directamente a su página de conf
 
 Al hacer clic en la pestaña **Comandos**, se muestra una lista de todos los comandos disponibles, así como la opción de almacenar los valores obtenidos.  
 
+> **Información importante para el comando 'Distancia desde casa'**  
+> La distancia desde casa se calcula en función de su configuración de Tado del radio que considera como su hogar (400 metros por defecto). Tado determina su distancia siempre que se encuentre dentro de un radio de hasta 10 veces el radio de presencia en casa (es decir, 4 kilómetros por defecto). Más allá de eso, la distancia mostrada es incorrecta, ya que Tado devolverá este radio máximo (4 kilómetros por defecto, incluso si está a más de 4 kilómetros).
+> El comando muestra -1 si la ubicación del usuario no está activada en su teléfono.
+
 ### Gestión de Escenarios
 
 No hay restricciones particulares en el uso de acciones dentro de sus escenarios.  

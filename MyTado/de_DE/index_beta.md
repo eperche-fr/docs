@@ -101,6 +101,10 @@ Durch Klicken auf einen Tado-Benutzer gelangt man direkt zur Konfigurationsseite
 
 Durch Klicken auf den **Befehle**-Tab wird eine Liste aller verfügbaren Befehle angezeigt, sowie die Möglichkeit, die erhaltenen Werte zu speichern.  
 
+> **Wichtige Information für den Befehl 'Entfernung zum Zuhause'**  
+> Die Entfernung zum Zuhause wird basierend auf Ihrer Tado-Konfiguration des Radius berechnet, den Sie als Zuhause betrachten (standardmäßig 400 Meter). Tado bestimmt Ihre Entfernung, solange Sie sich innerhalb eines Radius von bis zu dem Zehnfachen des Heimradius befinden (also standardmäßig 4 Kilometer). Darüber hinaus wird die angezeigte Entfernung falsch sein, da Tado diesen maximalen Radius zurückgibt (standardmäßig 4 Kilometer, auch wenn Sie weiter entfernt sind).
+> Der Befehl zeigt -1 an, wenn der Standort des Benutzers auf seinem Telefon nicht aktiviert ist.
+
 ### Szenarien verwalten
 
 Es gibt keine besonderen Einschränkungen bei der Verwendung von Aktionen in Ihren Szenarien.  

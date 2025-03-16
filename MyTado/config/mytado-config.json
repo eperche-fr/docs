@@ -273,6 +273,7 @@
         },
         {"distance_from_home": {
                 "displayed_name": "Distance de la maison",
+                "unit": "km",
                 "type": "info",
                 "subType": "numeric",
                 "icon": "sante filled_symbols_geo_location"

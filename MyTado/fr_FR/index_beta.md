@@ -101,6 +101,10 @@ En cliquant sur un utilisateur Tado, on arrive directement sur sa page de config
 
 En cliquant sur l'onglet **Commandes**, on retrouve la liste de toutes les commandes disponibles ainsi que la possibilité d’historiser les valeurs obtenues.
 
+>**Information importante pour la commande 'Distance de la maison'**
+>La distance par rapport à la maison est calculée en fonction de votre configuration sur Tado du rayon pour lequel vous considérez être à domicile (400 mètres par défaut). Tado détermine votre distance tant que vous vous trouvez dans un rayon jusqu'à 10 fois le rayon de présence à la maison (soit 4 kilomètres par défaut). Au-delà, la distance affichée est incorrecte puisque Tado renverra ce rayon maximum (soit 4 kilomètres par défaut, même si vous êtes à plus de 4 kilomètres).
+>La commande indique -1 dans le cas où la localisation de l'utilisateur n'est pas activée sur son téléphone.
+
 # Gérer des scénarios
 
 Il n'y a pas de contraintes particulières dans l'utilisation des actions au sein de vos scénarios. 

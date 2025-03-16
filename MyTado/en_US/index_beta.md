@@ -101,6 +101,10 @@ Clicking on a Tado user takes you directly to their configuration page:
 
 Clicking on the **Commands** tab displays a list of all available commands, along with the option to store the obtained values.  
 
+> **Important Information for the 'Distance from Home' Command**  
+> The distance from home is calculated based on your Tado configuration of the radius you consider as home (400 meters by default). Tado determines your distance as long as you are within a radius of up to 10 times the home radius (4 kilometers by default). Beyond that, the displayed distance is incorrect since Tado will return this maximum radius (4 kilometers by default, even if you are further away).
+> The command shows -1 if the user's location is not enabled on their phone.
+
 ### Managing Scenarios
 
 There are no particular constraints when using actions in your scenarios.  
