@@ -514,6 +514,20 @@
                 ],
                 "widget": "MyTado_DeviceEq_AC"
             }
+        },
+        {"default": {
+                "name": "Inconnu",
+                "cmds": [
+                    "refresh",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state",
+                    "humidity"
+                ],
+                "widget": "MyTado_DeviceEq"
+            }
         }
     ]
 }
