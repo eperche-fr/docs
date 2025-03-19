@@ -1,5 +1,11 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
+# 19.03.2025 - Version 5.1
+
+- Neuanordnung der Anzeige auf der Geräteeinstellungsseite  
+- Problem mit der Synchronisierung bei einer Neuinstallation des Plugins behoben  
+- Bildanzeige für Geräte des Modells RU02B korrigiert (RU02 verwaltet Thermostat und Warmwasser)  
+
 # 09.03.2025 - Version 5.0
 
 - Überarbeitung der Verwaltung der Gerätekonfigurationen für mehr Flexibilität in der Zukunft, unabhängig von den Plugin-Versionen.

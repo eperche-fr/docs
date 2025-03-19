@@ -1,5 +1,12 @@
 # Changelog plugin MyTado - beta
 
+# 19/03/2025 - Versión 5.1
+
+- Reorganización de la visualización de la página de equipos  
+- Se resolvió un problema con la sincronización durante una nueva instalación del complemento  
+- Corrección de la visualización de la imagen para los dispositivos del modelo RU02B (RU02 gestiona el termostato y el agua caliente)  
+
+
 # 09/03/2025 - Versión 5.0
 
 - Reestructuración de la gestión de configuración de equipos para una mayor flexibilidad en el futuro, independientemente de las versiones del plugin.

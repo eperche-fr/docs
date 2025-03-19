@@ -1,5 +1,11 @@
 # Changelog plugin MyTado
 
+# 03/19/2025 - Version 5.1
+
+- Reorganization of the equipment page display  
+- Fixed an issue with synchronization during a new plugin installation  
+- Image display corrected for devices of the RU02B model (RU02 managing thermostat and hot water)  
+
 # 03/09/2025 - Version 5.0
 
 - Redesign of equipment configuration management for greater flexibility in the future, regardless of plugin versions.
