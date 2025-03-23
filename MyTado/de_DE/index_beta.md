@@ -24,14 +24,12 @@ Optional können Sie auch die folgenden zwei Parameter ändern:
 2. Das Namensschema für Ihre Geräte.
 3. Legen Sie die Aktualisierungsfrequenz Ihrer Objekte fest, indem Sie den Cron 5, 10, 15 oder 30 Minuten wählen (behalten Sie nur einen dieser Crons bei). Behalten Sie den täglichen Cron bei, der für die Konfiguration der Objekte erforderlich ist.
 
-Sobald der Daemon läuft, schließen Sie die Konfigurationsseite, um zur Hauptseite des Plugins zurückzukehren, und folgen Sie diesen Schritten:
-1. Klicken Sie auf "Haus hinzufügen".
-2. Geben Sie Ihrem Haus einen Namen (der Name muss nicht mit dem in Tado übereinstimmen) und klicken Sie dann auf "Ok".
-3. Geben Sie die drei Informationen zu Ihrem Tado-Konto ein:
-    - Die E-Mail-Adresse, die Sie zur Erstellung Ihres Tado-Kontos verwendet haben.
-    - Ihr Tado-Konto Passwort.
-    - Den genauen Namen (Groß- und Kleinschreibung beachten) Ihres Hauses in der Tado-App.
-4. Speichern Sie Ihr Haus.
+Sobald der Dämon läuft, schließen Sie die Konfigurationsseite, um zur Hauptseite des Plugins zurückzukehren, und folgen Sie den folgenden Schritten:  
+1. Klicken Sie auf „Haus hinzufügen“.  
+2. Geben Sie Ihrem Haus einen Namen (der Name muss nicht derselbe wie bei Tado sein) und klicken Sie dann auf „Ok“.  
+3. Geben Sie den exakten Namen (Groß- und Kleinschreibung beachten) Ihres Hauses in der Tado-App ein.  
+4. Speichern Sie Ihr Haus.  
+5. Authentifizieren Sie sich schließlich mit der Schaltfläche **Mit Tado verbinden** und folgen Sie dem beschriebenen Verfahren.  
 
 Wenn die Informationen korrekt sind, werden zusätzliche Details zu Ihrem Haus hinzugefügt und Tado- oder TadoX-Geräte (je nach Ihrem Haus) werden innerhalb weniger Sekunden synchronisiert.
 Schließen Sie das Haus, um zu überprüfen, ob Ihre Geräte erscheinen.

@@ -24,14 +24,12 @@ Optionally, you can also change the following two parameters:
 2. The naming convention for your devices.
 3. Set the refresh frequency of your objects by choosing the cron 5, 10, 15, or 30 minutes (keep only one of these crons). Keep the daily cron, which is necessary for object configuration.
 
-Once the daemon is running, close the configuration page to return to the plugin main page and follow these steps:
-1. Click "Add a home".
-2. Give a name to your home (the name does not need to match the one in Tado), then click "Ok".
-3. Enter the three pieces of information related to your Tado account:
-    - The email address used to create your Tado account.
-    - Your Tado account password.
-    - The exact name (case-sensitive) of your home in the Tado app.
-4. Save your home.
+Once the daemon is running, close the configuration page to return to the main plugin page, and follow these steps:  
+1. Click on "Add a home".  
+2. Give your home a name (the name does not need to be the same as in Tado), then click "Ok".  
+3. Enter the exact name (case-sensitive) of your home in the Tado application.  
+4. Save your home.  
+5. Finally, authenticate yourself using the **Connect to Tado** button and follow the described procedure.  
 
 If the information is correct, additional details about your home will be added, and Tado or TadoX devices (depending on your home) will be synchronized within a few seconds.
 Close the home to check if your devices appear.

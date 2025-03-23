@@ -1,5 +1,9 @@
 # Changelog plugin MyTado - beta
 
+# 23/03/2025 - Versión 6.0
+
+- Adaptación de la conexión a Tado tras el cambio de API del 21/03/2025  
+
 # 19/03/2025 - Versión 5.1
 
 - Reorganización de la visualización de la página de equipos  

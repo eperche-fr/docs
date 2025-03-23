@@ -24,14 +24,12 @@ Opcionalmente, también puede cambiar los siguientes dos parámetros:
 2. La convención de nomenclatura para sus dispositivos.
 3. Defina la frecuencia de actualización de sus objetos eligiendo el cron de 5, 10, 15 o 30 minutos (conserve solo uno de estos crons). Mantenga el cron diario, que es necesario para la configuración de los objetos.
 
-Una vez que el demonio esté en funcionamiento, cierre la página de configuración para regresar a la página principal del plugin y siga estos pasos:
-1. Haga clic en "Agregar una casa".
-2. Asigne un nombre a su casa (el nombre no necesita coincidir con el de Tado), luego haga clic en "Ok".
-3. Ingrese la información relacionada con su cuenta Tado:
-    - La dirección de correo electrónico utilizada para crear su cuenta en Tado.
-    - La contraseña de su cuenta Tado.
-    - El nombre exacto (sensible a mayúsculas y minúsculas) de su casa en la aplicación Tado.
-4. Guarde su casa.
+Una vez que el demonio esté en funcionamiento, cierre la página de configuración para volver a la página principal del complemento y siga estos pasos:  
+1. Haga clic en "Agregar una casa".  
+2. Asigne un nombre a su casa (el nombre no necesita ser el mismo que en Tado), luego haga clic en "Ok".  
+3. Ingrese el nombre exacto (sensible a mayúsculas y minúsculas) de su casa en la aplicación Tado.  
+4. Guarde su casa.  
+5. Finalmente, autentíquese con el botón **Conectarse a Tado** y siga el procedimiento descrito.  
 
 Si la información es correcta, se agregarán detalles adicionales de su casa, y los dispositivos Tado o TadoX (según su casa) se sincronizarán en unos segundos.
 Cierre la casa para verificar si sus dispositivos aparecen.
