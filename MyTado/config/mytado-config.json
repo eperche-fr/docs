@@ -254,6 +254,13 @@
                 "subType": "string",
                 "icon": "jeedomapp jeedomapp-reload"
             }
+        },
+        {"refresh_token": {
+                "displayed_name": "Token de rafraissement",
+                "type": "info",
+                "subType": "string",
+                "icon": "kiko kiko-security-system"
+            }
         }
     ],
     "user-commands":[
