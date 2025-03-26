@@ -24,14 +24,12 @@ Optionally, you can also change the following two parameters:
 2. The naming convention for your devices.
 3. Set the refresh frequency of your objects by choosing the cron 5, 10, 15, or 30 minutes (keep only one of these crons). Keep the daily cron, which is necessary for object configuration.
 
-Once the daemon is running, close the configuration page to return to the plugin main page and follow these steps:
-1. Click "Add a home".
-2. Give a name to your home (the name does not need to match the one in Tado), then click "Ok".
-3. Enter the three pieces of information related to your Tado account:
-    - The email address used to create your Tado account.
-    - Your Tado account password.
-    - The exact name (case-sensitive) of your home in the Tado app.
-4. Save your home.
+Once the daemon is running, close the configuration page to return to the main plugin page, and follow these steps:  
+1. Click on "Add a home".  
+2. Give your home a name (the name does not need to be the same as in Tado), then click "Ok".  
+3. Enter the exact name (case-sensitive) of your home in the Tado application.  
+4. Save your home.  
+5. Finally, authenticate yourself using the **Connect to Tado** button and follow the described procedure.  
 
 If the information is correct, additional details about your home will be added, and Tado or TadoX devices (depending on your home) will be synchronized within a few seconds.
 Close the home to check if your devices appear.
@@ -100,6 +98,10 @@ Clicking on a Tado user takes you directly to their configuration page:
 - **Change Image**: Allows you to choose a picture to personalize the user's identification in the list of objects and the presence on the *home* widget.
 
 Clicking on the **Commands** tab displays a list of all available commands, along with the option to store the obtained values.  
+
+> **Important Information for the 'Distance from Home' Command**  
+> The distance from home is calculated based on your Tado configuration of the radius you consider as home (400 meters by default). Tado determines your distance as long as you are within a radius of up to 10 times the home radius (4 kilometers by default). Beyond that, the displayed distance is incorrect since Tado will return this maximum radius (4 kilometers by default, even if you are further away).
+> The command shows -1 if the user's location is not enabled on their phone.
 
 ### Managing Scenarios
 

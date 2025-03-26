@@ -1,5 +1,9 @@
 # Changelog plugin MyTado
 
+# 03/26/2025 - Version 6.0
+
+- Adaptation of the connection to Tado following the API change on 03/21/2025 
+
 # 03/19/2025 - Version 5.1
 
 - Reorganization of the equipment page display  

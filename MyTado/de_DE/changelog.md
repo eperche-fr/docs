@@ -1,5 +1,9 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
+# 26.03.2025 - Version 6.0
+
+- Anpassung der Verbindung zu Tado aufgrund der API-Änderung vom 21.03.2025  
+
 # 19.03.2025 - Version 5.1
 
 - Neuanordnung der Anzeige auf der Geräteeinstellungsseite  

@@ -25,15 +25,13 @@ Si vous le souhaitez, vous pouvez également changer les deux paramètres suivan
 3. Définissez la fréquence de rafraichissement de vos objets en choisissant le cron 5, 10, 15 ou 30 minutes (ne conservez qu'un de ces crons). Conservez le cron journalier qui est nécessaire pour la configuration des objets.
 
 Une fois le démon en marche, fermez la page de configuration pour revenir sur la page principale du plugin, et suivez les étapes suivantes:
-1. Cliquez sur "Ajouter une maison"
-2. Donnez un nom à votre maison (le nom n'a pas besoin d'être le même que chez Tado), puis cliquer sur "Ok"
-3. Saisissez les trois informations liées à votre compte Tado
-    - l'adresse mail utilisée pour créer votre compte sur Tado
-    - le mot de passe de votre compte Tado
-    - le nom exact (sensible à la casse) de votre maison sur l'application Tado
-4. Sauvez votre maison
+1. Cliquez sur "Ajouter une maison".
+2. Donnez un nom à votre maison (le nom n'a pas besoin d'être le même que chez Tado), puis cliquer sur "Ok".
+3. Saisissez le nom exact (sensible à la casse) de votre maison sur l'application Tado.
+4. Sauvez votre maison.
+5. Enfin authentifier vous à l'aide du bouton **Se connecter à Tado** et en suivant la procédure décrite.
 
-Si les informations saisies sont exactes, les information complémentaires de votre maison seront ajoutées, et les objets Tado our TadoX (selon votre maison) seront synchronisés au bout de quelques secondes.
+Si les informations saisies sont exactes, les information complémentaires de votre maison seront ajoutées, et les objets Tado ou TadoX (selon votre maison) seront synchronisés au bout de quelques secondes.
 Fermez la maison pour vérifier que vos objets apparaissent.
 Si après quelques secondes rien ne se passe, rafraichissez la page manuellement. 
 Si vous n'obtenez pas vos objets, vérifiez les logs afin de voir si vous pouvez corriger un problème remonté par vous-même.
@@ -100,6 +98,10 @@ En cliquant sur un utilisateur Tado, on arrive directement sur sa page de config
 - **Changer l'image** : Permet de choisir une photo pour personnaliser l'identification de l'utilisateur dans la liste de objets et la présence sur le widget *maison*.
 
 En cliquant sur l'onglet **Commandes**, on retrouve la liste de toutes les commandes disponibles ainsi que la possibilité d’historiser les valeurs obtenues.
+
+>**Information importante pour la commande 'Distance de la maison'**
+>La distance par rapport à la maison est calculée en fonction de votre configuration sur Tado du rayon pour lequel vous considérez être à domicile (400 mètres par défaut). Tado détermine votre distance tant que vous vous trouvez dans un rayon jusqu'à 10 fois le rayon de présence à la maison (soit 4 kilomètres par défaut). Au-delà, la distance affichée est incorrecte puisque Tado renverra ce rayon maximum (soit 4 kilomètres par défaut, même si vous êtes à plus de 4 kilomètres).
+>La commande indique -1 dans le cas où la localisation de l'utilisateur n'est pas activée sur son téléphone.
 
 # Gérer des scénarios
 
