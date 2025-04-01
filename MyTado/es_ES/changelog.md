@@ -1,5 +1,9 @@
 # Changelog plugin MyTado
 
+# 01/04/2025 - Versión 6.1
+
+- Corregido un error al crear comandos para una nueva casa (introducido en la versión 6.0)  
+
 # 26/03/2025 - Versión 6.0
 
 - Adaptación de la conexión a Tado tras el cambio de API del 21/03/2025
