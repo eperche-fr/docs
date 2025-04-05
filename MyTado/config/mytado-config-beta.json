@@ -190,6 +190,13 @@
                 "related_info_cmd": "horizontal_swing_mode",
                 "icon": "jeedomapp jeedomapp-dirDB"
             }
+        },
+        {"is_window_open": {
+                "displayed_name": "Fenêtre ouverte",
+                "type": "info",
+                "subType": "numeric",
+                "icon": "mdi mdi-window-open-variant"
+            }
         }
     ],
     "home-commands":[
