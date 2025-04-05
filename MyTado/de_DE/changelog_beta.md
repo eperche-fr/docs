@@ -1,5 +1,9 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
+# 05.04.2025 - Version 6.3
+
+- Befehl zur Erkennung eines offenen Fensters hinzugefügt. **Achtung:** Abhängigkeiten müssen aktualisiert und die Synchronisierung erneut durchgeführt werden.  
+
 # 05.04.2025 - Version 6.2
 
 - Fehler bei der Synchronisierung behoben (eingeführt in Version 6.0)  

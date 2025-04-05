@@ -1,5 +1,9 @@
 # Changelog plugin MyTado - beta
 
+# 05/04/2025 - Versión 6.3
+
+- Se añadió el comando de detección de ventana abierta. **Atención:** Es necesario actualizar las dependencias y volver a sincronizar.  
+
 # 05/04/2025 - Versión 6.2
 
 - Corregido un error de sincronización (introducido en la versión 6.0)  

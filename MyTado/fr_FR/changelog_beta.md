@@ -1,5 +1,9 @@
 # Changelog plugin MyTado - beta
 
+# 05/04/2025 - Version 6.3
+
+- Commande de détection de fenêtre ouverte ajoutée. **Attention:** Nécessité de mettre à jour les dépendances et de resynchroniser.
+
 # 05/04/2025 - Version 6.2
 
 - Bug lors de la synchronisation corrigé (introduit en version 6.0)
