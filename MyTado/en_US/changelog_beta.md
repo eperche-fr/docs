@@ -1,5 +1,9 @@
 # Changelog plugin MyTado - beta
 
+# 04/05/2025 - Version 6.2
+
+- Fixed a synchronization bug (introduced in version 6.0)  
+
 # 04/01/2025 - Version 6.1
 
 - Fixed a bug when creating commands for a new home (introduced in version 6.0)  

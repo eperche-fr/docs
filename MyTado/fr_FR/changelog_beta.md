@@ -1,5 +1,9 @@
 # Changelog plugin MyTado - beta
 
+# 05/04/2025 - Version 6.2
+
+- Bug lors de la synchronisation corrigé (introduit en version 6.0)
+
 # 01/04/2025 - Version 6.1
 
 - Bug lors de la création des commandes d'une nouvelle maison corrigé (introduit en version 6.0)

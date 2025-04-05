@@ -1,5 +1,9 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
+# 05.04.2025 - Version 6.2
+
+- Fehler bei der Synchronisierung behoben (eingeführt in Version 6.0)  
+
 # 01.04.2025 - Version 6.1
 
 - Fehler bei der Erstellung von Befehlen für ein neues Haus behoben (eingeführt in Version 6.0)  

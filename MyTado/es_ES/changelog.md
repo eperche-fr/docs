@@ -1,5 +1,9 @@
 # Changelog plugin MyTado
 
+# 05/04/2025 - Versión 6.2
+
+- Corregido un error de sincronización (introducido en la versión 6.0)  
+
 # 01/04/2025 - Versión 6.1
 
 - Corregido un error al crear comandos para una nueva casa (introducido en la versión 6.0)  
