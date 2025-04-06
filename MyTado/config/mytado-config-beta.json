@@ -126,7 +126,7 @@
         {"set_expected_temperature": {
                 "displayed_name": "Définir la température désirée",
                 "type": "action",
-                "subType": "message",
+                "subType": "slider",
                 "icon": "jeedomapp jeedomapp-thermostat",
                 "related_info_cmd": "expected_temperature",
                 "generic_type": "THERMOSTAT_SET_SETPOINT"
