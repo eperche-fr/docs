@@ -1,9 +1,10 @@
 # Changelog plugin MyTado - beta
 
-# 05/04/2025 - Version 6.3
+# 06/04/2025 - Version 7.0
 
 - Commande de détection de fenêtre ouverte ajoutée. **Attention: Nécessité de mettre à jour les dépendances et de resynchroniser.**
 - La commande **Définir la température désirée** est maintenant de sous-type *curseur*. **Attention: Impact sur les scénarios, donc prévoyez leur correction après mise à jour.**
+- Simplification de la gestion des commandes pour une plus grande flexibilité à l'avenir.
 
 # 05/04/2025 - Version 6.2
 

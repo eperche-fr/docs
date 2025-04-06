@@ -1,9 +1,10 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
-# 05.04.2025 - Version 6.3
+# 06.04.2025 - Version 7.0
 
 - Befehl zur Erkennung eines offenen Fensters hinzugefügt. **Achtung: Abhängigkeiten müssen aktualisiert und die Synchronisierung erneut durchgeführt werden.**  
 - Der Befehl **Gewünschte Temperatur einstellen** ist jetzt vom Untertyp *Schieberegler*. **Achtung: Dies wirkt sich auf Szenarien aus, daher ist eine Anpassung nach dem Update erforderlich.**  
+- Vereinfachung der Befehlsverwaltung für mehr Flexibilität in der Zukunft.  
 
 # 05.04.2025 - Version 6.2
 

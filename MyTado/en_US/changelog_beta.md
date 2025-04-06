@@ -1,9 +1,10 @@
 # Changelog plugin MyTado - beta
 
-# 04/05/2025 - Version 6.3
+# 04/06/2025 - Version 7.0
 
 - Added open window detection command. **Warning: You must update dependencies and resynchronize.**  
-- The **Set desired temperature** command is now of subtype *slider*. **Warning: This affects scenarios, so plan to adjust them after the update.**  
+- The **Set desired temperature** command is now of subtype *slider*. **Warning: This impacts scenarios, so make sure to review and adjust them after the update.**  
+- Simplified command handling to allow for greater flexibility in the future.  
 
 # 04/05/2025 - Version 6.2
 
