@@ -194,8 +194,9 @@
         {"is_window_open": {
                 "displayed_name": "Fenêtre ouverte",
                 "type": "info",
-                "subType": "numeric",
-                "icon": "mdi mdi-window-open-variant"
+                "subType": "binary",
+                "icon": "mdi mdi-window-open-variant",
+                "generic_type": "OPENING_WINDOW"
             }
         }
     ],
