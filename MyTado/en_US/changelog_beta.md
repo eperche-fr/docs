@@ -2,7 +2,8 @@
 
 # 04/05/2025 - Version 6.3
 
-- Added open window detection command. **Warning:** Dependencies must be updated and resynchronization is required.  
+- Added open window detection command. **Warning: You must update dependencies and resynchronize.**  
+- The **Set desired temperature** command is now of subtype *slider*. **Warning: This affects scenarios, so plan to adjust them after the update.**  
 
 # 04/05/2025 - Version 6.2
 

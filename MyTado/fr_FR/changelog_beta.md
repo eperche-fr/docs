@@ -2,7 +2,8 @@
 
 # 05/04/2025 - Version 6.3
 
-- Commande de détection de fenêtre ouverte ajoutée. **Attention:** Nécessité de mettre à jour les dépendances et de resynchroniser.
+- Commande de détection de fenêtre ouverte ajoutée. **Attention: Nécessité de mettre à jour les dépendances et de resynchroniser.**
+- La commande **Définir la température désirée** est maintenant de sous-type *curseur*. **Attention: Impact sur les scénarios, donc prévoyez leur correction après mise à jour.**
 
 # 05/04/2025 - Version 6.2
 
