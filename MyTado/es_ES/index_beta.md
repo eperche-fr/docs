@@ -1,116 +1,144 @@
 # <img src="../images/MyTado_icon.png" width="60"/> Plugin MyTado
 
-El plugin **MyTado** permite recuperar datos de sus dispositivos conectados Tado y Tado X, así como la información meteorológica gestionada por Tado.
+El plugin **MyTado** le permite recuperar los datos de sus dispositivos conectados Tado y Tado X, así como la información meteorológica gestionada por Tado.
 
-La actualización de estos datos se realiza cada 30 minutos.
+La actualización de estos datos se realiza de forma regular según el cron activo que seleccione (entre 5 y 30 minutos).
 
->**Dispositivos compatibles**
+> **Equipos compatibles**
 >
->Actualmente, solo los modelos BU0X, BP0, BR0X, CK04, RU0X, SU0X, VA0X y WR0X están completamente soportados (independientemente de su versión).
->Si encuentra problemas con dispositivos no compatibles o con alguno de los listados, siga las instrucciones en la sección [En caso de problemas](#En-caso-de-problemas).
+> Actualmente, solo los modelos BU0X, BP0, BR0X, CK04, RU0X, SU0X, VA0X y WR0X son totalmente compatibles (independientemente de su versión).
+> Para cualquier dispositivo que no esté actualmente soportado, o si tiene problemas con uno de los dispositivos listados, siga las instrucciones en la sección [En caso de problemas](#en-caso-de-problemas).
 
 # Configuración
 
 ## Configuración del plugin
 
-Primero, vaya a la configuración del plugin.
-Asegúrese de instalar las dependencias y luego iniciar el demonio.
-Si no puede iniciar el demonio, es posible que el puerto predeterminado (59969) ya esté en uso.
-En ese caso, defina un puerto disponible en la sección de configuración, guarde e intente reiniciar el demonio.
-Si el problema persiste, siga las instrucciones en la sección [En caso de problemas](#En-caso-de-problemas).
+1. Vaya a la configuración del plugin.
+2. Instale las dependencias.
+3. Inicie el demonio.
 
-Opcionalmente, también puede cambiar los siguientes dos parámetros:
-1. La unidad de medida de temperatura a mostrar. **Celsius es la unidad predeterminada**.
-2. La convención de nomenclatura para sus dispositivos.
-3. Defina la frecuencia de actualización de sus objetos eligiendo el cron de 5, 10, 15 o 30 minutos (conserve solo uno de estos crons). Mantenga el cron diario, que es necesario para la configuración de los objetos.
+Si el demonio no se inicia, es posible que el puerto predeterminado (59969) ya esté en uso. En este caso, elija un puerto libre (por ejemplo, 59970), guarde y luego reinicie el demonio. Si el problema persiste, consulte la sección [En caso de problemas](#en-caso-de-problemas).
 
-Una vez que el demonio esté en funcionamiento, cierre la página de configuración para volver a la página principal del complemento y siga estos pasos:  
-1. Haga clic en "Agregar una casa".  
-2. Asigne un nombre a su casa (el nombre no necesita ser el mismo que en Tado), luego haga clic en "Ok".  
-3. Ingrese el nombre exacto (sensible a mayúsculas y minúsculas) de su casa en la aplicación Tado.  
-4. Guarde su casa.  
-5. Finalmente, autentíquese con el botón **Conectarse a Tado** y siga el procedimiento descrito.  
+También puede configurar:
+- La unidad de medida de temperatura (Celsius por defecto).
+- La convención de nomenclatura de sus dispositivos.
+- La frecuencia de actualización: cron cada 5, 10, 15 o 30 minutos (mantenga solo un cron activo). También mantenga el cron diario necesario.
 
-Si la información es correcta, se agregarán detalles adicionales de su casa, y los dispositivos Tado o TadoX (según su casa) se sincronizarán en unos segundos.
-Cierre la casa para verificar si sus dispositivos aparecen.
-Si después de unos segundos no pasa nada, actualice la página manualmente.
-Si sus dispositivos no aparecen, revise los registros para ver si puede corregir el problema usted mismo.
-De lo contrario, siga las instrucciones en la sección [En caso de problemas](#En-caso-de-problemas).
+Luego:
 
-Finalmente, si agrega dispositivos a su casa Tado/TadoX, use el botón **Sincronización** para recuperarlos.
+1. Cierre la página de configuración.
+2. Haga clic en "Añadir una casa".
+3. Nombre su casa (el nombre puede ser diferente al de la aplicación Tado).
+4. Ingrese el nombre exacto (sensible a mayúsculas y minúsculas) de su casa en la aplicación Tado.
+5. Guarde su casa.
+6. Haga clic en **Conectarse a Tado** y siga el procedimiento de autenticación.
 
->**INFORMACIÓN**
+Una vez que la información sea correcta, los dispositivos se sincronizarán automáticamente. Cierre la casa para verificar que sus dispositivos aparezcan. Si no es así, actualice la página o consulte los logs.
+
+> **INFORMACIÓN**
 >
->Si posee dispositivos Tado y TadoX, entonces tiene dos casas. Debe crear una casa para cada una de sus cuentas Tado.
->Todos los dispositivos se listarán, sin importar de qué casa provengan.
+> Si tiene dispositivos Tado y TadoX, deberá crear una casa para cada una de sus cuentas. Todos los dispositivos se mostrarán, independientemente de su origen.
 
 ## Configuración de dispositivos
 
->**RECORDATORIO**
+> **RECORDATORIO**
 >
->Simplemente use el comando **Sincronización** para recuperar cualquier nuevo dispositivo conectado agregado a su casa Tado, o después de una actualización del plugin que permita la compatibilidad con un nuevo tipo de dispositivo que posea.
+> Utilice el comando **Sincronizar** para obtener cualquier nuevo dispositivo que haya agregado o que haya sido añadido gracias a una actualización del plugin.
 
-### Sus dispositivos conectados Tado
+### Dispositivos Tado conectados
 <img src="../images/WR0X.png" width="60"/><img src="../images/BU0X.png" width="60"/><img src="../images/RU0X.png" width="60"/><img src="../images/VA0X.png" width="60"/><img src="../images/VA04.png" width="60"/><img src="../images/RU04.png" width="60"/><img src="../images/CK04.png" width="60"/>
 
-Al hacer clic en un dispositivo conectado Tado, se accede directamente a su página de configuración:
+Al hacer clic en un dispositivo Tado, accede a:
 
-- **Nombre del dispositivo**: Nombre del dispositivo basado en su número de serie.
-- **Objeto padre**: Indica el objeto padre al que pertenece el dispositivo. Debe definirlo usted.
-- **Categoría**: Permite elegir la categoría del dispositivo.
+- **Nombre del dispositivo**: Basado en su número de serie y zona (por defecto, puede cambiar la convención de nombres en la configuración del plugin).
+- **Objeto principal**: Defínase según su organización.
+- **Categoría**: Elija la categoría del dispositivo.
 
-Al hacer clic en la pestaña **Comandos**, encontrará una lista de todos los comandos disponibles y la posibilidad de historizar los valores numéricos.
-Los datos se actualizan cada 30 minutos, pero puede forzar la actualización a pedido con el comando **Actualizar**.
+Pestaña **Comandos**:
+- Lista de comandos disponibles.
+- Posibilidad de registrar valores numéricos.
+- Actualización manual posible con el comando **Actualizar**.
 
-En el panel de control, el widget muestra la imagen correspondiente a su dispositivo, así como la información y configuración actual de sus dispositivos.
-También puede definir el modo de funcionamiento de su dispositivo:
-- 'Autónomo': Se aplica la programación hecha en la aplicación Tado.
-- 'Manual': Ofrece la posibilidad de salir del modo automático y definir el/los parámetro(s) de su elección.
-- 'Apagado': El dispositivo está completamente apagado.
+En el panel de control, el widget muestra la imagen del dispositivo, su información y su configuración actual.
 
->**Información importante**
->
->En caso de un cambio manual de la temperatura deseada, esta se aplicará a todos los dispositivos presentes en la misma zona que su dispositivo (así es como funciona Tado).
+Modos disponibles:
+- **Automático**: Según la programación de Tado.
+- **Manual**: Control directo de los parámetros.
+- **Apagado**: El dispositivo está apagado.
 
-### El casa Tado <img src="../images/HomeEq.svg" width="60"/>
+> **Importante:**
+> Cualquier cambio manual de temperatura afectará a *todos* los dispositivos de la misma zona (comportamiento de Tado).
 
-Al hacer clic en su casa Tado, se accede directamente a su página de configuración:
+### Casa Tado <img src="../images/HomeEq.svg" width="60"/>
 
-- **Nombre del dispositivo**: Nombre que ha dado a su casa en Jeedom.
-- **Objeto padre**: Indica el objeto padre al que pertenece el dispositivo. Debe definirlo usted.
-- **Categoría**: Permite elegir la categoría del dispositivo.
-- **Latitud**: Latitud referenciada en Tado para su casa y utilizada para recuperar el clima correspondiente.
-- **Longitud**: Longitud referenciada en Tado para su casa y utilizada para recuperar el clima correspondiente.
+Información disponible:
+- Nombre del dispositivo
+- Objeto principal
+- Categoría
+- Latitud / Longitud (utilizado para el clima)
 
-Así como su información de inicio de sesión de Tado para esta casa (¡no olvide cambiar su contraseña aquí si la cambia en el sitio web de Tado!).
+Comandos disponibles:
+- Registro de datos (clima y otros)
+- Actualización manual posible (lo que actualiza todos los dispositivos de la casa al mismo tiempo)
 
-Al hacer clic en la pestaña **Comandos**, encontrará una lista de todos los comandos disponibles y la posibilidad de historizar los valores numéricos y el estado meteorológico.
-Los datos se actualizan cada 30 minutos, pero puede forzar la actualización a pedido con el comando **Actualizar** (tenga en cuenta que esto obliga a la actualización de los datos meteorológicos así como de todos sus dispositivos pertenecientes a esta casa).
+El widget muestra: clima, temperatura, brillo, presencia.
 
-El widget muestra el clima actual en forma de imagen, junto con la temperatura, la luminosidad actual y las personas presentes en casa.
+### Usuario Tado <img src="../images/MyTado_user.png" width="60"/>
 
-### El usuario de Tado <img src="../images/MyTado_user.png" width="60"/>  
+Parámetros configurables:
+- Nombre de usuario
+- Objeto principal
+- Categoría
+- Imagen del usuario (personalizable)
 
-Al hacer clic en un usuario de Tado, se accede directamente a su página de configuración:  
-- **Nombre del equipo**: Nombre que le asignaste a la persona en Jeedom (por defecto, aparecerá el nombre definido en Tado).  
-- **Objeto padre**: Indica el objeto padre al que se asocia el usuario. Debes definirlo.  
-- **Categoría**: Permite elegir la categoría del equipo.  
-- **Cambiar imagen**: Permite elegir una foto para personalizar la identificación del usuario en la lista de objetos y la presencia en el widget *casa*.
+Pestaña **Comandos**: lista de comandos, posibilidad de registro.
 
-Al hacer clic en la pestaña **Comandos**, se muestra una lista de todos los comandos disponibles, así como la opción de almacenar los valores obtenidos.  
+> **Distancia desde casa**:
+> - Tado solo devuelve una distancia relativa (entre 0 y 1)
+> - MyTado realiza una representación en km, pero esto sigue siendo experimental ya que no hay información que indique cómo se obtiene el valor relativo
+> - Devuelve **-1** si la ubicación no está activada en el teléfono del usuario.
 
-> **Información importante para el comando 'Distancia desde casa'**  
-> La distancia desde casa se calcula en función de su configuración de Tado del radio que considera como su hogar (400 metros por defecto). Tado determina su distancia siempre que se encuentre dentro de un radio de hasta 10 veces el radio de presencia en casa (es decir, 4 kilómetros por defecto). Más allá de eso, la distancia mostrada es incorrecta, ya que Tado devolverá este radio máximo (4 kilómetros por defecto, incluso si está a más de 4 kilómetros).
-> El comando muestra -1 si la ubicación del usuario no está activada en su teléfono.
+# Gestionando Escenarios
 
-### Gestión de Escenarios
+No hay restricciones particulares, excepto **para los módulos de AC**:
+Antes de configurar la temperatura o un parámetro, **cambie el modo del AC** (diferente de "automático"). De lo contrario, aparecerá un error en los logs.
 
-No hay restricciones particulares en el uso de acciones dentro de sus escenarios.  
-Excepto en las acciones de configuración de los módulos tipo AC.  
-En este caso, siempre será necesario cambiar primero a un modo de AC diferente de "auto" antes de definir una temperatura deseada (y probablemente otros parámetros).  
-De lo contrario, recibirá un error en los registros informándole de esta restricción.
+# En caso de problemas
 
-### En caso de problemas
+1. Configure los logs de **MyTado** en modo **debug**.
+2. Reinicie el demonio.
+3. Consulte los logs para identificar el problema.
 
-Contacte con el desarrollador especificando los modelos de dispositivos Tado/TadoX que tiene, las funciones faltantes o los problemas existentes, así como cualquier información que considere útil.  
-No olvide proporcionar los registros del plugin y de su daemon (asegurándose de enmascarar los datos personales).
+De lo contrario, consulte las [FAQs](#faqs) y finalmente la sección [Solicitar ayuda](#solicitar-ayuda).
+
+## FAQs
+
+### Error fatal: [Errno 98] Dirección ya en uso
+
+El puerto de comunicación entre su Jeedom y el demonio (por defecto 59969) ya está ocupado. Cámbielo a otro puerto libre (por ejemplo, 59970) en la configuración y reinicie el demonio.
+
+### Token faltante
+
+Tado ha invalidado el token actual. Vaya a su casa de dispositivos > **Conectarse a Tado**, para volver a autenticarse.
+
+## Solicitar ayuda
+
+1. Verifique si su problema ya está publicado en la [Comunidad Jeedom](https://community.jeedom.com/tag/plugin-mytado).
+
+2. Si no, cree un nuevo tema e indique:
+   - Su configuración de Jeedom
+   - Los modelos Tado/TadoX que está utilizando
+   - Los logs completos de **MyTado** y **MyTado_daemon** (adjunte archivos) y asegúrese de incluir los pasos para reproducir el problema (en modo debug).
+
+> **¡Recuerde ocultar sus datos personales en los logs antes de publicarlos!**
+
+# Recomendaciones adicionales
+
+1. Deje una valoración en el Mercado si le gusta este plugin.
+2. ¡Proporcione sugerencias de mejora al desarrollador!
+
+---
+
+**¡Gracias por usar el plugin MyTado!**
+
+Su retroalimentación es valiosa para seguir mejorando 😊
