@@ -9,6 +9,8 @@ These data are refreshed regularly according to your active cron selection (betw
 > Only the BU0X, BP0, BR0X, CK04, RU0X, SU0X, VA0X, and WR0X models are fully supported as of now (regardless of their version).
 > For any unsupported device or if you have issues with any of the listed devices, follow the instructions in the [In case of problems](#in-case-of-problems) section.
 
+---
+
 # Configuration
 
 ## Plugin Configuration
@@ -98,10 +100,14 @@ Configurable settings:
 > - MyTado provides a representation in km, but this is experimental since there is no information on how the relative value is calculated
 > - Returns **-1** if the user's location is not enabled on the phone.
 
+---
+
 # Managing Scenarios
 
 No special constraints, except **for AC modules**:
 Before configuring a temperature or setting, **change the AC mode** (different from "auto"). Otherwise, an error will appear in the logs.
+
+---
 
 # In case of problems
 

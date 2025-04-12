@@ -9,6 +9,8 @@ La actualización de estos datos se realiza de forma regular según el cron acti
 > Actualmente, solo los modelos BU0X, BP0, BR0X, CK04, RU0X, SU0X, VA0X y WR0X son totalmente compatibles (independientemente de su versión).
 > Para cualquier dispositivo que no esté actualmente soportado, o si tiene problemas con uno de los dispositivos listados, siga las instrucciones en la sección [En caso de problemas](#en-caso-de-problemas).
 
+---
+
 # Configuración
 
 ## Configuración del plugin
@@ -98,10 +100,14 @@ Pestaña **Comandos**: lista de comandos, posibilidad de registro.
 > - MyTado realiza una representación en km, pero esto sigue siendo experimental ya que no hay información que indique cómo se obtiene el valor relativo
 > - Devuelve **-1** si la ubicación no está activada en el teléfono del usuario.
 
+---
+
 # Gestionando Escenarios
 
 No hay restricciones particulares, excepto **para los módulos de AC**:
 Antes de configurar la temperatura o un parámetro, **cambie el modo del AC** (diferente de "automático"). De lo contrario, aparecerá un error en los logs.
+
+---
 
 # En caso de problemas
 

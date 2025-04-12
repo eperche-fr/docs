@@ -4,10 +4,15 @@ Le plugin **MyTado** permet de récupérer les données de vos objets connectés
 
 Le rafraîchissement de ces données s’effectue de manière régulière selon votre sélection du cron actif (entre 5 et 30mn).
 
+---
+
 > **Équipements gérés**
 >
 > Seuls les modèles BU0X, BP0, BR0X, CK04, RU0X, SU0X, VA0X et WR0X sont pleinement pris en charge à ce jour (a priori quelle que soit leur version).
 > Pour tout objet non pris en charge actuellement, ou en cas de problème avec l'un de ceux listés, suivez les instructions de la section [En cas de problèmes](#en-cas-de-problèmes).
+
+---
+
 
 # Configuration
 
@@ -98,10 +103,14 @@ Onglet **Commandes** : liste des commandes, possibilité d’historisation.
 > - Une représentation en km est effectuée par MyTado, mais cela reste expérimental comme il n'existe aucun information permettant de définir comment la valeur relative est obtenue
 > - Renvoie **-1** si la localisation n’est pas activée sur le téléphone de l'utilisateur.
 
+---
+
 # Gérer des scénarios
 
 Aucune contrainte particulière, sauf **pour les modules AC** :
 Avant de configurer une température ou un paramètre, **changez le mode AC** (différent de "auto"). Sinon, une erreur apparaîtra dans les logs.
+
+---
 
 # En cas de problèmes
 

@@ -4,6 +4,7 @@
 
 - Se añadió el comando de detección de ventana abierta. **Atención: Es necesario actualizar las dependencias y volver a sincronizar.**  
 - El comando **Definir la temperatura deseada** ahora es del subtipo *deslizador*. **Atención: Esto afecta a los escenarios, por lo que se recomienda revisarlos tras la actualización.**  
+- Añadida la distinción entre distancia relativa y distancia calculada para equipos de usuario (nuevo comando)
 - Simplificación de la gestión de comandos para una mayor flexibilidad en el futuro.  
 
 # 05/04/2025 - Versión 6.2

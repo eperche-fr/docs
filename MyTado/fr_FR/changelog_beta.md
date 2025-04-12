@@ -4,6 +4,7 @@
 
 - Commande de détection de fenêtre ouverte ajoutée. **Attention: Nécessité de mettre à jour les dépendances et de resynchroniser.**
 - La commande **Définir la température désirée** est maintenant de sous-type *curseur*. **Attention: Impact sur les scénarios, donc prévoyez leur correction après mise à jour.**
+- Ajout de la distinction entre distance relative et distance calculée pour les équipements utilisateur (nouvelle commande)
 - Simplification de la gestion des commandes pour une plus grande flexibilité à l'avenir.
 
 # 05/04/2025 - Version 6.2

@@ -4,6 +4,7 @@
 
 - Befehl zur Erkennung eines offenen Fensters hinzugefügt. **Achtung: Abhängigkeiten müssen aktualisiert und die Synchronisierung erneut durchgeführt werden.**  
 - Der Befehl **Gewünschte Temperatur einstellen** ist jetzt vom Untertyp *Schieberegler*. **Achtung: Dies wirkt sich auf Szenarien aus, daher ist eine Anpassung nach dem Update erforderlich.**  
+- Hinzugefügt: Unterscheidung zwischen relativer Entfernung und berechneter Entfernung für Benutzerausstattungen (neuer Befehl)
 - Vereinfachung der Befehlsverwaltung für mehr Flexibilität in der Zukunft.  
 
 # 05.04.2025 - Version 6.2

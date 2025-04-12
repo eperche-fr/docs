@@ -9,6 +9,8 @@ Die Daten werden regelmäßig basierend auf dem von Ihnen ausgewählten aktiven 
 > Derzeit werden nur die Modelle BU0X, BP0, BR0X, CK04, RU0X, SU0X, VA0X und WR0X vollständig unterstützt (unabhängig von ihrer Version).
 > Wenn ein Gerät nicht unterstützt wird oder ein Problem mit einem der aufgeführten Geräte besteht, folgen Sie bitte den Anweisungen im Abschnitt [Fehlerbehebung](#fehlerbehebung).
 
+---
+
 # Konfiguration
 
 ## Plugin-Konfiguration
@@ -98,10 +100,14 @@ Registerkarte **Befehle**: Liste der Befehle, Möglichkeit zur Historisierung.
 > - Eine Darstellung in km wird von MyTado durchgeführt, dies bleibt jedoch experimentell, da keine Informationen darüber existieren, wie der relative Wert ermittelt wird
 > - Gibt **-1** zurück, wenn die Standortfreigabe auf dem Telefon des Benutzers nicht aktiviert ist.
 
+---
+
 # Szenarien verwalten
 
 Keine besonderen Einschränkungen, außer **für AC-Module**:
 Ändern Sie vor der Konfiguration einer Temperatur oder eines Parameters **den AC-Modus** (anders als „Auto“). Andernfalls wird ein Fehler in den Logs angezeigt.
+
+---
 
 # Fehlerbehebung
 
