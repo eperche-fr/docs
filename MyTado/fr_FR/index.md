@@ -37,15 +37,15 @@ Ensuite :
 
 Une fois les informations correctes, les objets seront synchronisés automatiquement. Fermez la maison pour vérifier que vos objets apparaissent. Sinon, rafraîchissez la page ou consultez les logs.
 
-> **INFORMATION**
->
-> Si vous possédez des objets Tado *et* TadoX, vous devez créer une maison pour chacun de vos comptes. Tous les objets seront listés, quelle que soit leur origine.
+::: warning **INFORMATION**
+Si vous possédez des objets Tado *et* TadoX, vous devez créer une maison pour chacun de vos comptes. Tous les objets seront listés, quelle que soit leur origine.
+:::
 
 ## Configuration des équipements
 
-> **RAPPEL**
->
-> Utilisez la commande **Synchronisation** pour récupérer tout nouvel objet que vous avez ajouté ou nouvellement pris en charge par une mise à jour du plugin.
+::: tip
+Utilisez la commande **Synchronisation** pour récupérer tout nouvel objet que vous avez ajouté ou nouvellement pris en charge par une mise à jour du plugin.
+:::
 
 ### Objets connectés Tado
 <img src="../images/WR0X.png" width="60"/><img src="../images/BU0X.png" width="60"/><img src="../images/RU0X.png" width="60"/><img src="../images/VA0X.png" width="60"/><img src="../images/VA04.png" width="60"/><img src="../images/RU04.png" width="60"/><img src="../images/CK04.png" width="60"/>
@@ -68,8 +68,9 @@ Modes disponibles :
 - **Manuel** : Contrôle direct des paramètres.
 - **Eteint** : L'objet est éteint.
 
-> **Important :**
-> Toute modification manuelle de la température affectera *tous* les objets de la même zone (comportement Tado).
+::: warning **Important :**
+Toute modification manuelle de la température affectera *tous* les objets de la même zone (comportement Tado).
+:::
 
 ### La maison Tado <img src="../images/HomeEq.svg" width="60"/>
 
@@ -95,10 +96,11 @@ Paramètres configurables :
 
 Onglet **Commandes** : liste des commandes, possibilité d’historisation.
 
-> **Distance de la maison** :
-> - Tado ne renvoie qu'une distance relative (entre 0 et 1)
-> - Une représentation en km est effectuée par MyTado, mais cela reste expérimental comme il n'existe aucun information permettant de définir comment la valeur relative est obtenue
-> - Renvoie **-1** si la localisation n’est pas activée sur le téléphone de l'utilisateur.
+::: warning **Distance de la maison** :
+ - Tado ne renvoie qu'une distance relative (entre 0 et 1)
+ - Une représentation en km est effectuée par MyTado, mais cela reste expérimental comme il n'existe aucun information permettant de définir comment la valeur relative est obtenue
+ - Renvoie **-1** si la localisation n’est pas activée sur le téléphone de l'utilisateur
+:::
 
 ---
 
@@ -150,4 +152,3 @@ Tado a invalidé le token actuel. Allez dans votre équipement maison > **Se con
 **Merci d'utiliser le plugin MyTado !**
 
 Votre retour est précieux pour continuer à l'améliorer 😊
-
