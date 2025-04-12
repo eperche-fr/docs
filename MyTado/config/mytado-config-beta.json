@@ -37,7 +37,8 @@
                 "icon": "fas fa-battery-empty",
                 "possible_values":[
                     "NORMAL|Pleine|fas fa-battery-full",
-                    "LOW|Faible|fas fa-battery-quarter"
+                    "LOW|Faible|fas fa-battery-quarter",
+                    "DEPLETED|Vide|fas fa-battery-empty"
                 ]
             }
         },
