@@ -1,4 +1,4 @@
-# <img src="../images/MyHeatzy_icon.png" width="60"/> Plugin MyTado
+# <img src="../images/MyHeatzy_icon.png" width="60"/> Plugin MyHeatzy
 
 Le plugin **MyHeatzy** permet de récupérer les données de vos objets connectés Heatzy.
 
