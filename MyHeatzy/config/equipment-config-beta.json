@@ -1,0 +1,242 @@
+{
+    "device-commands":[
+        {"refresh" : 
+            {
+                "displayed_name" : "Rafraichir",
+                "type" : "action",
+                "subType" : "other",
+                "icon" : "jeedomapp jeedomapp-reload"
+            }
+        },
+        {"last_update": {
+                "displayed_name": "Dernière mise à jour",
+                "type": "info",
+                "subType": "string",
+                "icon": "jeedomapp jeedomapp-reload"
+            }
+        },
+        {"battery_state": {
+                "displayed_name": "Etat de la batterie",
+                "type": "info",
+                "subType": "string",
+                "icon": "fas fa-battery-empty",
+                "possible_values":[
+                    "NORMAL|Pleine|fas fa-battery-full",
+                    "LOW|Faible|fas fa-battery-quarter"
+                ]
+            }
+        },
+        {"expected_temperature": {
+                "displayed_name": "Température désirée",
+                "type": "info",
+                "subType": "numeric",
+                "unit": "°C",
+                "icon": "jeedomapp jeedomapp-thermostat",
+                "generic_type": "THERMOSTAT_SETPOINT"
+            }
+        },
+        {"mode": {
+                "displayed_name": "Mode",
+                "type": "info",
+                "subType": "string",
+                "icon": "mdi mdi-power-settings",
+                "generic_type": "THERMOSTAT_MODE",
+                "possible_values": [
+                    "cft|Confort",
+                    "eco|Eco",
+                    "fro|Hors-gel",
+                    "stop|Eteint"
+                ]
+            }
+        },
+        {"temperature": {
+                "displayed_name": "Température",
+                "type": "info",
+                "subType": "numeric",
+                "is_historized_by_default": true,
+                "unit": "°C",
+                "icon": "jeedomapp jeedomapp-temperature",
+                "generic_type": "THERMOSTAT_TEMPERATURE"
+            }
+        },
+        {"set_expected_temperature": {
+                "displayed_name": "Définir la température désirée",
+                "type": "action",
+                "subType": "slider",
+                "icon": "jeedomapp jeedomapp-thermostat",
+                "related_info_cmd": "expected_temperature",
+                "generic_type": "THERMOSTAT_SET_SETPOINT"
+            }
+        },
+        {"set_mode": {
+                "displayed_name": "Définir le mode",
+                "type": "action",
+                "subType": "select",
+                "icon": "mdi mdi-power-settings",
+                "related_info_cmd":"mode",
+                "generic_type": "THERMOSTAT_SET_MODE"
+            }
+        },
+        {"enable_scheduler": {
+                "displayed_name": "Activer la programmation",
+                "type": "action",
+                "subType": "other",
+                "icon": "fas fa-play-circle"
+            }
+        },
+        {"disable_scheduler": {
+                "displayed_name": "Désactiver la programmation",
+                "type": "action",
+                "subType": "other",
+                "icon": "fas fa-stop-circle"
+            }
+        },
+        {"is_scheduler_enabled": {
+                "displayed_name": "Etat de la programmation",
+                "type": "info",
+                "subType": "binary",
+                "icon": "fas fa-stop-circle",
+                "possible_values": [
+                        "0|Eteint",
+                        "1|Allumé"
+                    ]
+            }
+        },
+        {"days_out": {
+                "displayed_name": "Jours restants en mode vacances",
+                "type": "info",
+                "subType": "numeric",
+                "unit": "jours",
+                "min": 0,
+                "max": 255
+            }
+        },
+        {"set_days_out": {
+                "displayed_name": "Définir le nombre de jour en mode vacances",
+                "type": "action",
+                "subType": "slider",
+                "related_info_cmd":"days_out"
+            }
+        },
+        {"boost_time": {
+                "displayed_name": "Temps de boost restant",
+                "type": "info",
+                "subType": "numeric",
+                "min": 0,
+                "max": 120,
+                "unit": "min",
+                "possible_values": [
+                    "30|30m",
+                    "60|1h",
+                    "90|1h30",
+                    "120|2h"
+                ]
+            }
+        },
+        {"set_boost_time": {
+                "displayed_name": "Définir un temps de boost",
+                "type": "action",
+                "subType": "select",
+                "related_info_cmd":"boost_time"
+            }
+        }
+    ],
+    "devices":[
+        {"Glow": {
+                "name": "Radiateur Heatzy Glow céramique",
+                "cmds": [
+                    "refresh",
+                    "expected_temperature",
+                    "set_expected_temperature",
+                    "mode",
+                    "set_mode",
+                    "is_scheduler_enabled",
+                    "enable_scheduler",
+                    "disable_scheduler",
+                    "temperature",
+                    "last_update",
+                    "battery_state",
+                    "days_out",
+                    "set_days_out"
+                ],
+                "widget": "MyHeatzy_DeviceEq"
+            }
+        },
+        {"Glow_Simple": {
+                "name": "Radiateur Heatzy Glow céramique",
+                "cmds": [
+                    "refresh",
+                    "expected_temperature",
+                    "set_expected_temperature",
+                    "mode",
+                    "set_mode",
+                    "is_scheduler_enabled",
+                    "enable_scheduler",
+                    "disable_scheduler",
+                    "temperature",
+                    "last_update",
+                    "battery_state",
+                    "days_out",
+                    "set_days_out"
+                ],
+                "widget": "MyHeatzy_DeviceEq"
+            }
+        },
+        {"Pilote": {
+            "name": "Heatzy Pilote",
+            "cmds": [
+                "refresh",
+                "mode",
+                "set_mode",
+                "is_scheduler_enabled",
+                "enable_scheduler",
+                "disable_scheduler",
+                "last_update",
+                "battery_state",
+                "days_out",
+                "set_days_out",
+                "boost_time",
+                "set_boost_time"
+            ],
+            "widget": "MyHeatzy_DeviceEq"
+        }
+        },
+        {"Pilote-pro": {
+                "name": "Heatzy Pilote Pro",
+                "cmds": [
+                    "refresh",
+                    "expected_temperature",
+                    "set_expected_temperature",
+                    "mode",
+                    "set_mode",
+                    "is_scheduler_enabled",
+                    "enable_scheduler",
+                    "disable_scheduler",
+                    "temperature",
+                    "last_update",
+                    "battery_state",
+                    "days_out",
+                    "set_days_out",
+                    "boost_time",
+                    "set_boost_time"
+                ],
+                "widget": "MyHeatzy_DeviceEq"
+            }
+        },
+        {"default": {
+                "name": "Inconnu",
+                "cmds": [
+                    "refresh",
+                    "mode",
+                    "set_mode",
+                    "is_scheduler_enabled",
+                    "enable_scheduler",
+                    "disable_scheduler",
+                    "last_update",
+                    "battery_state"
+                ],
+                "widget": "MyHeatzy_DeviceEq"
+            }
+        }
+    ]
+}
