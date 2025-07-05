@@ -1,11 +1,12 @@
 # Changelog plugin MyTado - beta
 
-# 04/06/2025 - Version 7.0
+# 28/06/2025 - Version 7.0
 
 - Added open window detection command. **Warning: You must update dependencies and resynchronize.**  
 - The **Set desired temperature** command is now of subtype *slider*. **Warning: This impacts scenarios, so make sure to review and adjust them after the update.**  
-- Added distinction between relative distance and calculated distance for user equipment (new command)
+- Added distinction between relative distance and calculated distance for user equipment (new command).
 - Simplified command handling to allow for greater flexibility in the future.  
+- The plugin moved to the "wellness" category.
 
 # 04/05/2025 - Version 6.2
 
