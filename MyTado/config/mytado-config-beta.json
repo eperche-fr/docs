@@ -199,6 +199,24 @@
                 "icon": "mdi mdi-window-open-variant",
                 "generic_type": "OPENING_WINDOW"
             }
+        },
+        {"enable_window_open_detection": {
+                "displayed_name": "Activer la détection de fenêtre ouverte",
+                "type": "action",
+                "subType": "slider",
+                "related_info_cmd":"is_window_open",
+                "icon": "mdi mdi-window-open-variant",
+                "generic_type": "OPENING_WINDOW"
+            }
+        },
+        {"disable_window_open_detection": {
+                "displayed_name": "Désactiver la détection de fenêtre ouverte",
+                "type": "action",
+                "subType": "default",
+                "related_info_cmd":"is_window_open",
+                "icon": "mdi mdi-window-open-variant",
+                "generic_type": "OPENING_WINDOW"
+            }
         }
     ],
     "home-commands":[
@@ -254,6 +272,7 @@
                 "displayed_name": "Présence à la maison",
                 "type": "info",
                 "subType": "numeric",
+                "generic_type": "PRESENCE",
                 "icon": "fas fa-users"
             }
         },
@@ -284,6 +303,7 @@
                 "displayed_name": "A la maison",
                 "type": "info",
                 "subType": "numeric",
+                "generic_type": "PRESENCE",
                 "icon": "sante filled_symbols_home-quarantine"
             }
         },
@@ -318,8 +338,7 @@
                     "mode",
                     "temperature",
                     "last_update",
-                    "battery_state",
-                    "is_window_open"
+                    "battery_state"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -338,8 +357,7 @@
                     "mode",
                     "temperature",
                     "last_update",
-                    "battery_state",
-                    "is_window_open"
+                    "battery_state"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -358,8 +376,7 @@
                     "mode",
                     "temperature",
                     "last_update",
-                    "battery_state",
-                    "is_window_open"
+                    "battery_state"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -378,8 +395,7 @@
                     "mode",
                     "temperature",
                     "last_update",
-                    "battery_state",
-                    "is_window_open"
+                    "battery_state"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -398,8 +414,7 @@
                     "mode",
                     "temperature",
                     "last_update",
-                    "battery_state",
-                    "is_window_open"
+                    "battery_state"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -421,7 +436,9 @@
                     "battery_state",
                     "humidity",
                     "heating_power",
-                    "is_window_open"
+                    "is_window_open",
+                    "enable_window_open_detection",
+                    "disable_window_open_detection"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -487,7 +504,9 @@
                     "battery_state",
                     "humidity",
                     "heating_power",
-                    "is_window_open"
+                    "is_window_open",
+                    "enable_window_open_detection",
+                    "disable_window_open_detection"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -516,7 +535,9 @@
                     "fan_speed",
                     "vertical_swing_mode",
                     "horizontal_swing_mode",
-                    "is_window_open"
+                    "is_window_open",
+                    "enable_window_open_detection",
+                    "disable_window_open_detection"
                 ],
                 "widget": "MyTado_DeviceEq_AC"
             }
@@ -545,7 +566,9 @@
                     "fan_speed",
                     "vertical_swing_mode",
                     "horizontal_swing_mode",
-                    "is_window_open"
+                    "is_window_open",
+                    "enable_window_open_detection",
+                    "disable_window_open_detection"
                 ],
                 "widget": "MyTado_DeviceEq_AC"
             }

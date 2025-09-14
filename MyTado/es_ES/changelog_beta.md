@@ -1,11 +1,18 @@
 # Changelog plugin MyTado - beta
 
-# 28/04/2025 - Versión 7.0
+# 14/09/2025 - Versión 7.0
 
-- Se añadió el comando de detección de ventana abierta. **Atención: Es necesario actualizar las dependencias y volver a sincronizar.**  
-- El comando **Definir la temperatura deseada** ahora es del subtipo *deslizador*. **Atención: Esto afecta a los escenarios, por lo que se recomienda revisarlos tras la actualización.**  
+- **NUEVO: Gestión inteligente de llamadas API debido a las limitaciones de Tado (septiembre 2025)**
+  - Configuración Auto-Assist obligatoria: Selecciona si tienes una suscripción Tado Auto-Assist
+  - Limitación adaptativa: 100 llamadas/día sin Auto-Assist vs 20.000 llamadas/día con Auto-Assist
+  - Contador de llamadas API en tiempo real en la configuración
+  - Sincronización automática de frecuencias según tu suscripción
+  - Opciones de sincronización selectivas (clima, geolocalización) para optimizar las llamadas
+  - **Acción requerida: Configura tu modo Auto-Assist en la configuración del plugin**
+- Se añadió el comando de detección de ventana abierta. **Atención: Es necesario actualizar las dependencias y volver a sincronizar.**
+- El comando **Definir la temperatura deseada** ahora es del subtipo *deslizador*. **Atención: Esto afecta a los escenarios, por lo que se recomienda revisarlos tras la actualización.**
 - Añadida la distinción entre distancia relativa y distancia calculada para equipos de usuario (nuevo comando).
-- Simplificación de la gestión de comandos para una mayor flexibilidad en el futuro.  
+- Simplificación de la gestión de comandos para una mayor flexibilidad en el futuro.
 - Plugin movido a la categoría "confort".
 
 # 05/04/2025 - Versión 6.2

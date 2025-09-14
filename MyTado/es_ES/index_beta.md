@@ -21,12 +21,36 @@ La actualización de estos datos se realiza de forma regular según el cron acti
 
 Si el demonio no se inicia, es posible que el puerto predeterminado (59969) ya esté en uso. En este caso, elija un puerto libre (por ejemplo, 59970), guarde y luego reinicie el demonio. Si el problema persiste, consulte la sección [En caso de problemas](#en-caso-de-problemas).
 
-También puede configurar:
-- La unidad de medida de temperatura (Celsius por defecto).
-- La convención de nomenclatura de sus dispositivos.
-- La frecuencia de actualización: cron cada 5, 10, 15 o 30 minutos (mantenga solo un cron activo). También mantenga el cron diario necesario.
+### Configuración del plugin
 
-Luego:
+Primero, puede configurar:
+- La unidad de medida de temperatura (Celsius por defecto).
+- La convención de nomenclatura de sus objetos.
+
+
+**IMPORTANTE**: Tado introdujo nuevas limitaciones de API en septiembre de 2025. La configuración es ahora **obligatoria**:
+- **Con Auto-Assist** (suscripción pagada de Tado): 20.000 llamadas API/día permitidas
+- **Sin Auto-Assist** (gratuito): máximo 100 llamadas API/día
+
+Por lo tanto, aquí está la configuración de plugin requerida:
+1. **Seleccione su modo Auto-Assist**: Esto seleccionará opciones ideales para las siguientes configuraciones, que aún puede ajustar (pero asegúrese de lo que está haciendo)
+2. **Ajuste la frecuencia de sincronización** según sus necesidades:
+   - Con Auto-Assist: sincronización cada 15 minutos recomendada
+   - Sin Auto-Assist: sincronización cada hora recomendada (o menos frecuente)
+3. **Active/desactive sincronizaciones opcionales**:
+   - Sincronización del clima (consume llamadas API)
+   - Sincronización de geolocalización (consume llamadas API)
+
+> **AYUDA PARA LA DECISIÓN**: El contador de llamadas API
+>- Vea su consumo de llamadas API en tiempo real en la configuración
+>- El contador se reinicia automáticamente a cero cada día
+>- Aparecen alertas visuales si se acerca al límite
+
+> **Acción requerida**: Si aún no ha configurado estas configuraciones, aparecerá una notificación en su configuración. Configure estas opciones para garantizar el funcionamiento correcto del plugin.
+
+### Configuración de su casa
+
+Después de guardar la configuración correcta del plugin (ver arriba):
 
 1. Cierre la página de configuración.
 2. Haga clic en "Añadir una casa".

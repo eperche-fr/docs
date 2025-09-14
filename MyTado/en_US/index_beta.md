@@ -21,12 +21,36 @@ These data are refreshed regularly according to your active cron selection (betw
 
 If the daemon doesn't start, it is possible that the default port (59969) is already in use. In this case, choose an available port (e.g., 59970), save, and then restart the daemon. If the problem persists, consult the [In case of problems](#in-case-of-problems) section.
 
-You can also configure:
+### Plugin Configuration
+
+First, you can configure:
 - The temperature measurement unit (Celsius by default).
 - The naming convention for your devices.
-- The refresh frequency: cron 5, 10, 15, or 30 minutes (keep only one active cron). Also, keep the necessary daily cron.
 
-Then:
+
+**IMPORTANT**: Tado introduced new API limitations in September 2025. Configuration is now **mandatory**:
+- **With Auto-Assist** (paid Tado subscription): 20,000 API calls/day allowed
+- **Without Auto-Assist** (free): 100 API calls/day maximum
+
+Therefore, here is the required plugin configuration:
+1. **Select your Auto-Assist mode**: This will select ideal options for the following settings, which you can still adjust (but be sure of what you're doing)
+2. **Adjust synchronization frequency** according to your needs:
+   - With Auto-Assist: 15-minute synchronization recommended
+   - Without Auto-Assist: hourly synchronization recommended (or less frequent)
+3. **Enable/disable optional synchronizations**:
+   - Weather synchronization (consumes API calls)
+   - Geolocation synchronization (consumes API calls)
+
+> **DECISION HELP**: The API Call Counter
+>- View your real-time API call consumption in the configuration
+>- The counter automatically resets to zero each day
+>- Visual alerts appear if you approach the limit
+
+> **Required Action**: If you haven't configured these settings yet, a notification will appear in your configuration. Configure these options to ensure proper plugin operation.
+
+### Configuring your home
+
+After saving the correct plugin configuration (see above):
 
 1. Close the configuration page.
 2. Click on "Add a home".

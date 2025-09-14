@@ -1,7 +1,14 @@
 # Changelog plugin MyTado - beta
 
-# 28/04/2025 - Version 7.0
+# 14/09/2025 - Version 7.0
 
+- **NOUVEAU: Gestion intelligente des appels API suite aux limitations Tado (septembre 2025)**
+  - Configuration Auto-Assist obligatoire: Sélectionnez si vous avez un abonnement Tado Auto-Assist
+  - Limitation adaptative: 100 appels/jour sans Auto-Assist vs 20.000 appels/jour avec Auto-Assist
+  - Compteur d'appels API en temps réel dans la configuration
+  - Synchronisation automatique des fréquences selon votre abonnement
+  - Options de synchronisation sélectives (météo, géolocalisation) pour optimiser les appels
+  - **Action requise: Configurez votre mode Auto-Assist dans la configuration du plugin**
 - Commande de détection de fenêtre ouverte ajoutée. **Attention: Nécessité de mettre à jour les dépendances et de resynchroniser.**
 - La commande **Définir la température désirée** est maintenant de sous-type *curseur*. **Attention: Impact sur les scénarios, donc prévoyez leur correction après mise à jour.**
 - Ajout de la distinction entre distance relative et distance calculée pour les équipements utilisateur (nouvelle commande)

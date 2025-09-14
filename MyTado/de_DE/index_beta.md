@@ -1,4 +1,19 @@
-# <img src="../images/MyTado_icon.png" width="60"/> MyTado Plugin
+# <img src="../images/MyTado_icon.png" width=## Erweiterte Konfiguration
+
+Sie können auch konfigurieren:
+- Die Temperatureinheit (Celsius ist standardmäßig eingestellt).
+- Die Namenskonvention Ihrer Geräte.
+
+### Konfiguration Ihres Hauses
+
+Nach dem Speichern der korrekten Plugin-Konfiguration (siehe oben):
+
+1. Schließen Sie die Konfigurationsseite.
+2. Klicken Sie auf „Haus hinzufügen".
+3. Geben Sie Ihrem Haus einen Namen (der Name kann sich vom Namen in der Tado-App unterscheiden).
+4. Geben Sie den genauen (groß- und kleinschreibungssensiblen) Namen Ihres Hauses in der Tado-App ein.
+5. Speichern Sie Ihr Haus.
+6. Klicken Sie auf **Mit Tado verbinden** und folgen Sie dem Authentifizierungsprozess.Plugin
 
 Das **MyTado** Plugin ermöglicht es Ihnen, Daten von Ihren Tado- und Tado X-Geräten sowie Wetterinformationen, die von Tado verwaltet werden, abzurufen.
 
@@ -15,18 +30,44 @@ Die Daten werden regelmäßig basierend auf dem von Ihnen ausgewählten aktiven 
 
 ## Plugin-Konfiguration
 
+### Konfiguration und Start des Daemons
+
 1. Gehen Sie zur Plugin-Konfiguration.
 2. Installieren Sie die Abhängigkeiten.
 3. Starten Sie den Daemon.
 
 Wenn der Daemon nicht startet, könnte der Standardport (59969) bereits verwendet werden. In diesem Fall wählen Sie einen freien Port (z. B. 59970), speichern und starten Sie den Daemon neu. Wenn das Problem weiterhin besteht, konsultieren Sie den Abschnitt [Fehlerbehebung](#fehlerbehebung).
 
-Sie können auch konfigurieren:
-- Die Temperatureinheit (Celsius ist standardmäßig eingestellt).
-- Die Namenskonvention Ihrer Geräte.
-- Die Häufigkeit der Aktualisierungen: Cron 5, 10, 15 oder 30 Minuten (lassen Sie nur einen Cron aktiv). Behalten Sie auch den täglichen Cron bei.
+### Plugin-Konfiguration
 
-Dann:
+Zunächst können Sie konfigurieren:
+- Die Temperaturmaßeinheit (Celsius ist standardmäßig eingestellt).
+- Die Namenskonvention Ihrer Objekte.
+
+
+**WICHTIG**: Tado hat im September 2025 neue API-Beschränkungen eingeführt. Eine Konfiguration ist jetzt **obligatorisch**:
+- **Mit Auto-Assist** (kostenpflichtiges Tado-Abonnement): 20.000 API-Aufrufe/Tag erlaubt
+- **Ohne Auto-Assist** (kostenlos): maximal 100 API-Aufrufe/Tag
+
+Daher ist hier die erforderliche Plugin-Konfiguration:
+1. **Wählen Sie Ihren Auto-Assist-Modus**: Dies wählt optimale Optionen für die folgenden Einstellungen aus, die Sie noch anpassen können (aber seien Sie sich sicher, was Sie tun)
+2. **Passen Sie die Synchronisierungsfrequenz** entsprechend Ihren Bedürfnissen an:
+   - Mit Auto-Assist: Synchronisierung alle 15 Minuten empfohlen
+   - Ohne Auto-Assist: stündliche Synchronisierung empfohlen (oder seltener)
+3. **Aktivieren/deaktivieren Sie optionale Synchronisierungen**:
+   - Wetter-Synchronisierung (verbraucht API-Aufrufe)
+   - Geolokalisierung-Synchronisierung (verbraucht API-Aufrufe)
+
+> **ENTSCHEIDUNGSHILFE**: Der API-Aufruf-Zähler
+>- Sehen Sie Ihren API-Aufruf-Verbrauch in Echtzeit in der Konfiguration
+>- Der Zähler wird täglich automatisch auf null zurückgesetzt
+>- Visuelle Warnungen erscheinen, wenn Sie sich dem Limit nähern
+
+> **Erforderliche Aktion**: Wenn Sie diese Einstellungen noch nicht konfiguriert haben, erscheint eine Benachrichtigung in Ihrer Konfiguration. Konfigurieren Sie diese Optionen, um den ordnungsgemäßen Betrieb des Plugins zu gewährleisten.
+
+### Konfiguration Ihres Hauses
+
+Nach dem Speichern der korrekten Plugin-Konfiguration (siehe oben):
 
 1. Schließen Sie die Konfigurationsseite.
 2. Klicken Sie auf „Haus hinzufügen“.
