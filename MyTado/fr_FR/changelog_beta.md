@@ -1,5 +1,15 @@
 # Changelog plugin MyTado - beta
 
+# 27/09/2025 - Version 7.1
+
+- **NOUVEAU: Record maximum d'appels API par jour**
+  - Affichage du record maximum d'appels API effectués en une seule journée depuis l'installation
+  - Suivi historique permanent de l'usage le plus intensif
+  - Bouton de réinitialisation du record avec confirmation
+  - Affichage de la date d'établissement du record
+  - Interface intégrée dans la configuration du plugin à côté du compteur quotidien
+- Corrections diverses et améliorations de stabilité du système d'optimisation API
+
 # 14/09/2025 - Version 7.0
 
 - **NOUVEAU: Gestion intelligente des appels API suite aux limitations Tado (septembre 2025)**
