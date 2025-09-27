@@ -18,18 +18,44 @@ Le rafraîchissement de ces données s’effectue de manière régulière selon 
 
 ## Configuration du plugin
 
+### Configuration et lancement du démon
+
 1. Allez dans la configuration du plugin.
 2. Installez les dépendances.
 3. Lancez le démon.
 
-Si le démon ne se lance pas, il se peut que le port par défaut (59969) soit déjà utilisé. Dans ce cas, choisissez un port libre (ex : 59970), sauvegardez, puis relancez le démon. Si le problème persiste, consultez la section [En cas de problèmes](#en-cas-de-problèmes).
+Si le démon ne se lance pas, il se peut que le port par défaut (59969) soit déjà utilisé. Dans ce cas, choisissez un port libre dans la configuration du plugin (ex : 59970), sauvegardez, puis relancez le démon. Si le problème persiste, consultez la section [En cas de problèmes](#en-cas-de-problèmes).
 
-Vous pouvez aussi configurer :
+### Configuration du plugin
+
+Tout d'abord, vous pouvez configurer :
 - L'unité de mesure de température (Celsius par défaut).
 - La convention de nommage de vos objets.
-- La fréquence de rafraîchissement : cron 5, 10, 15 ou 30 minutes (ne gardez qu'un seul cron actif). Gardez aussi le cron journalier nécessaire.
 
-Ensuite :
+
+**IMPORTANT**: Tado a introduit de nouvelles limitations API en septembre 2025. Une configuration est maintenant **obligatoire** :
+- **Avec Auto-Assist** (abonnement payant Tado) : 20.000 appels API/jour autorisés
+- **Sans Auto-Assist** (gratuit) : 100 appels API/jour maximum
+
+En conséquence, voici la configuration du plugin requise:
+1. **Sélectionnez votre mode Auto-Assist**: Cela sélectionnera les options idéales pour les paramètres suivants, que vous pouvez tout de même adapter (mais soyez sûrs de ce que vous faites)
+2. **Ajustez la fréquence de synchronisation** selon vos besoins :
+   - Avec Auto-Assist : synchronisation toutes les 15 minutes recommandée
+   - Sans Auto-Assist : synchronisation toutes les heures recommandée (ou moins fréquente)
+3. **Activez/désactivez les synchronisations optionnelles** :
+   - Synchronisation météo (consomme des appels API)
+   - Synchronisation géolocalisation (consomme des appels API)
+
+> **AIDE A LA DECISION** : Le compteur d'appels API
+>- Consultez en temps réel votre consommation d'appels API dans la configuration
+>- Le compteur se remet à zéro automatiquement chaque jour
+>- Des alertes visuelles apparaissent si vous approchez de la limite
+
+> **Action requise** : Si vous n'avez pas encore configuré ces paramètres, une notification apparaîtra dans votre configuration. Configurez ces options pour garantir le bon fonctionnement du plugin.
+
+### Configuration de votre maison
+
+Après sauvegarde de la configuration correcte du plugin (voir ci-dessus) :
 
 1. Fermez la page de configuration.
 2. Cliquez sur "Ajouter une maison".

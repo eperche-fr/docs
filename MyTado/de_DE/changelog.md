@@ -1,5 +1,20 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
+# 27.09.2025 - Version 7.0
+
+- **NEU: Intelligente API-Aufruf-Verwaltung aufgrund der Tado-Beschränkungen (September 2025)**
+  - Obligatorische Auto-Assist-Konfiguration: Wählen Sie, ob Sie ein Tado Auto-Assist-Abonnement haben
+  - Adaptive Beschränkung: 100 Aufrufe/Tag ohne Auto-Assist vs. 20.000 Aufrufe/Tag mit Auto-Assist
+  - Echtzeit-API-Aufruf-Zähler in der Konfiguration
+  - Automatische Frequenz-Synchronisation entsprechend Ihrem Abonnement
+  - Selektive Synchronisationsoptionen (Wetter, Geolokalisierung) zur Optimierung der Aufrufe
+  - **Aktion erforderlich: Konfigurieren Sie Ihren Auto-Assist-Modus in der Plugin-Konfiguration**
+- Befehl zur Erkennung eines offenen Fensters hinzugefügt. **Achtung: Abhängigkeiten müssen aktualisiert und die Synchronisierung erneut durchgeführt werden.**
+- Der Befehl **Gewünschte Temperatur einstellen** ist jetzt vom Untertyp *Schieberegler*. **Achtung: Dies wirkt sich auf Szenarien aus, daher ist eine Anpassung nach dem Update erforderlich.**
+- Hinzugefügt: Unterscheidung zwischen relativer Entfernung und berechneter Entfernung für Benutzerausstattungen (neuer Befehl)
+- Vereinfachung der Befehlsverwaltung für mehr Flexibilität in der Zukunft.
+- Plugin in die Kategorie „Komfort" verschoben.
+
 # 05.04.2025 - Version 6.2
 
 - Fehler bei der Synchronisierung behoben (eingeführt in Version 6.0)  
