@@ -1,5 +1,10 @@
 # Changelog plugin MyTado
 
+# 27/09/2025 - Versión 7.1
+
+- **NUEVO: Récord máximo de llamadas API por día**: Seguimiento histórico permanente del uso más intensivo
+- Corrección de error: Problema de comandos swing corregido
+
 # 27/09/2025 - Versión 7.0
 
 - **NUEVO: Gestión inteligente de llamadas API debido a las limitaciones de Tado (septiembre 2025)**

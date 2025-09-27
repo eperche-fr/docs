@@ -2,13 +2,8 @@
 
 # 09/27/2025 - Version 7.1
 
-- **NEW: Maximum daily API calls record**
-  - Display of the maximum API calls record made in a single day since installation
-  - Permanent historical tracking of the most intensive usage
-  - Record reset button with confirmation
-  - Display of the date when the record was established
-  - Interface integrated in plugin configuration next to the daily counter
-- Various fixes and stability improvements to the API optimization system
+- **NEW: Maximum daily API calls record**: Display of the maximum API calls record made in a single day since installation
+- Bug fix: Swing commands problem fixed
 
 # 14/09/2025 - Version 7.0
 

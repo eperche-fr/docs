@@ -2,13 +2,8 @@
 
 # 27.09.2025 - Version 7.1
 
-- **NEU: Täglicher Maximalrekord für API-Aufrufe**
-  - Anzeige des Maximalrekords für API-Aufrufe, die an einem einzigen Tag seit der Installation durchgeführt wurden
-  - Permanente historische Verfolgung der intensivsten Nutzung
-  - Schaltfläche zum Zurücksetzen des Rekords mit Bestätigung
-  - Anzeige des Datums, an dem der Rekord aufgestellt wurde
-  - In die Plugin-Konfiguration neben dem täglichen Zähler integrierte Benutzeroberfläche
-- Verschiedene Korrekturen und Stabilitätsverbesserungen des API-Optimierungssystems
+- **NEU: Täglicher Maximalrekord für API-Aufrufe**: Anzeige des Maximalrekords für API-Aufrufe, die an einem einzigen Tag seit der Installation durchgeführt wurden
+- Fehlerbehebung: Problem mit Swing-Befehlen behoben
 
 # 14.09.2025 - Version 7.0
 

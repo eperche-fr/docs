@@ -1,6 +1,11 @@
 # Changelog plugin MyTado
 
-# 27/09/2025 - Version 7.0
+# 09/27/2025 - Version 7.1
+
+- **NEW: Maximum daily API calls record**: Display of the maximum API calls record made in a single day since installation
+- Bug fix: Swing commands problem fixed
+
+# 09/27/2025 - Version 7.0
 
 - **NEW: Intelligent API call management following Tado limitations (September 2025)**
   - Mandatory Auto-Assist configuration: Select whether you have a Tado Auto-Assist subscription

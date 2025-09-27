@@ -1,5 +1,10 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
+# 27.09.2025 - Version 7.1
+
+- **NEU: Täglicher Maximalrekord für API-Aufrufe**: Anzeige des Maximalrekords für API-Aufrufe, die an einem einzigen Tag seit der Installation durchgeführt wurden
+- Fehlerbehebung: Problem mit Swing-Befehlen behoben
+
 # 27.09.2025 - Version 7.0
 
 - **NEU: Intelligente API-Aufruf-Verwaltung aufgrund der Tado-Beschränkungen (September 2025)**
