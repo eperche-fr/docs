@@ -3,7 +3,9 @@
 # 09/27/2025 - Version 7.1
 
 - **NEW: Maximum daily API calls record**: Display of the maximum API calls record made in a single day since installation
-- Bug fix: Swing commands problem fixed
+- Bug fixes:
+  - Swing commands problem fixed
+  - Desired temperature changes working again in widgets
 
 # 09/27/2025 - Version 7.0
 

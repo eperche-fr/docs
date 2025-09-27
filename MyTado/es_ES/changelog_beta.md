@@ -3,7 +3,9 @@
 # 27/09/2025 - Versión 7.1
 
 - **NUEVO: Récord máximo de llamadas API por día**: Seguimiento histórico permanente del uso más intensivo
-- Corrección de error: Problema de comandos swing corregido
+- Correcciones de errores:
+  - Problema de comandos swing corregido
+  - Los cambios de temperatura deseada vuelven a funcionar en los widgets
 
 # 14/09/2025 - Versión 7.0
 

@@ -3,7 +3,9 @@
 # 27.09.2025 - Version 7.1
 
 - **NEU: Täglicher Maximalrekord für API-Aufrufe**: Anzeige des Maximalrekords für API-Aufrufe, die an einem einzigen Tag seit der Installation durchgeführt wurden
-- Fehlerbehebung: Problem mit Swing-Befehlen behoben
+- Fehlerbehebungen:
+  - Problem mit Swing-Befehlen behoben
+  - Änderungen der gewünschten Temperatur funktionieren wieder in den Widgets
 
 # 14.09.2025 - Version 7.0
 
