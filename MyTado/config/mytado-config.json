@@ -37,7 +37,8 @@
                 "icon": "fas fa-battery-empty",
                 "possible_values":[
                     "NORMAL|Pleine|fas fa-battery-full",
-                    "LOW|Faible|fas fa-battery-quarter"
+                    "LOW|Faible|fas fa-battery-quarter",
+                    "DEPLETED|Vide|fas fa-battery-empty"
                 ]
             }
         },
@@ -126,7 +127,7 @@
         {"set_expected_temperature": {
                 "displayed_name": "Définir la température désirée",
                 "type": "action",
-                "subType": "message",
+                "subType": "slider",
                 "icon": "jeedomapp jeedomapp-thermostat",
                 "related_info_cmd": "expected_temperature",
                 "generic_type": "THERMOSTAT_SET_SETPOINT"
@@ -190,6 +191,32 @@
                 "related_info_cmd": "horizontal_swing_mode",
                 "icon": "jeedomapp jeedomapp-dirDB"
             }
+        },
+        {"is_window_open": {
+                "displayed_name": "Fenêtre ouverte",
+                "type": "info",
+                "subType": "binary",
+                "icon": "mdi mdi-window-open-variant",
+                "generic_type": "OPENING_WINDOW"
+            }
+        },
+        {"enable_window_open_detection": {
+                "displayed_name": "Activer la détection de fenêtre ouverte",
+                "type": "action",
+                "subType": "slider",
+                "related_info_cmd":"is_window_open",
+                "icon": "mdi mdi-window-open-variant",
+                "generic_type": "OPENING_WINDOW"
+            }
+        },
+        {"disable_window_open_detection": {
+                "displayed_name": "Désactiver la détection de fenêtre ouverte",
+                "type": "action",
+                "subType": "default",
+                "related_info_cmd":"is_window_open",
+                "icon": "mdi mdi-window-open-variant",
+                "generic_type": "OPENING_WINDOW"
+            }
         }
     ],
     "home-commands":[
@@ -245,6 +272,7 @@
                 "displayed_name": "Présence à la maison",
                 "type": "info",
                 "subType": "numeric",
+                "generic_type": "PRESENCE",
                 "icon": "fas fa-users"
             }
         },
@@ -275,12 +303,20 @@
                 "displayed_name": "A la maison",
                 "type": "info",
                 "subType": "numeric",
+                "generic_type": "PRESENCE",
                 "icon": "sante filled_symbols_home-quarantine"
             }
         },
         {"distance_from_home": {
                 "displayed_name": "Distance de la maison",
                 "unit": "km",
+                "type": "info",
+                "subType": "numeric",
+                "icon": "sante filled_symbols_geo_location"
+            }
+        },
+        {"relative_distance_from_home": {
+                "displayed_name": "Distance relative de la maison",
                 "type": "info",
                 "subType": "numeric",
                 "icon": "sante filled_symbols_geo_location"
@@ -399,7 +435,10 @@
                     "last_update",
                     "battery_state",
                     "humidity",
-                    "heating_power"
+                    "heating_power",
+                    "is_window_open",
+                    "enable_window_open_detection",
+                    "disable_window_open_detection"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -420,7 +459,8 @@
                     "last_update",
                     "battery_state",
                     "humidity",
-                    "heating_power"
+                    "heating_power",
+                    "is_window_open"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -441,7 +481,8 @@
                     "last_update",
                     "battery_state",
                     "humidity",
-                    "heating_power"
+                    "heating_power",
+                    "is_window_open"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -462,7 +503,10 @@
                     "last_update",
                     "battery_state",
                     "humidity",
-                    "heating_power"
+                    "heating_power",
+                    "is_window_open",
+                    "enable_window_open_detection",
+                    "disable_window_open_detection"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -490,7 +534,10 @@
                     "AC_mode",
                     "fan_speed",
                     "vertical_swing_mode",
-                    "horizontal_swing_mode"
+                    "horizontal_swing_mode",
+                    "is_window_open",
+                    "enable_window_open_detection",
+                    "disable_window_open_detection"
                 ],
                 "widget": "MyTado_DeviceEq_AC"
             }
@@ -518,7 +565,10 @@
                     "AC_mode",
                     "fan_speed",
                     "vertical_swing_mode",
-                    "horizontal_swing_mode"
+                    "horizontal_swing_mode",
+                    "is_window_open",
+                    "enable_window_open_detection",
+                    "disable_window_open_detection"
                 ],
                 "widget": "MyTado_DeviceEq_AC"
             }
@@ -532,7 +582,8 @@
                     "temperature",
                     "last_update",
                     "battery_state",
-                    "humidity"
+                    "humidity",
+                    "is_window_open"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
