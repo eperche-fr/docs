@@ -1,5 +1,9 @@
 # Änderungsprotokoll Plugin MyTado
 
+# 08.10.2025 - Version 7.2
+
+- Fehlerbehebung für Widgets von Klimageräten: Der AC-Modus wird jetzt wieder korrekt abgerufen.
+
 # 27.09.2025 - Version 7.1
 
 - **NEU: Täglicher Maximalrekord für API-Aufrufe**: Anzeige des Maximalrekords für API-Aufrufe, die an einem einzigen Tag seit der Installation durchgeführt wurden

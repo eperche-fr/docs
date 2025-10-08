@@ -1,5 +1,9 @@
 # Changelog plugin MyTado
 
+# 10/08/2025 - Version 7.2
+
+- Bug fix for air conditioning device widgets: AC mode is now correctly retrieved again.
+
 # 09/27/2025 - Version 7.1
 
 - **NEW: Maximum daily API calls record**: Display of the maximum API calls record made in a single day since installation

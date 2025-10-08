@@ -1,5 +1,9 @@
 # Changelog plugin MyTado
 
+# 08/10/2025 - Versión 7.2
+
+- Corrección de error para los widgets de dispositivos de aire acondicionado: El modo AC ahora se recupera correctamente.
+
 # 27/09/2025 - Versión 7.1
 
 - **NUEVO: Récord máximo de llamadas API por día**: Seguimiento histórico permanente del uso más intensivo
