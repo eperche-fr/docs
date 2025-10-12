@@ -1,5 +1,12 @@
 # Changelog plugin MyTado - beta
 
+# 12/10/2025 - Version 7.3
+
+- Corrections de bug:
+  - Le record d'appel par jour est à présent affiché
+  - La configuraion des commandes a été révisée, **une nouvelle synchornisation est nécessaire**
+  - Le mode fenêtre ouverte devrait à présent fonctionner pour les équipements pre-tadoX
+
 # 08/10/2025 - Version 7.2
 
 - Bug fixé pour les widgets des objets d'air conditionné: Le mode AC est de nouveau récupéré correctement.
