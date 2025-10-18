@@ -156,6 +156,10 @@ Le port de communication entre votre jeedom et le démon (59969 par défaut) est
 
 Tado a invalidé le token actuel. Allez dans votre équipement maison > **Se connecter à Tado** pour vous réauthentifier.
 
+### Panneaux dépendances et démon vides
+
+Vérifier votre version de Debian. Il faut au minimum Debian 11 (qui déploie PHP 7.4+ et python 3.9+ nécessaires au bon fonctionnement du plugin). Vous devez obligratoirement mettre à jour votre Jeedom.
+
 ## Demander de l'aide
 
 1. Vérifiez si votre problème est déjà listé dans la [communauté Jeedom](https://community.jeedom.com/tag/plugin-mytado)

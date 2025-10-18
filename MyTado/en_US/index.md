@@ -151,6 +151,10 @@ The communication port between your Jeedom and the daemon (default is 59969) is 
 
 Tado invalidated the current token. Go to your home device > **Connect to Tado** to reauthenticate.
 
+### Empty dependencies and daemon panels
+
+Check your Debian version. You need at least Debian 11 (which provides PHP 7.4+ and Python 3.9+ required for the plugin to work properly). You must update your Jeedom installation.
+
 ## Request help
 
 1. Check if your problem is already listed in the [Jeedom community](https://community.jeedom.com/tag/plugin-mytado)

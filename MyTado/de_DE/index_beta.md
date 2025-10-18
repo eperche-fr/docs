@@ -168,6 +168,10 @@ Der Kommunikationsport zwischen Ihrem Jeedom und dem Daemon (standardmäßig 599
 
 Tado hat das aktuelle Token ungültig gemacht. Gehen Sie zu Ihrem Gerätehaus > **Mit Tado verbinden**, um sich erneut zu authentifizieren.
 
+### Leere Abhängigkeits- und Daemon-Panels
+
+Überprüfen Sie Ihre Debian-Version. Es wird mindestens Debian 11 benötigt (liefert PHP 7.4+ und Python 3.9+, die für das ordnungsgemäße Funktionieren des Plugins erforderlich sind). Sie müssen Ihr Jeedom unbedingt aktualisieren.
+
 ## Hilfe anfordern
 
 1. Überprüfen Sie, ob Ihr Problem bereits in der [Jeedom-Community](https://community.jeedom.com/tag/plugin-mytado) aufgeführt ist.

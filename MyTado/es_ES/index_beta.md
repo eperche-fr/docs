@@ -151,6 +151,10 @@ El puerto de comunicación entre su Jeedom y el demonio (por defecto 59969) ya e
 
 Tado ha invalidado el token actual. Vaya a su casa de dispositivos > **Conectarse a Tado**, para volver a autenticarse.
 
+### Paneles de dependencias y demonio vacíos
+
+Verifique su versión de Debian. Se requiere al menos Debian 11 (que proporciona PHP 7.4+ y Python 3.9+ necesarios para el correcto funcionamiento del plugin). Debe actualizar obligatoriamente su Jeedom.
+
 ## Solicitar ayuda
 
 1. Verifique si su problema ya está publicado en la [Comunidad Jeedom](https://community.jeedom.com/tag/plugin-mytado).
