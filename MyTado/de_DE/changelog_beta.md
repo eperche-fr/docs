@@ -1,4 +1,9 @@
+
 # Änderungsprotokoll Plugin MyTado - Beta
+
+# 18.10.2025 - Version 7.4
+
+- Cron wird jetzt beim Deaktivieren des Plugins entfernt
 
 # 18.10.2025 - Version 7.3
 

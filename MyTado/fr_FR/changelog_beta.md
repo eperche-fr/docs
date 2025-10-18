@@ -1,5 +1,9 @@
 # Changelog plugin MyTado - beta
 
+# 18/10/2025 - Version 7.4
+
+- Cron à présent supprimé lors de la désactivation du plugin
+
 # 18/10/2025 - Version 7.3
 
 - Corrections de bug:
