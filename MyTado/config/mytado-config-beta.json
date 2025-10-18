@@ -455,8 +455,6 @@
                     "humidity",
                     "heating_power",
                     "is_window_open",
-                    "enable_window_open_detection",
-                    "disable_window_open_detection",
                     "is_window_open_detection_enabled",
                     "window_open_detection_timeout"
                 ],
@@ -523,10 +521,30 @@
                     "humidity",
                     "heating_power",
                     "is_window_open",
-                    "enable_window_open_detection",
-                    "disable_window_open_detection",
                     "is_window_open_detection_enabled",
                     "window_open_detection_timeout"
+                ],
+                "widget": "MyTado_DeviceEq"
+            }
+        },
+        {"VA04": {
+                "name": "Tête thermostatique",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state",
+                    "humidity",
+                    "heating_power",
+                    "is_window_open"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -555,11 +573,7 @@
                     "fan_speed",
                     "vertical_swing_mode",
                     "horizontal_swing_mode",
-                    "is_window_open",
-                    "enable_window_open_detection",
-                    "disable_window_open_detection",
-                    "is_window_open_detection_enabled",
-                    "window_open_detection_timeout"
+                    "is_window_open"
                 ],
                 "widget": "MyTado_DeviceEq_AC"
             }
@@ -588,11 +602,7 @@
                     "fan_speed",
                     "vertical_swing_mode",
                     "horizontal_swing_mode",
-                    "is_window_open",
-                    "enable_window_open_detection",
-                    "disable_window_open_detection",
-                    "is_window_open_detection_enabled",
-                    "window_open_detection_timeout"
+                    "is_window_open"
                 ],
                 "widget": "MyTado_DeviceEq_AC"
             }
