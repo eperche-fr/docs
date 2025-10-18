@@ -200,11 +200,29 @@
                 "generic_type": "OPENING_WINDOW"
             }
         },
+        {"window_open_detection_timeout": {
+                "displayed_name": "Durée de désactivation en cas de fenêtre ouverte",
+                "type": "info",
+                "subType": "numeric",
+                "unit": "s",
+                "min": 0,
+                "max": 3600,
+                "icon": "fa fa-clock",
+                "generic_type": "TIMER"
+            }
+        },
+        {"is_window_open_detection_enabled": {
+                "displayed_name": "Détection de fenêtre ouverte activée",
+                "type": "info",
+                "subType": "binary",
+                "icon": "mdi mdi-window-open-variant"
+            }
+        },
         {"enable_window_open_detection": {
                 "displayed_name": "Activer la détection de fenêtre ouverte",
                 "type": "action",
-                "subType": "slider",
-                "related_info_cmd":"is_window_open",
+                "subType": "other",
+                "related_info_cmd":"is_window_open_detection_enabled",
                 "icon": "mdi mdi-window-open-variant",
                 "generic_type": "OPENING_WINDOW"
             }
@@ -212,8 +230,8 @@
         {"disable_window_open_detection": {
                 "displayed_name": "Désactiver la détection de fenêtre ouverte",
                 "type": "action",
-                "subType": "default",
-                "related_info_cmd":"is_window_open",
+                "subType": "other",
+                "related_info_cmd":"is_window_open_detection_enabled",
                 "icon": "mdi mdi-window-open-variant",
                 "generic_type": "OPENING_WINDOW"
             }
@@ -437,8 +455,8 @@
                     "humidity",
                     "heating_power",
                     "is_window_open",
-                    "enable_window_open_detection",
-                    "disable_window_open_detection"
+                    "is_window_open_detection_enabled",
+                    "window_open_detection_timeout"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -459,8 +477,7 @@
                     "last_update",
                     "battery_state",
                     "humidity",
-                    "heating_power",
-                    "is_window_open"
+                    "heating_power"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -481,8 +498,7 @@
                     "last_update",
                     "battery_state",
                     "humidity",
-                    "heating_power",
-                    "is_window_open"
+                    "heating_power"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -505,8 +521,30 @@
                     "humidity",
                     "heating_power",
                     "is_window_open",
-                    "enable_window_open_detection",
-                    "disable_window_open_detection"
+                    "is_window_open_detection_enabled",
+                    "window_open_detection_timeout"
+                ],
+                "widget": "MyTado_DeviceEq"
+            }
+        },
+        {"VA04": {
+                "name": "Tête thermostatique",
+                "cmds": [
+                    "refresh",
+                    "identify",
+                    "set_expected_temperature",
+                    "set_mode",
+                    "enable",
+                    "disable",
+                    "is_enabled",
+                    "expected_temperature",
+                    "mode",
+                    "temperature",
+                    "last_update",
+                    "battery_state",
+                    "humidity",
+                    "heating_power",
+                    "is_window_open"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -535,9 +573,7 @@
                     "fan_speed",
                     "vertical_swing_mode",
                     "horizontal_swing_mode",
-                    "is_window_open",
-                    "enable_window_open_detection",
-                    "disable_window_open_detection"
+                    "is_window_open"
                 ],
                 "widget": "MyTado_DeviceEq_AC"
             }
@@ -566,9 +602,7 @@
                     "fan_speed",
                     "vertical_swing_mode",
                     "horizontal_swing_mode",
-                    "is_window_open",
-                    "enable_window_open_detection",
-                    "disable_window_open_detection"
+                    "is_window_open"
                 ],
                 "widget": "MyTado_DeviceEq_AC"
             }

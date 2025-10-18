@@ -1,11 +1,11 @@
 # Changelog plugin MyTado - beta
 
-# 12/10/2025 - Version 7.3
+# 18/10/2025 - Version 7.3
 
 - Corrections de bug:
   - Le record d'appel par jour est à présent affiché
-  - La configuraion des commandes a été révisée, **une nouvelle synchornisation est nécessaire**
   - Le mode fenêtre ouverte devrait à présent fonctionner pour les équipements pre-tadoX
+- Si l'API Tado contient des commandes pour activer/désactiver le mode fenêtre ouverte, cela ne marche pas pour autant. Ces commandes sont donc supprimées de vos équipements. **Bien faire une nouvelle synchronisation pour les voir disparaître**.
 
 # 08/10/2025 - Version 7.2
 

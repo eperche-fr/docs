@@ -1,5 +1,12 @@
 # Changelog plugin MyTado
 
+# 18/10/2025 - Versión 7.3
+
+- Correcciones de errores:
+  - Ahora se muestra el récord de llamadas API por día
+  - El modo de ventana abierta debería funcionar ahora para los dispositivos pre-tadoX
+- Si la API de Tado contiene comandos para activar/desactivar el modo de ventana abierta, no funcionan. Estos comandos se eliminan de sus dispositivos. **Realice una nueva sincronización para que desaparezcan.**
+
 # 08/10/2025 - Versión 7.2
 
 - Corrección de error para los widgets de dispositivos de aire acondicionado: El modo AC ahora se recupera correctamente.

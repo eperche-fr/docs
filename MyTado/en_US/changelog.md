@@ -1,5 +1,12 @@
 # Changelog plugin MyTado
 
+# 10/18/2025 - Version 7.3
+
+- Bug fixes:
+  - The daily API call record is now displayed
+  - The open window mode should now work for pre-tadoX devices
+- If the Tado API contains commands to enable/disable the open window mode, they do not work. These commands are now removed from your devices. **Be sure to run a new synchronization to see them disappear.**
+
 # 10/08/2025 - Version 7.2
 
 - Bug fix for air conditioning device widgets: AC mode is now correctly retrieved again.

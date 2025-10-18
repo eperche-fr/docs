@@ -1,5 +1,12 @@
 # Änderungsprotokoll Plugin MyTado
 
+# 18.10.2025 - Version 7.3
+
+- Fehlerbehebungen:
+  - Der Tagesrekord der API-Aufrufe wird jetzt angezeigt
+  - Der Modus „Fenster offen“ sollte jetzt für Geräte vor tadoX funktionieren
+- Falls die Tado-API Befehle zum Aktivieren/Deaktivieren des Modus „Fenster offen“ enthält, funktionieren diese trotzdem nicht. Diese Befehle werden daher aus Ihren Geräten entfernt. **Führen Sie unbedingt eine neue Synchronisierung durch, damit sie verschwinden.**
+
 # 08.10.2025 - Version 7.2
 
 - Fehlerbehebung für Widgets von Klimageräten: Der AC-Modus wird jetzt wieder korrekt abgerufen.
