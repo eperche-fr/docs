@@ -1,9 +1,12 @@
 
 # Changelog plugin MyTado - beta
 
-# 10/18/2025 - Version 7.4
+# 10/22/2025 - Version 7.4
 
 - The cron is now removed when the plugin is deactivated
+- Added: info command `Connection status` on devices (shows the device connection state)
+- Correction: the `Status` command, which previously indicated connection status, now reports whether the device is off or on (depending on the selected `mode`)
+- Added: configuration option `Daily equipment synchronization` to run an automatic daily equipment sync via the daily cron (checked by default if Auto-Assist is selected)
 
 # 10/18/2025 - Version 7.3
 

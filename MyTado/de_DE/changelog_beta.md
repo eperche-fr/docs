@@ -1,9 +1,12 @@
 
 # Änderungsprotokoll Plugin MyTado - Beta
 
-# 18.10.2025 - Version 7.4
+# 22.10.2025 - Version 7.4
 
 - Cron wird jetzt beim Deaktivieren des Plugins entfernt
+- Hinzugefügt: Info-Befehl `Status der Verbindung` für Geräte (zeigt den Verbindungsstatus des Geräts)
+- Berichtigung: Der Befehl `Status`, der zuvor den Verbindungsstatus angab, meldet jetzt, ob das Gerät aus- oder eingeschaltet ist (je nach ausgewähltem `mode`)
+- Hinzugefügt: Konfigurationsoption „Tägliche Synchronisation der Geräte“, führt über den täglichen Cron eine automatische tägliche Gerätesynchronisation aus (standardmäßig aktiviert, wenn Auto-Assist ausgewählt ist)
 
 # 18.10.2025 - Version 7.3
 
