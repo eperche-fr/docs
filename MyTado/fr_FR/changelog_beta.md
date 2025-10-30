@@ -1,11 +1,14 @@
 # Changelog plugin MyTado - beta
 
-# 22/10/2025 - Version 7.4
+# 30/10/2025 - Version 7.4
 
 - Cron à présent supprimé lors de la désactivation du plugin
-- Ajout: commande d'information `Status de connexion` sur les équipements (affiche l'état de connexion de l'équipement)
-- Rectification: la commande `Status`, qui indiquait le status de connexion, indique à présent si l'équipement est éteint ou allumé (selon le `mode` choisi)
-- Ajout: option de configuration `Synchronisation quotidienne des équipements`, permet d'exécuter une synchronisation quotidienne automatique des équipements via le cron journalier (activée par défaut si Auto-Assist est sélectionné)
+- Ajout: 
+  - commande d'information `Status de connexion` sur les équipements (affiche l'état de connexion de l'équipement)
+  - option de configuration `Synchronisation quotidienne des équipements`, permet d'exécuter une synchronisation quotidienne automatique des équipements via le cron journalier (activée par défaut si Auto-Assist est sélectionné)
+- Rectification: 
+  - la commande `Status`, qui indiquait le status de connexion, indique à présent si l'équipement est éteint ou allumé (selon le `mode` choisi)
+  - la détection de fenêtre ouverte est alignée entre pre-TadoX et TadoX (pour corriger une inconsistence de l'API)
 
 # 18/10/2025 - Version 7.3
 
