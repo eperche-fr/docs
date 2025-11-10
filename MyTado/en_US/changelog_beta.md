@@ -1,6 +1,11 @@
 
 # Changelog plugin MyTado - beta
 
+# 11/10/2025 - Version 8.0
+
+- New plugin configuration option to automatically revert manual mode to automatic at the next scheduled time block for a device zone
+- Exposes the next scheduled time block and its programmed temperature (new commands: "Next program change at" and "Next programmed temperature")
+
 # 10/30/2025 - Version 7.4
 
 - Cron is now removed when the plugin is deactivated

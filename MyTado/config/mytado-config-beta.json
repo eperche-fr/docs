@@ -99,6 +99,29 @@
                 "icon": "fas fa-bolt"
             }
         },
+        {"next_schedule_change_timestamp": {
+                "displayed_name": "Prochain changement de programme à",
+                "type": "info",
+                "subType": "string",
+                "icon": "jeedomapp jeedomapp-calendar-clock"
+            }
+        },
+        {"next_schedule_change_temperature": {
+                "displayed_name": "Prochaine température programmée",
+                "type": "info",
+                "subType": "numeric",
+                "unitFunction": "getTemperatureUnit",
+                "icon": "jeedomapp jeedomapp-thermostat"
+            }
+        },
+        {"next_schedule_change_temperature": {
+                "displayed_name": "Prochaine température programmée",
+                "type": "info",
+                "subType": "numeric",
+                "unitFunction": "getTemperatureUnit",
+                "icon": "jeedomapp jeedomapp-thermostat"
+            }
+        },
         {"AC_mode": {
                 "displayed_name": "Mode AC",
                 "type": "info",
@@ -364,7 +387,9 @@
                     "mode",
                     "temperature",
                     "last_update",
-                    "battery_state"
+                    "battery_state",
+                    "next_schedule_change_timestamp",
+                    "next_schedule_change_temperature"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -384,7 +409,9 @@
                     "mode",
                     "temperature",
                     "last_update",
-                    "battery_state"
+                    "battery_state",
+                    "next_schedule_change_timestamp",
+                    "next_schedule_change_temperature"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -404,7 +431,9 @@
                     "mode",
                     "temperature",
                     "last_update",
-                    "battery_state"
+                    "battery_state",
+                    "next_schedule_change_timestamp",
+                    "next_schedule_change_temperature"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -424,7 +453,9 @@
                     "mode",
                     "temperature",
                     "last_update",
-                    "battery_state"
+                    "battery_state",
+                    "next_schedule_change_timestamp",
+                    "next_schedule_change_temperature"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -444,7 +475,9 @@
                     "mode",
                     "temperature",
                     "last_update",
-                    "battery_state"
+                    "battery_state",
+                    "next_schedule_change_timestamp",
+                    "next_schedule_change_temperature"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -469,7 +502,9 @@
                     "heating_power",
                     "is_window_open",
                     "is_window_open_detection_enabled",
-                    "window_open_detection_timeout"
+                    "window_open_detection_timeout",
+                    "next_schedule_change_timestamp",
+                    "next_schedule_change_temperature"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -491,7 +526,9 @@
                     "last_update",
                     "battery_state",
                     "humidity",
-                    "heating_power"
+                    "heating_power",
+                    "next_schedule_change_timestamp",
+                    "next_schedule_change_temperature"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -513,7 +550,9 @@
                     "last_update",
                     "battery_state",
                     "humidity",
-                    "heating_power"
+                    "heating_power",
+                    "next_schedule_change_timestamp",
+                    "next_schedule_change_temperature"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -538,7 +577,9 @@
                     "heating_power",
                     "is_window_open",
                     "is_window_open_detection_enabled",
-                    "window_open_detection_timeout"
+                    "window_open_detection_timeout",
+                    "next_schedule_change_timestamp",
+                    "next_schedule_change_temperature"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -561,7 +602,9 @@
                     "battery_state",
                     "humidity",
                     "heating_power",
-                    "is_window_open"
+                    "is_window_open",
+                    "next_schedule_change_timestamp",
+                    "next_schedule_change_temperature"
                 ],
                 "widget": "MyTado_DeviceEq"
             }
@@ -591,7 +634,9 @@
                     "fan_speed",
                     "vertical_swing_mode",
                     "horizontal_swing_mode",
-                    "is_window_open"
+                    "is_window_open",
+                    "next_schedule_change_timestamp",
+                    "next_schedule_change_temperature"
                 ],
                 "widget": "MyTado_DeviceEq_AC"
             }
@@ -621,7 +666,9 @@
                     "fan_speed",
                     "vertical_swing_mode",
                     "horizontal_swing_mode",
-                    "is_window_open"
+                    "is_window_open",
+                    "next_schedule_change_timestamp",
+                    "next_schedule_change_temperature"
                 ],
                 "widget": "MyTado_DeviceEq_AC"
             }

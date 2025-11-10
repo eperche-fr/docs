@@ -1,4 +1,15 @@
+
 # Änderungsprotokoll Plugin MyTado
+
+# 10.11.2025 - Version 7.4
+
+- Cron wird jetzt beim Deaktivieren des Plugins entfernt
+- Hinzugefügt:
+  - Info-Befehl `Status der Verbindung` für Geräte (zeigt den Verbindungsstatus des Geräts)
+  - Konfigurationsoption `Tägliche Synchronisation der Geräte` (Konfig-Schlüssel `daily_sync_equipments`), ermöglicht eine automatische tägliche Gerätesynchronisation über den täglichen Cron (standardmäßig aktiviert, wenn Auto-Assist ausgewählt ist)
+- Berichtigung:
+  - Der Befehl `Status`, der zuvor den Verbindungsstatus anzeigte, meldet jetzt, ob das Gerät aus- oder eingeschaltet ist (je nach ausgewähltem `mode`)
+  - Die Erkennung offener Fenster ist zwischen pre-TadoX und TadoX vereinheitlicht (zur Behebung einer API-Inkonsistenz)
 
 # 18.10.2025 - Version 7.3
 
@@ -18,7 +29,7 @@
   - Problem mit Swing-Befehlen behoben
   - Änderungen der gewünschten Temperatur funktionieren wieder in den Widgets
 
-# 27.09.2025 - Version 7.0
+# 14.09.2025 - Version 7.0
 
 - **NEU: Intelligente API-Aufruf-Verwaltung aufgrund der Tado-Beschränkungen (September 2025)**
   - Obligatorische Auto-Assist-Konfiguration: Wählen Sie, ob Sie ein Tado Auto-Assist-Abonnement haben
@@ -41,7 +52,7 @@
 
 - Fehler bei der Erstellung von Befehlen für ein neues Haus behoben (eingeführt in Version 6.0)  
 
-# 26.03.2025 - Version 6.0
+# 23.03.2025 - Version 6.0
 
 - Anpassung der Verbindung zu Tado aufgrund der API-Änderung vom 21.03.2025  
 
@@ -70,7 +81,8 @@
 - Objekte mit mehreren Rollen (z. B.: Heizkessel- und Warmwassersteuerung) werden jetzt durch ein Gerät pro Funktion dargestellt.
 - Die Parameter der Aktionen sind jetzt bei Befehlsprüfungen und in Szenarien verfügbar.
 
-# 01.2025 - Version 3.1
+# 19.01.2025 - Version 3.1
+
 
 - Die möglichen Werte der verschiedenen Parameter für Klimaanlagenmodule werden jetzt dynamisch abgerufen.  
 - Behebung eines Problems beim Abrufen des Status eines TadoX-Geräts, wenn es sich im manuellen Modus für eine bestimmte Dauer befindet.  
@@ -82,7 +94,14 @@
 - Wetter wird in ein Zuhause umgewandelt und die Verbindungskonfiguration wurde auf dieses "Zuhause"-Gerät verlagert
 - Es ist möglich, mehrere Häuser zu konfigurieren, falls man sowohl Tado- als auch TadoX-Geräte besitzt (was zwei separate Häuser erfordert)
 - 4 neuen Befehlen für Tado(X)-Geräte hinzugefügt: Aktivieren, Deaktivieren, Datum des letzten Daten-Updates und Batteriestand
+
+# 11.2024 - Version 2.0
+
 - Die Verwaltung der Verbindung zu Tado verwendet jetzt einen Daemon, um Latenzzeiten in PHP zu vermeiden
+
+# 30.10.2024 - Version 1.6
+
+- Fehler bei der Abfrage der Fähigkeiten eines Objekts vom Typ AC führen nicht mehr dazu, dass die Abfrage anderer Geräten blockiert wird
 
 # 17.10.2024 - Version 1.5
 

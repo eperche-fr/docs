@@ -1,5 +1,10 @@
 # Changelog plugin MyTado - beta
 
+# 10/11/2025 - Version 8.0
+
+- Nouvelle option de configuration du plugin pour que le mode manuel rebascule en mode automatique selon le prochain créneau programmé de la zone d'un équipement
+- Remontée du prochain crenéau programmé et de sa température (nouvelle commande: "Prochain changement de programme à" et "Prochaine température programmée")
+
 # 30/10/2025 - Version 7.4
 
 - Cron à présent supprimé lors de la désactivation du plugin

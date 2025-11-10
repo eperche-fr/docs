@@ -1,4 +1,15 @@
+
 # Changelog plugin MyTado
+
+# 10/11/2025 - Versión 7.4
+
+- El cron ahora se elimina al desactivar el plugin
+- Añadido:
+  - comando de información `Estado de conexión` en los dispositivos (muestra el estado de conexión del dispositivo)
+  - opción de configuración `Sincronización diaria de equipos` (clave `daily_sync_equipments`), permite ejecutar una sincronización automática diaria de equipos mediante el cron diario (marcada por defecto si Auto-Assist está seleccionado)
+- Rectificación:
+  - el comando `Status`, que anteriormente indicaba el estado de conexión, ahora indica si el dispositivo está apagado o encendido (según el `mode` seleccionado)
+  - la detección de ventana abierta se ha alineado entre pre-TadoX y TadoX (para corregir una inconsistencia de la API)
 
 # 18/10/2025 - Versión 7.3
 
@@ -6,6 +17,7 @@
   - Ahora se muestra el récord de llamadas API por día
   - El modo de ventana abierta debería funcionar ahora para los dispositivos pre-tadoX
 - Si la API de Tado contiene comandos para activar/desactivar el modo de ventana abierta, no funcionan. Estos comandos se eliminan de sus dispositivos. **Realice una nueva sincronización para que desaparezcan.**
+
 
 # 08/10/2025 - Versión 7.2
 
@@ -18,7 +30,7 @@
   - Problema de comandos swing corregido
   - Los cambios de temperatura deseada vuelven a funcionar en los widgets
 
-# 27/09/2025 - Versión 7.0
+# 14/09/2025 - Versión 7.0
 
 - **NUEVO: Gestión inteligente de llamadas API debido a las limitaciones de Tado (septiembre 2025)**
   - Configuración Auto-Assist obligatoria: Selecciona si tienes una suscripción Tado Auto-Assist
@@ -41,15 +53,16 @@
 
 - Corregido un error al crear comandos para una nueva casa (introducido en la versión 6.0)  
 
-# 26/03/2025 - Versión 6.0
+# 23/03/2025 - Versión 6.0
 
-- Adaptación de la conexión a Tado tras el cambio de API del 21/03/2025
+- Adaptación de la conexión a Tado tras el cambio de API del 21/03/2025  
 
 # 19/03/2025 - Versión 5.1
 
 - Reorganización de la visualización de la página de equipos  
 - Se resolvió un problema con la sincronización durante una nueva instalación del complemento  
 - Corrección de la visualización de la imagen para los dispositivos del modelo RU02B (RU02 gestiona el termostato y el agua caliente)  
+
 
 # 09/03/2025 - Versión 5.0
 
@@ -70,7 +83,7 @@
 - Los objetos con múltiples roles (por ejemplo: control de caldera y calentador de agua) ahora se representan con un equipo por función.
 - Los parámetros de las acciones ahora están disponibles durante las pruebas de comandos y en los escenarios.
 
-# 01/2025 - Versión 3.1
+# 19/01/2025 - Versión 3.1
 
 - Los valores posibles de los diferentes parámetros de los módulos de aire acondicionado ahora se recuperan dinámicamente.  
 - Solucionado un problema al recuperar el estado de un dispositivo TadoX cuando está en modo manual durante un período definido.  
@@ -82,7 +95,14 @@
 - El clima se convierte en un hogar, y la configuración de la conexión se ha trasladado a este dispositivo "hogar"
 - Es posible configurar múltiples hogares en caso de poseer tanto dispositivos Tado como TadoX (lo que requiere 2 hogares separados)
 - 4 nuevos comandos agregados a los dispositivos Tado(X): activar, desactivar, fecha de la última actualización de datos y nivel de batería
+
+# 11/2024 - Versión 2.0
+
 - La gestión de la conexión a Tado ahora utiliza un demonio para evitar tiempos de latencia en PHP
+
+# 30/10/2024 - Versión 1.6
+
+- Los errores en la recuperación de las capacidades de un objeto de tipo AC ya no bloquean la recuperación de otros objetos
 
 # 17/10/2024 - Versión 1.5
 
