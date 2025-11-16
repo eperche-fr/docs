@@ -5,6 +5,7 @@
 
 - Neue Konfigurationsoption des Plugins: Der manuelle Modus kann beim nächsten geplanten Zeitfenster der Zone eines Geräts automatisch wieder aktiviert werden
 - Anzeige des nächsten geplanten Zeitfensters und der darin vorgesehenen Temperatur (neue Befehle: „Nächste Programmänderung um“ und „Nächste programmierte Temperatur")
+ - Möglichkeit hinzugefügt, den Anwesenheitsmodus zu erzwingen (anwesend/abwesend oder automatische Erkennung). Um diese Information zu erhalten, denken Sie daran, die Option in der Plugin-Konfiguration zu aktivieren.
 
 # 30.10.2025 - Version 7.4
 

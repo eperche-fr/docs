@@ -3,7 +3,8 @@
 # 10/11/2025 - Version 8.0
 
 - Nouvelle option de configuration du plugin pour que le mode manuel rebascule en mode automatique selon le prochain créneau programmé de la zone d'un équipement
-- Remontée du prochain crenéau programmé et de sa température (nouvelle commande: "Prochain changement de programme à" et "Prochaine température programmée")
+- Remontée du prochain créneau programmé et de sa température (nouvelle commande: "Prochain changement de programme à" et "Prochaine température programmée")
+- Ajout de la possibilité de forcer le mode de présence (présenabsent ou auto-détection). Pour récupérer l'information, bien penser à activer l'option dans la configuration du plugin.
 
 # 30/10/2025 - Version 7.4
 
