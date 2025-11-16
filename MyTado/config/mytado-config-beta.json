@@ -315,6 +315,26 @@
                 ]
             }
         },
+        {"presence_mode": {
+                "displayed_name": "Mode de présence",
+                "type": "info",
+                "subType": "string",
+                "possible_values": [
+                    "AUTO|Autodétection",
+                    "HOME|Présent",
+                    "AWAY|Absent"
+                ],
+                "icon": "fas fa-home-user"
+            }
+        },
+        {"set_presence_mode": {
+                "displayed_name": "Définir le mode de présence",
+                "type": "action",
+                "subType": "other",
+                "related_info_cmd": "presence_mode",
+                "icon": "fas fa-home-user"
+            }
+        },
         {"amount_of_users_at_home": 
             {
                 "displayed_name": "Présence à la maison",
@@ -352,7 +372,7 @@
                 "type": "info",
                 "subType": "numeric",
                 "generic_type": "PRESENCE",
-                "icon": "sante filled_symbols_home-quarantine"
+                "icon": "fas fa-home-user"
             }
         },
         {"distance_from_home": {
@@ -360,14 +380,14 @@
                 "unit": "km",
                 "type": "info",
                 "subType": "numeric",
-                "icon": "sante filled_symbols_geo_location"
+                "icon": "fas fa-map-marker-alt"
             }
         },
         {"relative_distance_from_home": {
                 "displayed_name": "Distance relative de la maison",
                 "type": "info",
                 "subType": "numeric",
-                "icon": "sante filled_symbols_geo_location"
+                "icon": "fas fa-map-marker-alt"
             }
         }
     ],
