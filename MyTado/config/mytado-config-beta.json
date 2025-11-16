@@ -320,7 +320,7 @@
                 "type": "info",
                 "subType": "string",
                 "possible_values": [
-                    "AUTO|Autodétection",
+                    "AUTO|Auto-détection",
                     "HOME|Présent",
                     "AWAY|Absent"
                 ],
@@ -352,7 +352,7 @@
             }
         },
         {"refresh_token": {
-                "displayed_name": "Token de rafraissement",
+                "displayed_name": "Token de rafraîchissement",
                 "type": "info",
                 "subType": "string",
                 "icon": "kiko kiko-security-system"
