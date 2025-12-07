@@ -7,6 +7,7 @@
 - Exposes the next scheduled time block and its programmed temperature (new commands: "Next program change at" and "Next programmed temperature")
 - Added the ability to force presence mode (present/absent or auto-detection). To retrieve this information, make sure to enable the option in the plugin configuration.
 - Adjusted AC mode detection when only a single swing type is available
+ - Additional libopenblas dependency update for rpi3 and rpi4 compatibility
 
 # 10/30/2025 - Version 7.4
 
