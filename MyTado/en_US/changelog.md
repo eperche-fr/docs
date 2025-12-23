@@ -1,6 +1,10 @@
 
 # Changelog plugin MyTado
 
+# 23/12/2025 - Version 7.5
+
+- Bug fix on plugin configuration changes (e.g., changing the synchronization frequency was no longer taken into account).
+
 # 11/10/2025 - Version 7.4
 
 - Cron is now removed when the plugin is deactivated

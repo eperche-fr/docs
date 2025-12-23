@@ -1,12 +1,16 @@
 # Changelog plugin MyTado - beta
 
-# 10/11/2025 - Version 8.0
+# 23/12/2025 - Version 8.0
 
 - Nouvelle option de configuration du plugin pour que le mode manuel rebascule en mode automatique selon le prochain créneau programmé de la zone d'un équipement
 - Remontée du prochain créneau programmé et de sa température (nouvelle commande: "Prochain changement de programme à" et "Prochaine température programmée")
 - Ajout de la possibilité de forcer le mode de présence (présent/absent ou auto-détection). Pour récupérer l'information, bien penser à activer l'option dans la configuration du plugin.
 - Adaptation de la détection des modes AC dans le cas où un seul type de swing n'est possible
 - Update supplémentaire de dépendance libopenblas pour compatibilité rpi3 et 4
+
+# 23/12/2025 - Version 7.5
+
+- Correction de bug lors de changements de la configuration du plugin (ex. le changement de fréquence de synchronisation n'était plus prise en compte).
 
 # 30/10/2025 - Version 7.4
 

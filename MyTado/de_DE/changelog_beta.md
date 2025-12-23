@@ -1,13 +1,17 @@
 
 # Änderungsprotokoll Plugin MyTado - Beta
 
-# 10.11.2025 - Version 8.0
+# 23.12.2025 - Version 8.0
 
 - Neue Konfigurationsoption des Plugins: Der manuelle Modus kann beim nächsten geplanten Zeitfenster der Zone eines Geräts automatisch wieder aktiviert werden
 - Anzeige des nächsten geplanten Zeitfensters und der darin vorgesehenen Temperatur (neue Befehle: „Nächste Programmänderung um“ und „Nächste programmierte Temperatur")
 - Möglichkeit hinzugefügt, den Anwesenheitsmodus zu erzwingen (anwesend/abwesend oder automatische Erkennung). Um diese Information zu erhalten, denken Sie daran, die Option in der Plugin-Konfiguration zu aktivieren.
 - Anpassung der Erkennung der AC-Modi, wenn nur ein Schwingtyp verfügbar ist
  - Zusätzliche Aktualisierung der Abhängigkeit libopenblas für die Kompatibilität mit Raspberry Pi 3 und 4
+ 
+# 23.12.2025 - Version 7.5
+
+- Fehlerbehebung bei Änderungen der Plugin-Konfiguration (z.B. die Änderung der Synchronisierungsfrequenz wurde nicht mehr berücksichtigt).
 
 # 30.10.2025 - Version 7.4
 
