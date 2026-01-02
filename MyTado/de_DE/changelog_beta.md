@@ -1,7 +1,7 @@
 
 # Änderungsprotokoll Plugin MyTado - Beta
 
-# 23.12.2025 - Version 8.0
+# 02.01.2026 - Version 8.0
 
 - Neue Konfigurationsoption des Plugins: Der manuelle Modus kann beim nächsten geplanten Zeitfenster der Zone eines Geräts automatisch wieder aktiviert werden
 - Anzeige des nächsten geplanten Zeitfensters und der darin vorgesehenen Temperatur (neue Befehle: „Nächste Programmänderung um“ und „Nächste programmierte Temperatur")

@@ -1,7 +1,7 @@
 
 # Changelog plugin MyTado - beta
 
-# 12/23/2025 - Version 8.0
+# 01/02/2026 - Version 8.0
 
 - New plugin configuration option to automatically revert manual mode to automatic at the next scheduled time block for a device zone
 - Exposes the next scheduled time block and its programmed temperature (new commands: "Next program change at" and "Next programmed temperature")

@@ -1,6 +1,14 @@
 
 # Changelog plugin MyTado
 
+# 02/01/2026 - Versión 8.0
+
+- Nueva opción de configuración del plugin para que el modo manual vuelva a automático en el siguiente bloque programado de la zona de un equipo
+- Muestra el siguiente bloque programado y su temperatura programada (nuevos comandos: "Siguiente cambio de programa a" y "Próxima temperatura programada")
+- Añadida la posibilidad de forzar el modo de presencia (presente/ausente o detección automática). Para recuperar esta información, asegúrese de activar la opción en la configuración del plugin.
+- Adaptación de la detección de modos AC cuando solo es posible un tipo de swing
+ - Actualización adicional de la dependencia libopenblas para la compatibilidad con Raspberry Pi 3 y 4
+ 
 # 23/12/2025 - Versión 7.5
 
 - Corrección de error en cambios de configuración del plugin (por ejemplo, el cambio de frecuencia de sincronización ya no se tenía en cuenta).

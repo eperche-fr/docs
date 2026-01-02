@@ -1,7 +1,7 @@
 
 # Changelog plugin MyTado - beta
 
-# 23/12/2025 - Versión 8.0
+# 02/01/2026 - Versión 8.0
 
 - Nueva opción de configuración del plugin para que el modo manual vuelva a automático en el siguiente bloque programado de la zona de un equipo
 - Muestra el siguiente bloque programado y su temperatura programada (nuevos comandos: "Siguiente cambio de programa a" y "Próxima temperatura programada")
