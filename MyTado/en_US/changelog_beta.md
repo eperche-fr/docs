@@ -1,6 +1,10 @@
 
 # Changelog plugin MyTado - beta
 
+# 01/03/2026 - Version 8.1
+
+- Bug fixed: If no scheduling exists on Tado for a module, the returned values are now *null*.
+
 # 01/02/2026 - Version 8.0
 
 - New plugin configuration option to automatically revert manual mode to automatic at the next scheduled time block for a device zone

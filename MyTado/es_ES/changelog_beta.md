@@ -1,6 +1,10 @@
 
 # Changelog plugin MyTado - beta
 
+# 03/01/2026 - Versión 8.1
+
+- Error corregido: Si no existe ninguna programación en Tado para un módulo, los valores devueltos ahora son *null*.
+
 # 02/01/2026 - Versión 8.0
 
 - Nueva opción de configuración del plugin para que el modo manual vuelva a automático en el siguiente bloque programado de la zona de un equipo

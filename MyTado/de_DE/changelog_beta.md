@@ -1,6 +1,10 @@
 
 # Änderungsprotokoll Plugin MyTado - Beta
 
+# 03.01.2026 - Version 8.1
+
+- Fehler behoben: Wenn für ein Modul keine Planung auf Tado vorhanden ist, sind die zurückgegebenen Werte nun *null*.
+
 # 02.01.2026 - Version 8.0
 
 - Neue Konfigurationsoption des Plugins: Der manuelle Modus kann beim nächsten geplanten Zeitfenster der Zone eines Geräts automatisch wieder aktiviert werden

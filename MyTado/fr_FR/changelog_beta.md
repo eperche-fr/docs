@@ -1,5 +1,9 @@
 # Changelog plugin MyTado - beta
 
+# 03/01/2026 - Version 8.1
+
+- Bug corrigé: Si aucune planification n'existe sur Tado pour un module, les valeurs retrounées sont maintenant *null*.
+
 # 02/01/2026 - Version 8.0
 
 - Nouvelle option de configuration du plugin pour que le mode manuel rebascule en mode automatique selon le prochain créneau programmé de la zone d'un équipement
