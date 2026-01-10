@@ -1,9 +1,11 @@
 
 # Changelog plugin MyTado - beta
 
-# 03/01/2026 - Versión 8.1
+# 10/01/2026 - Versión 8.1
 
-- Error corregido: Si no existe ninguna programación en Tado para un módulo, los valores devueltos ahora son *null*.
+- Corrección de errores: 
+  - Si no existe ninguna programación en Tado para un módulo, los valores devueltos ahora son *null*.
+  - El widget ahora muestra las opciones nuevamente en el bloque del modo manual
 
 # 02/01/2026 - Versión 8.0
 

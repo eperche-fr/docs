@@ -1,9 +1,11 @@
 
 # Changelog plugin MyTado - beta
 
-# 01/03/2026 - Version 8.1
+# 01/10/2026 - Version 8.1
 
-- Bug fixed: If no scheduling exists on Tado for a module, the returned values are now *null*.
+- Bug fixes: 
+  - If no scheduling exists on Tado for a module, the returned values are now *null*.
+  - Widget now displays options again in the manual mode block
 
 # 01/02/2026 - Version 8.0
 

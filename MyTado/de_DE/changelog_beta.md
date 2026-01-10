@@ -1,9 +1,11 @@
 
 # Änderungsprotokoll Plugin MyTado - Beta
 
-# 03.01.2026 - Version 8.1
+# 10.01.2026 - Version 8.1
 
-- Fehler behoben: Wenn für ein Modul keine Planung auf Tado vorhanden ist, sind die zurückgegebenen Werte nun *null*.
+- Fehler behoben: 
+  - Wenn für ein Modul keine Planung auf Tado vorhanden ist, sind die zurückgegebenen Werte nun *null*.
+  - Das Widget zeigt nun wieder Optionen im Block des manuellen Modus an
 
 # 02.01.2026 - Version 8.0
 
