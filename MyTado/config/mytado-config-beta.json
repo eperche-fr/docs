@@ -41,7 +41,7 @@
                 "displayed_name": "Etat de la batterie",
                 "type": "info",
                 "subType": "string",
-                "icon": "fas fa-battery-empty",
+                "icon": "jeedomapp jeedomapp-prise",
                 "possible_values":[
                     "NORMAL|Pleine|fas fa-battery-full",
                     "LOW|Faible|fas fa-battery-quarter",
