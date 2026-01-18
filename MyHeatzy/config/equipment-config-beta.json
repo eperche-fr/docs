@@ -42,10 +42,10 @@
                 "icon": "mdi mdi-power-settings",
                 "generic_type": "THERMOSTAT_MODE",
                 "possible_values": [
-                    "cft|Confort",
-                    "eco|Eco",
-                    "fro|Hors-gel",
-                    "stop|Eteint"
+                    "cft|Confort|fas fa-sun",
+                    "eco|Eco|fas fa-moon",
+                    "fro|Hors-gel|fas fa-snowflake",
+                    "stop|Eteint|fas fa-toggle-off"
                 ]
             }
         },
@@ -80,25 +80,29 @@
         {"enable_scheduler": {
                 "displayed_name": "Activer la programmation",
                 "type": "action",
-                "subType": "other",
-                "icon": "fas fa-play-circle"
+                "subType": "slider",
+                "icon": "fas fa-calendar-plus",
+                "related_info_cmd":"is_scheduler_enabled",
+                "related_info_cmd_value":1
             }
         },
         {"disable_scheduler": {
                 "displayed_name": "Désactiver la programmation",
                 "type": "action",
-                "subType": "other",
-                "icon": "fas fa-stop-circle"
+                "subType": "slider",
+                "icon": "fas fa-calendar-minus",
+                "related_info_cmd":"is_scheduler_enabled",
+                "related_info_cmd_value":0
             }
         },
         {"is_scheduler_enabled": {
                 "displayed_name": "Etat de la programmation",
                 "type": "info",
                 "subType": "binary",
-                "icon": "fas fa-stop-circle",
+                "icon": "fas fa-calendar-alt",
                 "possible_values": [
-                        "0|Eteint",
-                        "1|Allumé"
+                        "0|Eteint|fas fa-calendar-minus",
+                        "1|Allumé|fas fa-calendar-plus"
                     ]
             }
         },
@@ -106,6 +110,7 @@
                 "displayed_name": "Jours restants en mode vacances",
                 "type": "info",
                 "subType": "numeric",
+                "icon": "fas fa-sign-out-alt",
                 "unit": "jours",
                 "min": 0,
                 "max": 255
@@ -115,6 +120,7 @@
                 "displayed_name": "Définir le nombre de jour en mode vacances",
                 "type": "action",
                 "subType": "slider",
+                "icon": "fas fa-sign-out-alt",
                 "related_info_cmd":"days_out"
             }
         },
@@ -122,10 +128,12 @@
                 "displayed_name": "Temps de boost restant",
                 "type": "info",
                 "subType": "numeric",
+                "icon": "fas fa-bolt",
                 "min": 0,
                 "max": 120,
                 "unit": "min",
                 "possible_values": [
+                    "0|0m",
                     "30|30m",
                     "60|1h",
                     "90|1h30",
@@ -137,6 +145,7 @@
                 "displayed_name": "Définir un temps de boost",
                 "type": "action",
                 "subType": "select",
+                "icon": "fas fa-bolt",
                 "related_info_cmd":"boost_time"
             }
         }
