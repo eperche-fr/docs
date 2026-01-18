@@ -1,5 +1,11 @@
-
 # Changelog plugin MyTado
+
+# 18/01/2026 - Versión 8.1
+
+- Si no existe ninguna programación en Tado para un módulo, los valores devueltos ahora son *null*.
+- Correcciones del widget de equipos:
+  - las opciones ahora se muestran nuevamente en el bloque del modo manual
+  - los botones son más visibles para facilitar el cambio de modo (en verde) y las opciones del modo manual (en azul)
 
 # 02/01/2026 - Versión 8.0
 

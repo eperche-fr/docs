@@ -1,5 +1,12 @@
 # Changelog plugin MyTado
 
+# 18/01/2026 - Version 8.1
+
+- Si aucune planification n'existe sur Tado pour un module, les valeurs retrounées sont maintenant *null*.
+- Corrections du widget des équipements:
+  - affiche de nouveau les options dans le bloc de l'option *manuel*
+  - les boutons sont plus visibles pour faciliter le changement de mode (en vert) et les options en mode manuel (en bleu)
+  
 # 02/01/2026 - Version 8.0
 
 - Nouvelle option de configuration du plugin pour que le mode manuel rebascule en mode automatique selon le prochain créneau programmé de la zone d'un équipement

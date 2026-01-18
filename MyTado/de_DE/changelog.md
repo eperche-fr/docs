@@ -1,5 +1,11 @@
-
 # Änderungsprotokoll Plugin MyTado
+
+# 18.01.2026 - Version 8.1
+
+- Wenn für ein Modul keine Planung auf Tado vorhanden ist, sind die zurückgegebenen Werte nun *null*.
+- Korrektionen des Ausrüstungs-Widgets:
+  - Optionen werden nun wieder im Block des manuellen Modus angezeigt
+  - Schaltflächen sind jetzt deutlicher zu sehen, um den Moduswechsel (in Grün) und die Optionen des manuellen Modus (in Blau) zu erleichtern
 
 # 02.01.2026 - Version 8.0
 

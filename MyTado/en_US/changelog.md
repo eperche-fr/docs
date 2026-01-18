@@ -1,5 +1,11 @@
-
 # Changelog plugin MyTado
+
+# 01/18/2026 - Version 8.1
+
+- If no scheduling exists on Tado for a module, the returned values are now *null*.
+- Equipment widget corrections:
+  - options are now displayed again in the manual mode block
+  - buttons are now more visible to facilitate mode changing (in green) and manual mode options (in blue)
 
 # 01/02/2026 - Version 8.0
 

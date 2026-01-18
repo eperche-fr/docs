@@ -1,10 +1,11 @@
 # Changelog plugin MyTado - beta
 
-# 10/01/2026 - Version 8.1
+# 18/01/2026 - Version 8.1
 
-- Correction de bugs: 
-  - Si aucune planification n'existe sur Tado pour un module, les valeurs retrounées sont maintenant *null*.
-  - Le widget affiche de nouveau les options dans le bloc de l'option *manuel*
+- Si aucune planification n'existe sur Tado pour un module, les valeurs retrounées sont maintenant *null*.
+- Corrections du widget des équipements:
+  - affiche de nouveau les options dans le bloc de l'option *manuel*
+  - les boutons sont plus visibles pour faciliter le changement de mode (en vert) et les options en mode manuel (en bleu)
 
 # 02/01/2026 - Version 8.0
 
