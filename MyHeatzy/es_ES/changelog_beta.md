@@ -1,5 +1,9 @@
 # Registro de cambios – Plugin MyHeatzy (beta)
 
-# 08/05/2024 – Versión 1.0
+# 18/01/2026 – Versión 1.1
+
+- Mejora del widget
+
+# 08/05/2025 – Versión 1.0
 
 - Primera versión estable.
