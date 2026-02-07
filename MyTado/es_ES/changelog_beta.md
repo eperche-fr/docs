@@ -3,6 +3,7 @@
 # 07/02/2026 - Versión 8.2
 
 - Adición de gestión de corrección de temperatura
+- Alineación siguiendo el cambio en el tipo de contenido de la API de Tado
 - Corrección del cálculo de llamadas API
 
 # 18/01/2026 - Versión 8.1

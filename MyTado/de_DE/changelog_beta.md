@@ -3,6 +3,7 @@
 # 07.02.2026 - Version 8.2
 
 - Hinzufügung der Temperaturkorrekturverwaltung
+- Anpassung aufgrund der Änderung des API-Inhaltstyps von Tado
 - Korrektur der API-Aufrufsberechnung
 
 # 18.01.2026 - Version 8.1
