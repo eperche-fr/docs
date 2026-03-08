@@ -1,5 +1,11 @@
 # Changelog plugin MyTado
 
+# 08/03/2026 - Version 8.2
+
+- Ajout de la gestion de correction de température
+- Alignement suite au changement de content type de l'API Tado
+- Correction du calcul d'appel API
+
 # 18/01/2026 - Version 8.1
 
 - Si aucune planification n'existe sur Tado pour un module, les valeurs retrounées sont maintenant *null*.

@@ -81,6 +81,15 @@
                 "generic_type": "THERMOSTAT_TEMPERATURE"
             }
         },
+        {"temperature_offset": {
+                "displayed_name": "Correction de température",
+                "type": "info",
+                "subType": "numeric",
+                "min": -5,
+                "max": 5,
+                "unitFunction": "getTemperatureUnit"
+            }
+        },
         {"humidity": {
                 "displayed_name": "Humidité",
                 "type": "info",
@@ -161,6 +170,13 @@
                 "icon": "jeedomapp jeedomapp-thermostat",
                 "related_info_cmd": "expected_temperature",
                 "generic_type": "THERMOSTAT_SET_SETPOINT"
+            }
+        },
+        {"set_temperature_offset": {
+                "displayed_name": "Définir le décalage de température",
+                "type": "action",
+                "subType": "slider",
+                "related_info_cmd": "temperature_offset"
             }
         },
         {"set_mode": {
@@ -535,6 +551,7 @@
                     "refresh",
                     "identify",
                     "set_expected_temperature",
+                    "set_temperature_offset",
                     "set_mode",
                     "enable",
                     "disable",
@@ -543,6 +560,7 @@
                     "expected_temperature",
                     "mode",
                     "temperature",
+                    "temperature_offset",
                     "last_update",
                     "battery_state",
                     "humidity",
@@ -559,6 +577,7 @@
                     "refresh",
                     "identify",
                     "set_expected_temperature",
+                    "set_temperature_offset",
                     "set_mode",
                     "enable",
                     "disable",
@@ -567,6 +586,7 @@
                     "expected_temperature",
                     "mode",
                     "temperature",
+                    "temperature_offset",
                     "last_update",
                     "battery_state",
                     "humidity",
@@ -583,6 +603,7 @@
                     "refresh",
                     "identify",
                     "set_expected_temperature",
+                    "set_temperature_offset",
                     "set_mode",
                     "enable",
                     "disable",
@@ -591,6 +612,7 @@
                     "expected_temperature",
                     "mode",
                     "temperature",
+                    "temperature_offset",
                     "last_update",
                     "battery_state",
                     "humidity",
@@ -610,6 +632,7 @@
                     "refresh",
                     "identify",
                     "set_expected_temperature",
+                    "set_temperature_offset",
                     "set_mode",
                     "enable",
                     "disable",
@@ -618,6 +641,7 @@
                     "expected_temperature",
                     "mode",
                     "temperature",
+                    "temperature_offset",
                     "last_update",
                     "battery_state",
                     "humidity",
@@ -635,6 +659,7 @@
                     "refresh",
                     "identify",
                     "set_expected_temperature",
+                    "set_temperature_offset",
                     "set_mode",
                     "enable",
                     "disable",
@@ -647,6 +672,7 @@
                     "expected_temperature",
                     "mode",
                     "temperature",
+                    "temperature_offset",
                     "last_update",
                     "battery_state",
                     "humidity",
@@ -667,6 +693,7 @@
                     "refresh",
                     "identify",
                     "set_expected_temperature",
+                    "set_temperature_offset",
                     "set_mode",
                     "enable",
                     "disable",
@@ -679,6 +706,7 @@
                     "expected_temperature",
                     "mode",
                     "temperature",
+                    "temperature_offset",
                     "last_update",
                     "battery_state",
                     "humidity",

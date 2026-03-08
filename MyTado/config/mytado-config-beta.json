@@ -82,7 +82,7 @@
             }
         },
         {"temperature_offset": {
-                "displayed_name": "Correct de température",
+                "displayed_name": "Correction de température",
                 "type": "info",
                 "subType": "numeric",
                 "min": -5,

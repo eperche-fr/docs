@@ -2,7 +2,7 @@
 
 Le plugin **MyTado** permet de récupérer les données de vos objets connectés Tado et Tado X ainsi que les informations météo gérées par Tado.
 
-Le rafraîchissement de ces données s’effectue de manière régulière selon votre sélection du cron actif (entre 5 et 30mn).
+Le rafraîchissement de ces données s’effectue de manière régulière selon votre sélection du cron actif (entre 5mn et 8h).
 
 ---
 

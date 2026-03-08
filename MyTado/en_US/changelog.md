@@ -1,5 +1,11 @@
 # Changelog plugin MyTado
 
+# 03/08/2026 - Version 8.2
+
+- Addition of temperature correction management
+- Alignment following the change in Tado API content type
+- Correction of API call calculation
+
 # 01/18/2026 - Version 8.1
 
 - If no scheduling exists on Tado for a module, the returned values are now *null*.
