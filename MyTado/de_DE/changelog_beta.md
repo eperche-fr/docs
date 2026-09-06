@@ -1,5 +1,11 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
+# 24.04.2026 - Version 8.3
+
+- Fehlerbehebung beim Refresh-Befehl eines Objekts (und nicht des Hauses)
+- Fehlerbehebung bei der sofortigen Aktualisierung der Temperaturabweichungsanzeige nach deren Änderung
+- Angleichung der Dämon-Uhrzeit an die Jeedom-Zeitzone
+
 # 07.02.2026 - Version 8.2
 
 - Hinzufügung der Temperaturkorrekturverwaltung

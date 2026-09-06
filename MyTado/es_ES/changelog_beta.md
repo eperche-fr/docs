@@ -1,5 +1,11 @@
 # Changelog plugin MyTado - beta
 
+# 24/04/2026 - Versión 8.3
+
+- Corrección de error en el comando de actualización (refresh) de un objeto (y no de la casa)
+- Corrección de error en la actualización inmediata de la pantalla de diferencia de temperatura tras su cambio
+- Ajuste de la hora del demonio a la zona horaria de Jeedom
+
 # 07/02/2026 - Versión 8.2
 
 - Adición de gestión de corrección de temperatura
