@@ -1,6 +1,6 @@
 # Änderungsprotokoll Plugin MyTado - Beta
 
-# 24.04.2026 - Version 8.3
+# 05.09.2026 - Version 8.3
 
 - Fehlerbehebung beim Refresh-Befehl eines Objekts (und nicht des Hauses)
 - Fehlerbehebung bei der sofortigen Aktualisierung der Temperaturabweichungsanzeige nach deren Änderung

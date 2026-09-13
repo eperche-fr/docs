@@ -1,6 +1,6 @@
 # Changelog plugin MyTado - beta
 
-# 04/24/2026 - Version 8.3
+# 09/05/2026 - Version 8.3
 
 - Bug fix for the refresh command of an object (and not the house)
 - Bug fix for updating the temperature difference display immediately after changing it
