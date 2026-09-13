@@ -2,8 +2,8 @@
 
 # 09/05/2026 - Version 8.3
 
-- Bug fix for the refresh command of an object (and not the house)
-- Bug fix for updating the temperature difference display immediately after changing it
+- Bug fix for the individual refresh command of TadoX devices
+- Bug fix for updating the temperature difference display immediately after changing it (TadoX)
 - Alignment of the daemon time with the Jeedom time zone
 
 # 02/07/2026 - Version 8.2

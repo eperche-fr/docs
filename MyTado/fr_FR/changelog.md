@@ -2,9 +2,9 @@
 
 # 13/09/2026 - Version 8.3
 
-- Bug fix de la commande refresh d'un objet (et non de la maison)
-- Bug fix sur la mise à jour de l'affichage de l'écart de température immédiatement après son changement
-- Alignement de l'heure du démon sur la zone horaire de jeedom
+- Corrección de error en el comando de actualización (*refresh*) individual de los dispositivos TadoX
+- Corrección de error en la actualización inmediata de la pantalla de diferencia de temperatura tras su cambio (TadoX)
+- Ajuste de la hora del demonio a la zona horaria de Jeedom
 
 # 08/03/2026 - Version 8.2
 
